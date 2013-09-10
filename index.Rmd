@@ -9,21 +9,34 @@ hitheme     : tomorrow      #
 ext_widgets : {rCharts: ["libraries/nvd3", "libraries/morris", "parcoords"]} 
 mode        : selfcontained # {standalone, draft}
 
----
+--- &twocol
 
 ## Suburbanizing, not urbanizing
 
-Until 1940, 50% of the region's population lived in the city of Hartford.  By 2010, only 16% lived in the city. Population growth for the region has been slow since 1970 (5% between 2000 and 2010), driven by population loss in Hartford and slow growth in urban periphery towns like West Hartford and Windsor.
+*** =left
 
-```{r echo = FALSE, warning = FALSE, fig.width=13, fig.height=5.5}
-qplot(data = gh, x = period, y = population, geom = "line", margins = NULL) + 
-  labs(y = NULL, x = NULL) + 
-  scale_x_continuous(breaks = c(1900,1950,2000), lim = c(1900,2010)) +
-  scale_y_continuous(labels = NULL, breaks = NULL) +
-  geom_vline(x = 1950, alpha = 0.2) + 
-  theme_minimal() +
-  theme(strip.text.x = element_text(size = 12)) +
-  facet_wrap(~ city, ncol = 8, scales = "free_y")
+Until 1940, 50% of the region's population lived in the city of Hartford.  By 2010, only 16% lived in the city. 
+
+Population growth for the region has been slow since 1970 - just 5 percent overall 
+between 2000 and 2010 driven by population loss in Hartford and slow growth in urban
+periphery towns like West Hartford and Windsor.
+
+*** =right
+
+```{r setup, message = F, echo = F, cache = F}
+require(rCharts)
+knitr::opts_chunk$set(comment = NA, results = 'asis', tidy = F, message = T)
+```
+ 
+ 
+```{r chart1, echo=FALSE, fig.width=7, fig.height=7}
+n1 <- nPlot(y = 'sumpop', x = 'period', width = 500, height = 400,
+            yAxis = c(0,50000,100000,150000,200000,250000,300000,400000,500000,600000),
+            group = 'type',
+            data = gh_sum,
+            type = 'lineChart')
+n1$xAxis(axisLabel='Year')
+n1$print("chart1")
 ```
 
 --- .class #id &twocol
@@ -38,16 +51,15 @@ As of 2010, roughly 40,000 people were living in poverty in Hartford and 37,000 
 
 At the same time, the number of people living in poverty in the suburbs has increased by 33 percent over the last decade, primarily in East Hartford and Manchester.
 
-*** =right 
-
-```{r echo = FALSE, warning = FALSE, fig.width=7, fig.height=7}
-ggplot(data = gh_sum) +
-  geom_line(aes(x = period, y = sumpoor / 1000, group = type)) +
-  xlim(1970,2015) + ylim(0, 45) +
-  annotate("text", x=2011, y=41, hjust = 0, label = "Hartford", colour = "blue") +
-  annotate("text", x=2011, y=37, hjust = 0, label = "Suburbs", colour = "blue") +
-  labs(x = NULL, y = "Population under poverty line (1000s)") + 
-  theme_minimal()
+*** =right  
+ 
+```{r chart2, echo=FALSE, fig.width=7, fig.height=7}
+n2 <- nPlot(y = 'sumpoor', x = 'period', width = 500, height = 400,
+            group = 'type',
+            data = subset(gh_sum,period >= 1970),
+            type = 'lineChart')
+n2$xAxis(axisLabel='Year')
+n2$print("chart2")
 ```
 
 --- .class #id 
@@ -133,20 +145,15 @@ ggplot(data = walk, aes(x = Year, y = value)) +
 
 Hartford, East Hartford, Bloomfield and East Windsor have had higher-than-average unemployment for the past decade. The gap between these towns and the rest of the region has widened, as most suburban towns have experienced relatively low unemployment.
 
-```{r echo = FALSE, warning = FALSE, message = FALSE, fig.width=13, fig.height=5.5}
-ggplot() + 
-  geom_line(data = subset(lausann, lausann$diff[lausann$Year == 2000] > 0), aes(x = Year, y = diff, group = Town), colour = "blue") +
-  geom_line(data = subset(lausann, lausann$diff[lausann$Year == 2000] <= 0), aes(x = Year, y = diff, group = Town), alpha = 0.1) +
-  xlim(2000,2014) +
-  geom_hline(y = 0, x = 2000:2013, size = .5, alpha = 0.8) +
-  annotate("text", x=2013, y=-.5, hjust = 0, label="Regional\nAverage",colour="black") +
-  annotate("text", x=2013, y=7, hjust = 0, label = "Hartford", colour = "blue") +
-  annotate("text", x=2013, y=2, hjust = 0, label = "East Hartford", colour = "blue") +
-  annotate("text", x=2013, y=.4, hjust = 0, label = "East Windsor", colour = "blue") +
-  annotate("text", x=2013, y=.9, hjust = 0, label = "Bloomfield", colour = "blue") +
-  labs(x = NULL, y = "Difference from average regional unemployment rate (%)") +
-  theme_minimal()
+```{r chart3, echo=FALSE}
+n3 <- nPlot(y = 'RT', x = 'Year', width = 800, height = 400,
+            group = 'Town',
+            data = lausann,
+            type = 'lineChart')
+n3$yAxis(axisLabel='Unemployment rate')
+n3$print("chart3")
 ```
+
 
 --- .class #id &twocol
 
