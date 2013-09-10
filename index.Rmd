@@ -1,0 +1,191 @@
+---
+title       : The Regional Report
+subtitle    : Living, Working and Learning in Metro Hartford
+author      : 
+job         : 
+framework   : io2012        # {io2012, html5slides, shower, dzslides, ...}
+highlighter : highlight.js  # {highlight.js, prettify, highlight}
+hitheme     : tomorrow      # 
+ext_widgets : {rCharts: ["libraries/nvd3", "libraries/morris", "parcoords"]} 
+mode        : selfcontained # {standalone, draft}
+
+---
+
+## Suburbanizing, not urbanizing
+
+Until 1940, 50% of the region's population lived in the city of Hartford.  By 2010, only 16% lived in the city. Population growth for the region has been slow since 1970 (5% between 2000 and 2010), driven by population loss in Hartford and slow growth in urban periphery towns like West Hartford and Windsor.
+
+```{r echo = FALSE, warning = FALSE, fig.width=13, fig.height=5.5}
+qplot(data = gh, x = period, y = population, geom = "line", margins = NULL) + 
+  labs(y = NULL, x = NULL) + 
+  scale_x_continuous(breaks = c(1900,1950,2000), lim = c(1900,2010)) +
+  scale_y_continuous(labels = NULL, breaks = NULL) +
+  geom_vline(x = 1950, alpha = 0.2) + 
+  theme_minimal() +
+  theme(strip.text.x = element_text(size = 12)) +
+  facet_wrap(~ city, ncol = 8, scales = "free_y")
+```
+
+--- .class #id &twocol
+
+## Suburban poverty on the rise
+
+*** =left
+
+The number of people living in poverty in the suburbs of Hartford is now approaching the number living in poverty in the city. 
+
+As of 2010, roughly 40,000 people were living in poverty in Hartford and 37,000 in the suburbs. While poverty has been increasing within Hartford, the city has continued to lose population, leading to one of the highest concentrations of poverty in the country.
+
+At the same time, the number of people living in poverty in the suburbs has increased by 33 percent over the last decade, primarily in East Hartford and Manchester.
+
+*** =right 
+
+```{r echo = FALSE, warning = FALSE, fig.width=7, fig.height=7}
+ggplot(data = gh_sum) +
+  geom_line(aes(x = period, y = sumpoor / 1000, group = type)) +
+  xlim(1970,2015) + ylim(0, 45) +
+  annotate("text", x=2011, y=41, hjust = 0, label = "Hartford", colour = "blue") +
+  annotate("text", x=2011, y=37, hjust = 0, label = "Suburbs", colour = "blue") +
+  labs(x = NULL, y = "Population under poverty line (1000s)") + 
+  theme_minimal()
+```
+
+--- .class #id 
+
+## Increasing racial / ethnic diversity in the suburbs
+
+While outer ring suburbs, like Tolland and Simsbury, are still predominantly white, there are corridors of diversity through East Hartford and Manchester, north into Bloomfield and Windsor and connecting Hartford and New Britain. [will add map]
+
+--- .class #id 
+
+## Where do Hartford area kids go to school?
+
+The Hartford area is characterized by school choice - magnet, charter and private schools draw in 1 in 7 students from the region. Parents choose to go beyond the local school system more often in higher grades and in towns with higher income inequality. In Bloomfield, for instance, 50 percent of parents send their children to magnet or private schools by 10th grade. 
+
+```{r echo = FALSE, warning = FALSE, message = FALSE, fig.width=14, fig.height=5.5}
+ggplot(data = subset(enroll, School.Year == "2010-11" & variable != "Total"), 
+       aes(x = variable, y = x, group = School.Type, fill = School.Type)) +
+  geom_area(aes(order = as.numeric(School.Type)), position = "fill") +
+  scale_y_continuous(labels = percent) +
+  scale_x_discrete(breaks = c("K","G3","G6","G9","G12")) +
+  labs(x = NULL, y = NULL) +
+  scale_fill_brewer() +
+  theme_minimal() +
+  theme(strip.text.x = element_text(size = 12)) +
+  facet_wrap(~ Resident.Town, ncol = 8)
+```
+
+--- .class #id 
+
+## Gaps in education persist during school years
+
+Suburban schools are among the best performing in the state at all grade levels. However, gaps between the eight 'Alliance districts' in the region are prominent during the K – 8 period. The level of pre-K experience varies greatly across districts. 
+
+```{r echo = FALSE, warning = FALSE, message = FALSE, fig.width=14, fig.height=5.5}
+library(lattice)
+parallelplot(~parcoords[3:8], parcoords, 
+             groups = District.Group, 
+             col = c("black","grey"),
+             horizontal.axis = FALSE) 
+```
+
+
+--- .class #id 
+
+## A regional workforce, centered on Hartford
+
+Most towns in the region have a high percentage of commuters – over 75 percent in every town except Hartford. 21% of the workforce (or 70,000) commute to Hartford for their jobs, while Enfield, Manchester and Simsbury also act as local hubs for employment.
+
+```{r echo = FALSE, warning = FALSE, message = FALSE, fig.width=14, fig.height=6}
+ggplot(data = commutemap) + 
+  geom_map(aes(map_id = id, fill = ratio), map = CTTowns) +
+  geom_path(data = CTTowns, aes(x = long, y = lat, group = group),alpha = 0.05) +
+  labs(x = NULL, y = NULL) +
+  scale_x_continuous(breaks = NULL) +
+  scale_y_continuous(breaks = NULL) +
+  theme_minimal() +
+  scale_fill_gradientn(colours = brewer.pal(4, "Blues"), name = "% of workers\n commuting to\n destination") +
+  expand_limits(x = CTTowns$long, y = CTTowns$lat) +
+  theme(strip.text.x = element_text(size = 12)) +
+  facet_wrap(~ Starting.point, ncol = 8)  
+```
+
+--- .class #id 
+
+## Commuting alone
+
+For those that do commute, driving alone is an increasingly frequent means of transport, instead of alternatives like carpooling, public transit or walking. As of 2000, 83 percent drove to work alone (compared to 67 percent in 1980), one of the highest rates compared to other metro areas in the country. 
+
+```{r echo = FALSE, warning = FALSE, message = FALSE, fig.width=13, fig.height=5.5} 
+ggplot(data = walk, aes(x = Year, y = value)) + 
+  geom_line(aes(group = Area), alpha = 0.15) + 
+  geom_line(data = subset(walk, Area == "Hartford"), aes(x = Year, y = value), colour = "blue", size = 1) + 
+  theme_minimal() +
+  scale_x_continuous(breaks = c(1980,1990,2000)) +
+  labs(x = NULL, y = "Percent of commuters") +
+  theme(strip.text.x = element_text(size =12)) +
+  facet_grid(. ~ variable)
+```
+
+--- .class #id 
+
+## Persistent and widening gaps in employment
+
+Hartford, East Hartford, Bloomfield and East Windsor have had higher-than-average unemployment for the past decade. The gap between these towns and the rest of the region has widened, as most suburban towns have experienced relatively low unemployment.
+
+```{r echo = FALSE, warning = FALSE, message = FALSE, fig.width=13, fig.height=5.5}
+ggplot() + 
+  geom_line(data = subset(lausann, lausann$diff[lausann$Year == 2000] > 0), aes(x = Year, y = diff, group = Town), colour = "blue") +
+  geom_line(data = subset(lausann, lausann$diff[lausann$Year == 2000] <= 0), aes(x = Year, y = diff, group = Town), alpha = 0.1) +
+  xlim(2000,2014) +
+  geom_hline(y = 0, x = 2000:2013, size = .5, alpha = 0.8) +
+  annotate("text", x=2013, y=-.5, hjust = 0, label="Regional\nAverage",colour="black") +
+  annotate("text", x=2013, y=7, hjust = 0, label = "Hartford", colour = "blue") +
+  annotate("text", x=2013, y=2, hjust = 0, label = "East Hartford", colour = "blue") +
+  annotate("text", x=2013, y=.4, hjust = 0, label = "East Windsor", colour = "blue") +
+  annotate("text", x=2013, y=.9, hjust = 0, label = "Bloomfield", colour = "blue") +
+  labs(x = NULL, y = "Difference from average regional unemployment rate (%)") +
+  theme_minimal()
+```
+
+--- .class #id &twocol
+
+## What are the needs in our region?
+
+*** =left
+
+Housing and shelter continue to be the greatest needs for 211 infoline callers. 
+
+While demand for information services, utilities assistance and legal services has declined, basic needs such as food and public assistance have seen recent increases. 
+
+As with the poverty figures, the volume of calls from the suburbs is similar to that from Hartford in most areas. 
+
+*** =right
+
+```{r echo = FALSE, warning = FALSE, message = FALSE, fig.width=7, fig.height=7.5}
+combine$Service <- reorder(combine$Service, -combine$value)
+ggplot(data = subset(combine, Year<2013 & !Service %in% c("Community Services","Personal/Household Goods","Employment and Training Programs","Tax Organizations and Services","Individual and Family Support Services")), 
+       aes(x=Year, y=value, group=variable)) + 
+  geom_line(aes(color = variable)) +
+  labs(x = NULL, y = "Number of 211 calls") + 
+  scale_y_continuous(breaks = c(0,5000,10000)) +
+  scale_x_continuous(breaks = c(2009,2011)) +
+  guides(colour = guide_legend(NULL)) +
+  facet_wrap(~ Service, ncol = 2) + 
+  theme(strip.text.x = element_text(size =8)) +
+  theme_minimal()
+```
+
+
+--- .class #id 
+
+## Opportunities
+
+There are several areas that we would like to know more about, but where we lack the data for reliable indicators. In some cases, work is already being done to address these gaps.
+
+- Adult literacy: Pilot study?
+- Children's social and emotional health: CHDI ‘yellow forms’ project
+- Children's school readiness at kindergarten: EDI / TECCS pilot in East Hartford, Hartford and West Hartford
+- Behavioral and mental health for all ages: not sure
+
+
