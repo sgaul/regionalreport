@@ -183,9 +183,8 @@ ggplot(data = subset(combine, Year<2013 & !Service %in% c("Community Services","
 
 There are several areas that we would like to know more about, but where we lack the data for reliable indicators. In some cases, work is already being done to address these gaps.
 
-- Adult literacy: Pilot study?
-- Children's social and emotional health: CHDI ‘yellow forms’ project
-- Children's school readiness at kindergarten: EDI / TECCS pilot in East Hartford, Hartford and West Hartford
-- Behavioral and mental health for all ages: not sure
+- Adult literacy: while our headline results are alarming, this data is over 20 years old and needs a refresh. 
+- Children's development at kindergarten: High-quality data on development of the 'whole child' by kindergarten can help schools, but also communities to address needs before age 5. A pilot of the Early Development Instrument will help us learn more. 
+
 
 
