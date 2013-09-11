@@ -1,0 +1,1910 @@
+service,town,Year,value
+Community Services,Glastonbury,2009,30
+Community Services,Glastonbury,2010,22
+Community Services,Glastonbury,2011,33
+Community Services,Glastonbury,2012,15
+Community Services,Glastonbury,2013,11
+Community Services,Hartford,2009,1140
+Community Services,Hartford,2010,938
+Community Services,Hartford,2011,947
+Community Services,Hartford,2012,1026
+Community Services,Hartford,2013,588
+Community Services,West Hartford,2009,94
+Community Services,West Hartford,2010,74
+Community Services,West Hartford,2011,89
+Community Services,West Hartford,2012,75
+Community Services,West Hartford,2013,31
+Community Services,Windsor,2009,68
+Community Services,Windsor,2010,56
+Community Services,Windsor,2011,65
+Community Services,Windsor,2012,52
+Community Services,Windsor,2013,44
+Employment and Training Programs,Bloomfield,2009,67
+Employment and Training Programs,Bloomfield,2010,53
+Employment and Training Programs,Bloomfield,2011,69
+Employment and Training Programs,Bloomfield,2012,101
+Employment and Training Programs,Bloomfield,2013,48
+Employment and Training Programs,East  Hartford,2009,319
+Employment and Training Programs,East  Hartford,2010,285
+Employment and Training Programs,East  Hartford,2011,342
+Employment and Training Programs,East  Hartford,2012,339
+Employment and Training Programs,East  Hartford,2013,153
+Employment and Training Programs,East Windsor,2009,24
+Employment and Training Programs,East Windsor,2010,22
+Employment and Training Programs,East Windsor,2011,28
+Employment and Training Programs,East Windsor,2012,27
+Employment and Training Programs,East Windsor,2013,7
+Employment and Training Programs,Hartford,2009,1691
+Employment and Training Programs,Hartford,2010,1547
+Employment and Training Programs,Hartford,2011,1493
+Employment and Training Programs,Hartford,2012,1647
+Employment and Training Programs,Hartford,2013,758
+Employment and Training Programs,Manchester,2009,209
+Employment and Training Programs,Manchester,2010,184
+Employment and Training Programs,Manchester,2011,205
+Employment and Training Programs,Manchester,2012,205
+Employment and Training Programs,Manchester,2013,89
+Employment and Training Programs,Marlborough,2009,4
+Employment and Training Programs,Marlborough,2010,4
+Employment and Training Programs,Marlborough,2011,5
+Employment and Training Programs,Marlborough,2012,4
+Employment and Training Programs,Marlborough,2013,2
+Employment and Training Programs,Newington,2009,45
+Employment and Training Programs,Newington,2010,38
+Employment and Training Programs,Newington,2011,48
+Employment and Training Programs,Newington,2012,48
+Employment and Training Programs,Newington,2013,29
+Employment and Training Programs,Rocky Hill,2009,33
+Employment and Training Programs,Rocky Hill,2010,26
+Employment and Training Programs,Rocky Hill,2011,30
+Employment and Training Programs,Rocky Hill,2012,31
+Employment and Training Programs,Rocky Hill,2013,12
+Employment and Training Programs,Somers,2009,5
+Employment and Training Programs,Somers,2010,4
+Employment and Training Programs,Somers,2011,7
+Employment and Training Programs,Somers,2012,11
+Employment and Training Programs,Somers,2013,4
+Employment and Training Programs,South Windsor,2009,26
+Employment and Training Programs,South Windsor,2010,15
+Employment and Training Programs,South Windsor,2011,19
+Employment and Training Programs,South Windsor,2012,19
+Employment and Training Programs,South Windsor,2013,7
+Employment and Training Programs,Vernon,2009,79
+Employment and Training Programs,Vernon,2010,72
+Employment and Training Programs,Vernon,2011,97
+Employment and Training Programs,Vernon,2012,89
+Employment and Training Programs,Vernon,2013,39
+Employment and Training Programs,West Hartford,2009,125
+Employment and Training Programs,West Hartford,2010,74
+Employment and Training Programs,West Hartford,2011,101
+Employment and Training Programs,West Hartford,2012,112
+Employment and Training Programs,West Hartford,2013,36
+Employment and Training Programs,Wethersfield,2009,42
+Employment and Training Programs,Wethersfield,2010,46
+Employment and Training Programs,Wethersfield,2011,37
+Employment and Training Programs,Wethersfield,2012,34
+Employment and Training Programs,Wethersfield,2013,17
+Employment and Training Programs,Windsor,2009,82
+Employment and Training Programs,Windsor,2010,75
+Employment and Training Programs,Windsor,2011,72
+Employment and Training Programs,Windsor,2012,100
+Employment and Training Programs,Windsor,2013,39
+Employment and Training Programs,Windsor Locks,2009,19
+Employment and Training Programs,Windsor Locks,2010,15
+Employment and Training Programs,Windsor Locks,2011,17
+Employment and Training Programs,Windsor Locks,2012,35
+Employment and Training Programs,Windsor Locks,2013,14
+Financial Assistance,Andover,2009,15
+Financial Assistance,Andover,2010,7
+Financial Assistance,Andover,2011,7
+Financial Assistance,Andover,2012,18
+Financial Assistance,Andover,2013,10
+Financial Assistance,Avon,2009,24
+Financial Assistance,Avon,2010,28
+Financial Assistance,Avon,2011,33
+Financial Assistance,Avon,2012,18
+Financial Assistance,Avon,2013,12
+Financial Assistance,Bloomfield,2009,223
+Financial Assistance,Bloomfield,2010,213
+Financial Assistance,Bloomfield,2011,280
+Financial Assistance,Bloomfield,2012,296
+Financial Assistance,Bloomfield,2013,151
+Financial Assistance,Bolton,2009,13
+Financial Assistance,Bolton,2010,5
+Financial Assistance,Bolton,2011,17
+Financial Assistance,Bolton,2012,19
+Financial Assistance,Bolton,2013,6
+Financial Assistance,Canton,2009,13
+Financial Assistance,Canton,2010,26
+Financial Assistance,Canton,2011,21
+Financial Assistance,Canton,2012,18
+Financial Assistance,Canton,2013,7
+Financial Assistance,East  Hartford,2009,1361
+Financial Assistance,East  Hartford,2010,1353
+Financial Assistance,East  Hartford,2011,1515
+Financial Assistance,East  Hartford,2012,1114
+Financial Assistance,East  Hartford,2013,742
+Financial Assistance,East Granby,2009,10
+Financial Assistance,East Granby,2010,20
+Financial Assistance,East Granby,2011,33
+Financial Assistance,East Granby,2012,16
+Financial Assistance,East Granby,2013,6
+Financial Assistance,East Windsor,2009,124
+Financial Assistance,East Windsor,2010,130
+Financial Assistance,East Windsor,2011,134
+Financial Assistance,East Windsor,2012,100
+Financial Assistance,East Windsor,2013,61
+Financial Assistance,Ellington,2009,57
+Financial Assistance,Ellington,2010,56
+Financial Assistance,Ellington,2011,80
+Financial Assistance,Ellington,2012,63
+Financial Assistance,Ellington,2013,29
+Financial Assistance,Enfield,2009,368
+Financial Assistance,Enfield,2010,398
+Financial Assistance,Enfield,2011,419
+Financial Assistance,Enfield,2012,390
+Financial Assistance,Enfield,2013,210
+Financial Assistance,Farmington,2009,63
+Financial Assistance,Farmington,2010,59
+Financial Assistance,Farmington,2011,79
+Financial Assistance,Farmington,2012,57
+Financial Assistance,Farmington,2013,50
+Financial Assistance,Glastonbury,2009,80
+Financial Assistance,Glastonbury,2010,69
+Financial Assistance,Glastonbury,2011,60
+Financial Assistance,Glastonbury,2012,74
+Financial Assistance,Glastonbury,2013,37
+Financial Assistance,Granby,2009,13
+Financial Assistance,Granby,2010,22
+Financial Assistance,Granby,2011,28
+Financial Assistance,Granby,2012,13
+Financial Assistance,Granby,2013,16
+Financial Assistance,Hartford,2009,5885
+Financial Assistance,Hartford,2010,6183
+Financial Assistance,Hartford,2011,6795
+Financial Assistance,Hartford,2012,5504
+Financial Assistance,Hartford,2013,4071
+Financial Assistance,Hebron,2009,26
+Financial Assistance,Hebron,2010,25
+Financial Assistance,Hebron,2011,29
+Financial Assistance,Hebron,2012,29
+Financial Assistance,Hebron,2013,15
+Financial Assistance,Manchester,2009,825
+Financial Assistance,Manchester,2010,804
+Financial Assistance,Manchester,2011,866
+Financial Assistance,Manchester,2012,850
+Financial Assistance,Manchester,2013,508
+Financial Assistance,Marlborough,2009,24
+Financial Assistance,Marlborough,2010,13
+Financial Assistance,Marlborough,2011,22
+Financial Assistance,Marlborough,2012,8
+Financial Assistance,Marlborough,2013,9
+Financial Assistance,Newington,2009,135
+Financial Assistance,Newington,2010,114
+Financial Assistance,Newington,2011,127
+Financial Assistance,Newington,2012,129
+Financial Assistance,Newington,2013,69
+Financial Assistance,Rocky Hill,2009,92
+Financial Assistance,Rocky Hill,2010,76
+Financial Assistance,Rocky Hill,2011,87
+Financial Assistance,Rocky Hill,2012,54
+Financial Assistance,Rocky Hill,2013,53
+Financial Assistance,Simsbury,2009,45
+Financial Assistance,Simsbury,2010,46
+Financial Assistance,Simsbury,2011,47
+Financial Assistance,Simsbury,2012,68
+Financial Assistance,Simsbury,2013,39
+Financial Assistance,Somers,2009,39
+Financial Assistance,Somers,2010,39
+Financial Assistance,Somers,2011,37
+Financial Assistance,Somers,2012,45
+Financial Assistance,Somers,2013,28
+Financial Assistance,South Windsor,2009,55
+Financial Assistance,South Windsor,2010,50
+Financial Assistance,South Windsor,2011,61
+Financial Assistance,South Windsor,2012,74
+Financial Assistance,South Windsor,2013,41
+Financial Assistance,Stafford,2009,69
+Financial Assistance,Stafford,2010,93
+Financial Assistance,Stafford,2011,98
+Financial Assistance,Stafford,2012,68
+Financial Assistance,Stafford,2013,46
+Financial Assistance,Suffield,2009,37
+Financial Assistance,Suffield,2010,50
+Financial Assistance,Suffield,2011,41
+Financial Assistance,Suffield,2012,50
+Financial Assistance,Suffield,2013,22
+Financial Assistance,Tolland,2009,32
+Financial Assistance,Tolland,2010,13
+Financial Assistance,Tolland,2011,33
+Financial Assistance,Tolland,2012,17
+Financial Assistance,Tolland,2013,14
+Financial Assistance,Vernon,2009,407
+Financial Assistance,Vernon,2010,381
+Financial Assistance,Vernon,2011,493
+Financial Assistance,Vernon,2012,396
+Financial Assistance,Vernon,2013,236
+Financial Assistance,West Hartford,2009,343
+Financial Assistance,West Hartford,2010,359
+Financial Assistance,West Hartford,2011,447
+Financial Assistance,West Hartford,2012,316
+Financial Assistance,West Hartford,2013,156
+Financial Assistance,Wethersfield,2009,97
+Financial Assistance,Wethersfield,2010,138
+Financial Assistance,Wethersfield,2011,149
+Financial Assistance,Wethersfield,2012,113
+Financial Assistance,Wethersfield,2013,77
+Financial Assistance,Windsor,2009,302
+Financial Assistance,Windsor,2010,228
+Financial Assistance,Windsor,2011,293
+Financial Assistance,Windsor,2012,267
+Financial Assistance,Windsor,2013,160
+Financial Assistance,Windsor Locks,2009,114
+Financial Assistance,Windsor Locks,2010,122
+Financial Assistance,Windsor Locks,2011,123
+Financial Assistance,Windsor Locks,2012,112
+Financial Assistance,Windsor Locks,2013,94
+Food ,Andover,2009,9
+Food ,Andover,2010,3
+Food ,Andover,2011,5
+Food ,Andover,2012,9
+Food ,Andover,2013,4
+Food ,Avon,2009,15
+Food ,Avon,2010,14
+Food ,Avon,2011,8
+Food ,Avon,2012,13
+Food ,Avon,2013,10
+Food ,Bloomfield,2009,112
+Food ,Bloomfield,2010,81
+Food ,Bloomfield,2011,154
+Food ,Bloomfield,2012,156
+Food ,Bloomfield,2013,79
+Food ,Bolton,2009,9
+Food ,Bolton,2010,3
+Food ,Bolton,2011,6
+Food ,Bolton,2012,8
+Food ,Bolton,2013,2
+Food ,Canton,2009,11
+Food ,Canton,2010,6
+Food ,Canton,2011,12
+Food ,Canton,2012,9
+Food ,Canton,2013,3
+Food ,East  Hartford,2009,709
+Food ,East  Hartford,2010,497
+Food ,East  Hartford,2011,674
+Food ,East  Hartford,2012,694
+Food ,East  Hartford,2013,430
+Food ,East Granby,2009,6
+Food ,East Granby,2010,5
+Food ,East Granby,2011,11
+Food ,East Granby,2012,4
+Food ,East Granby,2013,5
+Food ,East Windsor,2009,59
+Food ,East Windsor,2010,42
+Food ,East Windsor,2011,73
+Food ,East Windsor,2012,44
+Food ,East Windsor,2013,18
+Food ,Ellington,2009,31
+Food ,Ellington,2010,22
+Food ,Ellington,2011,28
+Food ,Ellington,2012,35
+Food ,Ellington,2013,4
+Food ,Enfield,2009,156
+Food ,Enfield,2010,114
+Food ,Enfield,2011,129
+Food ,Enfield,2012,121
+Food ,Enfield,2013,54
+Food ,Farmington,2009,29
+Food ,Farmington,2010,23
+Food ,Farmington,2011,29
+Food ,Farmington,2012,30
+Food ,Farmington,2013,24
+Food ,Glastonbury,2009,67
+Food ,Glastonbury,2010,39
+Food ,Glastonbury,2011,65
+Food ,Glastonbury,2012,38
+Food ,Glastonbury,2013,34
+Food ,Granby,2009,6
+Food ,Granby,2010,5
+Food ,Granby,2011,8
+Food ,Granby,2012,9
+Food ,Granby,2013,5
+Food ,Hartford,2009,2666
+Food ,Hartford,2010,2225
+Food ,Hartford,2011,2415
+Food ,Hartford,2012,3594
+Food ,Hartford,2013,2447
+Food ,Hebron,2009,11
+Food ,Hebron,2010,11
+Food ,Hebron,2011,17
+Food ,Hebron,2012,11
+Food ,Hebron,2013,5
+Food ,Manchester,2009,392
+Food ,Manchester,2010,329
+Food ,Manchester,2011,400
+Food ,Manchester,2012,365
+Food ,Manchester,2013,213
+Food ,Newington,2009,79
+Food ,Newington,2010,53
+Food ,Newington,2011,62
+Food ,Newington,2012,64
+Food ,Newington,2013,42
+Food ,Rocky Hill,2009,38
+Food ,Rocky Hill,2010,14
+Food ,Rocky Hill,2011,37
+Food ,Rocky Hill,2012,46
+Food ,Rocky Hill,2013,24
+Food ,Simsbury,2009,28
+Food ,Simsbury,2010,11
+Food ,Simsbury,2011,17
+Food ,Simsbury,2012,21
+Food ,Simsbury,2013,13
+Food ,Somers,2009,14
+Food ,Somers,2010,9
+Food ,Somers,2011,9
+Food ,Somers,2012,16
+Food ,Somers,2013,8
+Food ,South Windsor,2009,45
+Food ,South Windsor,2010,26
+Food ,South Windsor,2011,37
+Food ,South Windsor,2012,36
+Food ,South Windsor,2013,16
+Food ,Stafford,2009,45
+Food ,Stafford,2010,21
+Food ,Stafford,2011,28
+Food ,Stafford,2012,27
+Food ,Stafford,2013,16
+Food ,Suffield,2009,18
+Food ,Suffield,2010,9
+Food ,Suffield,2011,8
+Food ,Suffield,2012,12
+Food ,Suffield,2013,12
+Food ,Tolland,2009,24
+Food ,Tolland,2010,6
+Food ,Tolland,2011,8
+Food ,Tolland,2012,12
+Food ,Tolland,2013,6
+Food ,Vernon,2009,144
+Food ,Vernon,2010,145
+Food ,Vernon,2011,148
+Food ,Vernon,2012,153
+Food ,Vernon,2013,84
+Food ,West Hartford,2009,213
+Food ,West Hartford,2010,127
+Food ,West Hartford,2011,146
+Food ,West Hartford,2012,163
+Food ,West Hartford,2013,98
+Food ,Wethersfield,2009,53
+Food ,Wethersfield,2010,63
+Food ,Wethersfield,2011,73
+Food ,Wethersfield,2012,78
+Food ,Wethersfield,2013,47
+Food ,Windsor,2009,164
+Food ,Windsor,2010,91
+Food ,Windsor,2011,130
+Food ,Windsor,2012,115
+Food ,Windsor,2013,72
+Food ,Windsor Locks,2009,67
+Food ,Windsor Locks,2010,43
+Food ,Windsor Locks,2011,49
+Food ,Windsor Locks,2012,59
+Food ,Windsor Locks,2013,43
+Health Supportive Services,Avon,2009,22
+Health Supportive Services,Avon,2010,12
+Health Supportive Services,Avon,2011,18
+Health Supportive Services,Avon,2012,19
+Health Supportive Services,Avon,2013,20
+Health Supportive Services,Bloomfield,2009,111
+Health Supportive Services,Bloomfield,2010,74
+Health Supportive Services,Bloomfield,2011,110
+Health Supportive Services,Bloomfield,2012,104
+Health Supportive Services,Bloomfield,2013,88
+Health Supportive Services,Bolton,2009,14
+Health Supportive Services,Bolton,2010,7
+Health Supportive Services,Bolton,2011,5
+Health Supportive Services,Bolton,2012,13
+Health Supportive Services,Bolton,2013,5
+Health Supportive Services,Canton,2009,18
+Health Supportive Services,Canton,2010,13
+Health Supportive Services,Canton,2011,14
+Health Supportive Services,Canton,2012,14
+Health Supportive Services,Canton,2013,8
+Health Supportive Services,East  Hartford,2009,483
+Health Supportive Services,East  Hartford,2010,341
+Health Supportive Services,East  Hartford,2011,412
+Health Supportive Services,East  Hartford,2012,374
+Health Supportive Services,East  Hartford,2013,238
+Health Supportive Services,East Granby,2009,13
+Health Supportive Services,East Granby,2010,17
+Health Supportive Services,East Granby,2011,13
+Health Supportive Services,East Granby,2012,7
+Health Supportive Services,East Granby,2013,6
+Health Supportive Services,East Windsor,2009,41
+Health Supportive Services,East Windsor,2010,52
+Health Supportive Services,East Windsor,2011,61
+Health Supportive Services,East Windsor,2012,35
+Health Supportive Services,East Windsor,2013,28
+Health Supportive Services,Ellington,2009,31
+Health Supportive Services,Ellington,2010,16
+Health Supportive Services,Ellington,2011,33
+Health Supportive Services,Ellington,2012,21
+Health Supportive Services,Ellington,2013,7
+Health Supportive Services,Enfield,2009,187
+Health Supportive Services,Enfield,2010,127
+Health Supportive Services,Enfield,2011,179
+Health Supportive Services,Enfield,2012,134
+Health Supportive Services,Enfield,2013,112
+Health Supportive Services,Farmington,2009,65
+Health Supportive Services,Farmington,2010,62
+Health Supportive Services,Farmington,2011,85
+Health Supportive Services,Farmington,2012,66
+Health Supportive Services,Farmington,2013,36
+Health Supportive Services,Glastonbury,2009,99
+Health Supportive Services,Glastonbury,2010,69
+Health Supportive Services,Glastonbury,2011,70
+Health Supportive Services,Glastonbury,2012,62
+Health Supportive Services,Glastonbury,2013,35
+Health Supportive Services,Granby,2009,13
+Health Supportive Services,Granby,2010,12
+Health Supportive Services,Granby,2011,18
+Health Supportive Services,Granby,2012,17
+Health Supportive Services,Granby,2013,7
+Health Supportive Services,Hartford,2009,1507
+Health Supportive Services,Hartford,2010,1145
+Health Supportive Services,Hartford,2011,1343
+Health Supportive Services,Hartford,2012,1379
+Health Supportive Services,Hartford,2013,968
+Health Supportive Services,Hebron,2009,16
+Health Supportive Services,Hebron,2010,11
+Health Supportive Services,Hebron,2011,9
+Health Supportive Services,Hebron,2012,9
+Health Supportive Services,Hebron,2013,11
+Health Supportive Services,Manchester,2009,343
+Health Supportive Services,Manchester,2010,265
+Health Supportive Services,Manchester,2011,368
+Health Supportive Services,Manchester,2012,329
+Health Supportive Services,Manchester,2013,202
+Health Supportive Services,Marlborough,2009,12
+Health Supportive Services,Marlborough,2010,12
+Health Supportive Services,Marlborough,2011,11
+Health Supportive Services,Marlborough,2012,7
+Health Supportive Services,Marlborough,2013,9
+Health Supportive Services,Newington,2009,107
+Health Supportive Services,Newington,2010,66
+Health Supportive Services,Newington,2011,105
+Health Supportive Services,Newington,2012,85
+Health Supportive Services,Newington,2013,41
+Health Supportive Services,Rocky Hill,2009,65
+Health Supportive Services,Rocky Hill,2010,41
+Health Supportive Services,Rocky Hill,2011,145
+Health Supportive Services,Rocky Hill,2012,41
+Health Supportive Services,Rocky Hill,2013,47
+Health Supportive Services,Simsbury,2009,29
+Health Supportive Services,Simsbury,2010,32
+Health Supportive Services,Simsbury,2011,29
+Health Supportive Services,Simsbury,2012,32
+Health Supportive Services,Simsbury,2013,18
+Health Supportive Services,Somers,2009,17
+Health Supportive Services,Somers,2010,14
+Health Supportive Services,Somers,2011,19
+Health Supportive Services,Somers,2012,23
+Health Supportive Services,Somers,2013,10
+Health Supportive Services,South Windsor,2009,63
+Health Supportive Services,South Windsor,2010,44
+Health Supportive Services,South Windsor,2011,51
+Health Supportive Services,South Windsor,2012,42
+Health Supportive Services,South Windsor,2013,33
+Health Supportive Services,Stafford,2009,52
+Health Supportive Services,Stafford,2010,40
+Health Supportive Services,Stafford,2011,47
+Health Supportive Services,Stafford,2012,41
+Health Supportive Services,Stafford,2013,25
+Health Supportive Services,Suffield,2009,24
+Health Supportive Services,Suffield,2010,12
+Health Supportive Services,Suffield,2011,23
+Health Supportive Services,Suffield,2012,31
+Health Supportive Services,Suffield,2013,24
+Health Supportive Services,Tolland,2009,30
+Health Supportive Services,Tolland,2010,10
+Health Supportive Services,Tolland,2011,21
+Health Supportive Services,Tolland,2012,20
+Health Supportive Services,Tolland,2013,11
+Health Supportive Services,Vernon,2009,179
+Health Supportive Services,Vernon,2010,142
+Health Supportive Services,Vernon,2011,165
+Health Supportive Services,Vernon,2012,155
+Health Supportive Services,Vernon,2013,102
+Health Supportive Services,West Hartford,2009,186
+Health Supportive Services,West Hartford,2010,149
+Health Supportive Services,West Hartford,2011,168
+Health Supportive Services,West Hartford,2012,173
+Health Supportive Services,West Hartford,2013,101
+Health Supportive Services,Wethersfield,2009,93
+Health Supportive Services,Wethersfield,2010,71
+Health Supportive Services,Wethersfield,2011,97
+Health Supportive Services,Wethersfield,2012,80
+Health Supportive Services,Wethersfield,2013,51
+Health Supportive Services,Windsor,2009,150
+Health Supportive Services,Windsor,2010,107
+Health Supportive Services,Windsor,2011,100
+Health Supportive Services,Windsor,2012,114
+Health Supportive Services,Windsor,2013,86
+Health Supportive Services,Windsor Locks,2009,57
+Health Supportive Services,Windsor Locks,2010,41
+Health Supportive Services,Windsor Locks,2011,62
+Health Supportive Services,Windsor Locks,2012,44
+Health Supportive Services,Windsor Locks,2013,29
+Housing/Shelter ,Andover,2009,17
+Housing/Shelter ,Andover,2010,7
+Housing/Shelter ,Andover,2011,10
+Housing/Shelter ,Andover,2012,17
+Housing/Shelter ,Andover,2013,7
+Housing/Shelter ,Avon,2009,23
+Housing/Shelter ,Avon,2010,27
+Housing/Shelter ,Avon,2011,30
+Housing/Shelter ,Avon,2012,36
+Housing/Shelter ,Avon,2013,17
+Housing/Shelter ,Bloomfield,2009,319
+Housing/Shelter ,Bloomfield,2010,298
+Housing/Shelter ,Bloomfield,2011,336
+Housing/Shelter ,Bloomfield,2012,391
+Housing/Shelter ,Bloomfield,2013,224
+Housing/Shelter ,Bolton,2009,35
+Housing/Shelter ,Bolton,2010,22
+Housing/Shelter ,Bolton,2011,4
+Housing/Shelter ,Bolton,2012,17
+Housing/Shelter ,Bolton,2013,13
+Housing/Shelter ,Canton,2009,22
+Housing/Shelter ,Canton,2010,19
+Housing/Shelter ,Canton,2011,28
+Housing/Shelter ,Canton,2012,30
+Housing/Shelter ,Canton,2013,16
+Housing/Shelter ,East  Hartford,2009,1842
+Housing/Shelter ,East  Hartford,2010,1704
+Housing/Shelter ,East  Hartford,2011,1907
+Housing/Shelter ,East  Hartford,2012,1799
+Housing/Shelter ,East  Hartford,2013,1040
+Housing/Shelter ,East Granby,2009,14
+Housing/Shelter ,East Granby,2010,11
+Housing/Shelter ,East Granby,2011,11
+Housing/Shelter ,East Granby,2012,10
+Housing/Shelter ,East Granby,2013,7
+Housing/Shelter ,East Windsor,2009,84
+Housing/Shelter ,East Windsor,2010,99
+Housing/Shelter ,East Windsor,2011,113
+Housing/Shelter ,East Windsor,2012,124
+Housing/Shelter ,East Windsor,2013,78
+Housing/Shelter ,Ellington,2009,40
+Housing/Shelter ,Ellington,2010,51
+Housing/Shelter ,Ellington,2011,66
+Housing/Shelter ,Ellington,2012,54
+Housing/Shelter ,Ellington,2013,26
+Housing/Shelter ,Enfield,2009,366
+Housing/Shelter ,Enfield,2010,439
+Housing/Shelter ,Enfield,2011,413
+Housing/Shelter ,Enfield,2012,408
+Housing/Shelter ,Enfield,2013,248
+Housing/Shelter ,Farmington,2009,79
+Housing/Shelter ,Farmington,2010,90
+Housing/Shelter ,Farmington,2011,109
+Housing/Shelter ,Farmington,2012,106
+Housing/Shelter ,Farmington,2013,48
+Housing/Shelter ,Glastonbury,2009,98
+Housing/Shelter ,Glastonbury,2010,80
+Housing/Shelter ,Glastonbury,2011,192
+Housing/Shelter ,Glastonbury,2012,105
+Housing/Shelter ,Glastonbury,2013,68
+Housing/Shelter ,Granby,2009,10
+Housing/Shelter ,Granby,2010,19
+Housing/Shelter ,Granby,2011,11
+Housing/Shelter ,Granby,2012,35
+Housing/Shelter ,Granby,2013,16
+Housing/Shelter ,Hartford,2009,8613
+Housing/Shelter ,Hartford,2010,8872
+Housing/Shelter ,Hartford,2011,9222
+Housing/Shelter ,Hartford,2012,8629
+Housing/Shelter ,Hartford,2013,5314
+Housing/Shelter ,Hebron,2009,25
+Housing/Shelter ,Hebron,2010,32
+Housing/Shelter ,Hebron,2011,19
+Housing/Shelter ,Hebron,2012,39
+Housing/Shelter ,Hebron,2013,5
+Housing/Shelter ,Manchester,2009,1187
+Housing/Shelter ,Manchester,2010,1125
+Housing/Shelter ,Manchester,2011,1396
+Housing/Shelter ,Manchester,2012,1266
+Housing/Shelter ,Manchester,2013,1073
+Housing/Shelter ,Marlborough,2009,31
+Housing/Shelter ,Marlborough,2010,15
+Housing/Shelter ,Marlborough,2011,12
+Housing/Shelter ,Marlborough,2012,18
+Housing/Shelter ,Marlborough,2013,11
+Housing/Shelter ,Newington,2009,201
+Housing/Shelter ,Newington,2010,156
+Housing/Shelter ,Newington,2011,219
+Housing/Shelter ,Newington,2012,201
+Housing/Shelter ,Newington,2013,123
+Housing/Shelter ,Rocky Hill,2009,123
+Housing/Shelter ,Rocky Hill,2010,101
+Housing/Shelter ,Rocky Hill,2011,91
+Housing/Shelter ,Rocky Hill,2012,92
+Housing/Shelter ,Rocky Hill,2013,60
+Housing/Shelter ,Simsbury,2009,65
+Housing/Shelter ,Simsbury,2010,35
+Housing/Shelter ,Simsbury,2011,65
+Housing/Shelter ,Simsbury,2012,76
+Housing/Shelter ,Simsbury,2013,17
+Housing/Shelter ,Somers,2009,15
+Housing/Shelter ,Somers,2010,24
+Housing/Shelter ,Somers,2011,28
+Housing/Shelter ,Somers,2012,22
+Housing/Shelter ,Somers,2013,10
+Housing/Shelter ,South Windsor,2009,83
+Housing/Shelter ,South Windsor,2010,88
+Housing/Shelter ,South Windsor,2011,92
+Housing/Shelter ,South Windsor,2012,75
+Housing/Shelter ,South Windsor,2013,36
+Housing/Shelter ,Stafford,2009,84
+Housing/Shelter ,Stafford,2010,91
+Housing/Shelter ,Stafford,2011,66
+Housing/Shelter ,Stafford,2012,99
+Housing/Shelter ,Stafford,2013,49
+Housing/Shelter ,Suffield,2009,43
+Housing/Shelter ,Suffield,2010,45
+Housing/Shelter ,Suffield,2011,34
+Housing/Shelter ,Suffield,2012,42
+Housing/Shelter ,Suffield,2013,24
+Housing/Shelter ,Tolland,2009,24
+Housing/Shelter ,Tolland,2010,28
+Housing/Shelter ,Tolland,2011,30
+Housing/Shelter ,Tolland,2012,29
+Housing/Shelter ,Tolland,2013,20
+Housing/Shelter ,Vernon,2009,506
+Housing/Shelter ,Vernon,2010,485
+Housing/Shelter ,Vernon,2011,600
+Housing/Shelter ,Vernon,2012,581
+Housing/Shelter ,Vernon,2013,329
+Housing/Shelter ,West Hartford,2009,383
+Housing/Shelter ,West Hartford,2010,525
+Housing/Shelter ,West Hartford,2011,395
+Housing/Shelter ,West Hartford,2012,507
+Housing/Shelter ,West Hartford,2013,248
+Housing/Shelter ,Wethersfield,2009,192
+Housing/Shelter ,Wethersfield,2010,183
+Housing/Shelter ,Wethersfield,2011,183
+Housing/Shelter ,Wethersfield,2012,186
+Housing/Shelter ,Wethersfield,2013,136
+Housing/Shelter ,Windsor,2009,409
+Housing/Shelter ,Windsor,2010,349
+Housing/Shelter ,Windsor,2011,332
+Housing/Shelter ,Windsor,2012,408
+Housing/Shelter ,Windsor,2013,234
+Housing/Shelter ,Windsor Locks,2009,91
+Housing/Shelter ,Windsor Locks,2010,129
+Housing/Shelter ,Windsor Locks,2011,105
+Housing/Shelter ,Windsor Locks,2012,121
+Housing/Shelter ,Windsor Locks,2013,85
+Individual and Family Support Services,Andover,2009,6
+Individual and Family Support Services,Andover,2010,3
+Individual and Family Support Services,Andover,2011,5
+Individual and Family Support Services,Andover,2012,2
+Individual and Family Support Services,Andover,2013,4
+Individual and Family Support Services,Avon,2009,28
+Individual and Family Support Services,Avon,2010,18
+Individual and Family Support Services,Avon,2011,25
+Individual and Family Support Services,Avon,2012,15
+Individual and Family Support Services,Avon,2013,7
+Individual and Family Support Services,Bloomfield,2009,75
+Individual and Family Support Services,Bloomfield,2010,80
+Individual and Family Support Services,Bloomfield,2011,89
+Individual and Family Support Services,Bloomfield,2012,83
+Individual and Family Support Services,Bloomfield,2013,47
+Individual and Family Support Services,Bolton,2009,7
+Individual and Family Support Services,Bolton,2010,8
+Individual and Family Support Services,Bolton,2011,7
+Individual and Family Support Services,Bolton,2012,5
+Individual and Family Support Services,Bolton,2013,2
+Individual and Family Support Services,Canton,2009,14
+Individual and Family Support Services,Canton,2010,11
+Individual and Family Support Services,Canton,2011,9
+Individual and Family Support Services,Canton,2012,7
+Individual and Family Support Services,Canton,2013,10
+Individual and Family Support Services,East  Hartford,2009,321
+Individual and Family Support Services,East  Hartford,2010,265
+Individual and Family Support Services,East  Hartford,2011,281
+Individual and Family Support Services,East  Hartford,2012,231
+Individual and Family Support Services,East  Hartford,2013,174
+Individual and Family Support Services,East Granby,2009,15
+Individual and Family Support Services,East Granby,2010,6
+Individual and Family Support Services,East Granby,2011,11
+Individual and Family Support Services,East Granby,2012,7
+Individual and Family Support Services,East Granby,2013,2
+Individual and Family Support Services,East Windsor,2009,24
+Individual and Family Support Services,East Windsor,2010,30
+Individual and Family Support Services,East Windsor,2011,29
+Individual and Family Support Services,East Windsor,2012,21
+Individual and Family Support Services,East Windsor,2013,13
+Individual and Family Support Services,Ellington,2009,27
+Individual and Family Support Services,Ellington,2010,18
+Individual and Family Support Services,Ellington,2011,15
+Individual and Family Support Services,Ellington,2012,14
+Individual and Family Support Services,Ellington,2013,6
+Individual and Family Support Services,Enfield,2009,102
+Individual and Family Support Services,Enfield,2010,104
+Individual and Family Support Services,Enfield,2011,116
+Individual and Family Support Services,Enfield,2012,109
+Individual and Family Support Services,Enfield,2013,45
+Individual and Family Support Services,Farmington,2009,57
+Individual and Family Support Services,Farmington,2010,37
+Individual and Family Support Services,Farmington,2011,54
+Individual and Family Support Services,Farmington,2012,34
+Individual and Family Support Services,Farmington,2013,20
+Individual and Family Support Services,Glastonbury,2009,53
+Individual and Family Support Services,Glastonbury,2010,54
+Individual and Family Support Services,Glastonbury,2011,47
+Individual and Family Support Services,Glastonbury,2012,35
+Individual and Family Support Services,Glastonbury,2013,36
+Individual and Family Support Services,Granby,2009,21
+Individual and Family Support Services,Granby,2010,17
+Individual and Family Support Services,Granby,2011,10
+Individual and Family Support Services,Granby,2012,6
+Individual and Family Support Services,Granby,2013,4
+Individual and Family Support Services,Hartford,2009,1536
+Individual and Family Support Services,Hartford,2010,1351
+Individual and Family Support Services,Hartford,2011,1176
+Individual and Family Support Services,Hartford,2012,1114
+Individual and Family Support Services,Hartford,2013,775
+Individual and Family Support Services,Hebron,2009,12
+Individual and Family Support Services,Hebron,2010,13
+Individual and Family Support Services,Hebron,2011,10
+Individual and Family Support Services,Hebron,2012,6
+Individual and Family Support Services,Hebron,2013,7
+Individual and Family Support Services,Manchester,2009,262
+Individual and Family Support Services,Manchester,2010,233
+Individual and Family Support Services,Manchester,2011,234
+Individual and Family Support Services,Manchester,2012,199
+Individual and Family Support Services,Manchester,2013,124
+Individual and Family Support Services,Marlborough,2009,5
+Individual and Family Support Services,Marlborough,2010,5
+Individual and Family Support Services,Marlborough,2011,5
+Individual and Family Support Services,Marlborough,2012,9
+Individual and Family Support Services,Marlborough,2013,5
+Individual and Family Support Services,Newington,2009,78
+Individual and Family Support Services,Newington,2010,57
+Individual and Family Support Services,Newington,2011,39
+Individual and Family Support Services,Newington,2012,48
+Individual and Family Support Services,Newington,2013,43
+Individual and Family Support Services,Rocky Hill,2009,41
+Individual and Family Support Services,Rocky Hill,2010,39
+Individual and Family Support Services,Rocky Hill,2011,73
+Individual and Family Support Services,Rocky Hill,2012,27
+Individual and Family Support Services,Rocky Hill,2013,38
+Individual and Family Support Services,Simsbury,2009,28
+Individual and Family Support Services,Simsbury,2010,28
+Individual and Family Support Services,Simsbury,2011,30
+Individual and Family Support Services,Simsbury,2012,18
+Individual and Family Support Services,Simsbury,2013,17
+Individual and Family Support Services,Somers,2009,8
+Individual and Family Support Services,Somers,2010,7
+Individual and Family Support Services,Somers,2011,7
+Individual and Family Support Services,Somers,2012,15
+Individual and Family Support Services,Somers,2013,7
+Individual and Family Support Services,South Windsor,2009,50
+Individual and Family Support Services,South Windsor,2010,34
+Individual and Family Support Services,South Windsor,2011,38
+Individual and Family Support Services,South Windsor,2012,46
+Individual and Family Support Services,South Windsor,2013,16
+Individual and Family Support Services,Stafford,2009,41
+Individual and Family Support Services,Stafford,2010,30
+Individual and Family Support Services,Stafford,2011,21
+Individual and Family Support Services,Stafford,2012,21
+Individual and Family Support Services,Stafford,2013,15
+Individual and Family Support Services,Suffield,2009,24
+Individual and Family Support Services,Suffield,2010,14
+Individual and Family Support Services,Suffield,2011,11
+Individual and Family Support Services,Suffield,2012,14
+Individual and Family Support Services,Suffield,2013,9
+Individual and Family Support Services,Tolland,2009,22
+Individual and Family Support Services,Tolland,2010,13
+Individual and Family Support Services,Tolland,2011,13
+Individual and Family Support Services,Tolland,2012,15
+Individual and Family Support Services,Tolland,2013,8
+Individual and Family Support Services,Vernon,2009,116
+Individual and Family Support Services,Vernon,2010,98
+Individual and Family Support Services,Vernon,2011,116
+Individual and Family Support Services,Vernon,2012,89
+Individual and Family Support Services,Vernon,2013,60
+Individual and Family Support Services,West Hartford,2009,185
+Individual and Family Support Services,West Hartford,2010,131
+Individual and Family Support Services,West Hartford,2011,117
+Individual and Family Support Services,West Hartford,2012,105
+Individual and Family Support Services,West Hartford,2013,60
+Individual and Family Support Services,Wethersfield,2009,70
+Individual and Family Support Services,Wethersfield,2010,64
+Individual and Family Support Services,Wethersfield,2011,52
+Individual and Family Support Services,Wethersfield,2012,44
+Individual and Family Support Services,Wethersfield,2013,30
+Individual and Family Support Services,Windsor,2009,98
+Individual and Family Support Services,Windsor,2010,90
+Individual and Family Support Services,Windsor,2011,88
+Individual and Family Support Services,Windsor,2012,94
+Individual and Family Support Services,Windsor,2013,50
+Individual and Family Support Services,Windsor Locks,2009,47
+Individual and Family Support Services,Windsor Locks,2010,32
+Individual and Family Support Services,Windsor Locks,2011,41
+Individual and Family Support Services,Windsor Locks,2012,38
+Individual and Family Support Services,Windsor Locks,2013,25
+Information Services,Andover,2009,13
+Information Services,Andover,2010,11
+Information Services,Andover,2011,9
+Information Services,Andover,2012,8
+Information Services,Andover,2013,2
+Information Services,Avon,2009,55
+Information Services,Avon,2010,37
+Information Services,Avon,2011,39
+Information Services,Avon,2012,28
+Information Services,Avon,2013,24
+Information Services,Bloomfield,2009,240
+Information Services,Bloomfield,2010,276
+Information Services,Bloomfield,2011,282
+Information Services,Bloomfield,2012,242
+Information Services,Bloomfield,2013,135
+Information Services,Bolton,2009,11
+Information Services,Bolton,2010,9
+Information Services,Bolton,2011,16
+Information Services,Bolton,2012,15
+Information Services,Bolton,2013,9
+Information Services,Canton,2009,27
+Information Services,Canton,2010,23
+Information Services,Canton,2011,32
+Information Services,Canton,2012,19
+Information Services,Canton,2013,11
+Information Services,East  Hartford,2009,1169
+Information Services,East  Hartford,2010,1397
+Information Services,East  Hartford,2011,1298
+Information Services,East  Hartford,2012,954
+Information Services,East  Hartford,2013,470
+Information Services,East Granby,2009,14
+Information Services,East Granby,2010,18
+Information Services,East Granby,2011,14
+Information Services,East Granby,2012,16
+Information Services,East Granby,2013,15
+Information Services,East Windsor,2009,107
+Information Services,East Windsor,2010,103
+Information Services,East Windsor,2011,105
+Information Services,East Windsor,2012,79
+Information Services,East Windsor,2013,32
+Information Services,Ellington,2009,64
+Information Services,Ellington,2010,46
+Information Services,Ellington,2011,46
+Information Services,Ellington,2012,37
+Information Services,Ellington,2013,22
+Information Services,Enfield,2009,323
+Information Services,Enfield,2010,393
+Information Services,Enfield,2011,404
+Information Services,Enfield,2012,298
+Information Services,Enfield,2013,178
+Information Services,Farmington,2009,115
+Information Services,Farmington,2010,129
+Information Services,Farmington,2011,100
+Information Services,Farmington,2012,73
+Information Services,Farmington,2013,47
+Information Services,Glastonbury,2009,132
+Information Services,Glastonbury,2010,118
+Information Services,Glastonbury,2011,108
+Information Services,Glastonbury,2012,88
+Information Services,Glastonbury,2013,43
+Information Services,Granby,2009,19
+Information Services,Granby,2010,25
+Information Services,Granby,2011,28
+Information Services,Granby,2012,27
+Information Services,Granby,2013,5
+Information Services,Hartford,2009,6752
+Information Services,Hartford,2010,7692
+Information Services,Hartford,2011,6874
+Information Services,Hartford,2012,4566
+Information Services,Hartford,2013,2843
+Information Services,Hebron,2009,40
+Information Services,Hebron,2010,27
+Information Services,Hebron,2011,24
+Information Services,Hebron,2012,22
+Information Services,Hebron,2013,12
+Information Services,Manchester,2009,871
+Information Services,Manchester,2010,1070
+Information Services,Manchester,2011,1081
+Information Services,Manchester,2012,674
+Information Services,Manchester,2013,381
+Information Services,Marlborough,2009,24
+Information Services,Marlborough,2010,13
+Information Services,Marlborough,2011,18
+Information Services,Marlborough,2012,15
+Information Services,Marlborough,2013,14
+Information Services,Newington,2009,186
+Information Services,Newington,2010,192
+Information Services,Newington,2011,171
+Information Services,Newington,2012,141
+Information Services,Newington,2013,75
+Information Services,Rocky Hill,2009,151
+Information Services,Rocky Hill,2010,110
+Information Services,Rocky Hill,2011,167
+Information Services,Rocky Hill,2012,92
+Information Services,Rocky Hill,2013,86
+Information Services,Simsbury,2009,74
+Information Services,Simsbury,2010,38
+Information Services,Simsbury,2011,74
+Information Services,Simsbury,2012,55
+Information Services,Simsbury,2013,26
+Information Services,Somers,2009,39
+Information Services,Somers,2010,20
+Information Services,Somers,2011,29
+Information Services,Somers,2012,30
+Information Services,Somers,2013,20
+Information Services,South Windsor,2009,70
+Information Services,South Windsor,2010,69
+Information Services,South Windsor,2011,86
+Information Services,South Windsor,2012,62
+Information Services,South Windsor,2013,44
+Information Services,Stafford,2009,61
+Information Services,Stafford,2010,84
+Information Services,Stafford,2011,67
+Information Services,Stafford,2012,52
+Information Services,Stafford,2013,28
+Information Services,Suffield,2009,34
+Information Services,Suffield,2010,51
+Information Services,Suffield,2011,46
+Information Services,Suffield,2012,27
+Information Services,Suffield,2013,23
+Information Services,Tolland,2009,35
+Information Services,Tolland,2010,36
+Information Services,Tolland,2011,31
+Information Services,Tolland,2012,28
+Information Services,Tolland,2013,17
+Information Services,Vernon,2009,370
+Information Services,Vernon,2010,367
+Information Services,Vernon,2011,375
+Information Services,Vernon,2012,262
+Information Services,Vernon,2013,123
+Information Services,West Hartford,2009,456
+Information Services,West Hartford,2010,400
+Information Services,West Hartford,2011,475
+Information Services,West Hartford,2012,306
+Information Services,West Hartford,2013,164
+Information Services,Wethersfield,2009,159
+Information Services,Wethersfield,2010,217
+Information Services,Wethersfield,2011,200
+Information Services,Wethersfield,2012,125
+Information Services,Wethersfield,2013,82
+Information Services,Windsor,2009,332
+Information Services,Windsor,2010,313
+Information Services,Windsor,2011,302
+Information Services,Windsor,2012,245
+Information Services,Windsor,2013,129
+Information Services,Windsor Locks,2009,96
+Information Services,Windsor Locks,2010,87
+Information Services,Windsor Locks,2011,106
+Information Services,Windsor Locks,2012,75
+Information Services,Windsor Locks,2013,40
+Legal Services,Andover,2009,8
+Legal Services,Andover,2010,9
+Legal Services,Andover,2011,10
+Legal Services,Andover,2012,6
+Legal Services,Andover,2013,5
+Legal Services,Avon,2009,20
+Legal Services,Avon,2010,30
+Legal Services,Avon,2011,15
+Legal Services,Avon,2012,15
+Legal Services,Avon,2013,16
+Legal Services,Bloomfield,2009,183
+Legal Services,Bloomfield,2010,151
+Legal Services,Bloomfield,2011,152
+Legal Services,Bloomfield,2012,160
+Legal Services,Bloomfield,2013,90
+Legal Services,Bolton,2009,12
+Legal Services,Bolton,2010,15
+Legal Services,Bolton,2011,8
+Legal Services,Bolton,2012,10
+Legal Services,Bolton,2013,7
+Legal Services,Canton,2009,28
+Legal Services,Canton,2010,11
+Legal Services,Canton,2011,31
+Legal Services,Canton,2012,16
+Legal Services,Canton,2013,10
+Legal Services,East  Hartford,2009,795
+Legal Services,East  Hartford,2010,635
+Legal Services,East  Hartford,2011,703
+Legal Services,East  Hartford,2012,710
+Legal Services,East  Hartford,2013,366
+Legal Services,East Granby,2009,10
+Legal Services,East Granby,2010,19
+Legal Services,East Granby,2011,16
+Legal Services,East Granby,2012,17
+Legal Services,East Granby,2013,13
+Legal Services,East Windsor,2009,61
+Legal Services,East Windsor,2010,93
+Legal Services,East Windsor,2011,81
+Legal Services,East Windsor,2012,67
+Legal Services,East Windsor,2013,33
+Legal Services,Ellington,2009,41
+Legal Services,Ellington,2010,46
+Legal Services,Ellington,2011,38
+Legal Services,Ellington,2012,46
+Legal Services,Ellington,2013,19
+Legal Services,Enfield,2009,240
+Legal Services,Enfield,2010,231
+Legal Services,Enfield,2011,218
+Legal Services,Enfield,2012,216
+Legal Services,Enfield,2013,107
+Legal Services,Farmington,2009,48
+Legal Services,Farmington,2010,60
+Legal Services,Farmington,2011,62
+Legal Services,Farmington,2012,52
+Legal Services,Farmington,2013,19
+Legal Services,Glastonbury,2009,89
+Legal Services,Glastonbury,2010,59
+Legal Services,Glastonbury,2011,72
+Legal Services,Glastonbury,2012,71
+Legal Services,Glastonbury,2013,24
+Legal Services,Granby,2009,29
+Legal Services,Granby,2010,21
+Legal Services,Granby,2011,11
+Legal Services,Granby,2012,13
+Legal Services,Granby,2013,12
+Legal Services,Hartford,2009,3166
+Legal Services,Hartford,2010,3114
+Legal Services,Hartford,2011,2795
+Legal Services,Hartford,2012,2775
+Legal Services,Hartford,2013,1641
+Legal Services,Hebron,2009,17
+Legal Services,Hebron,2010,8
+Legal Services,Hebron,2011,24
+Legal Services,Hebron,2012,15
+Legal Services,Hebron,2013,9
+Legal Services,Manchester,2009,525
+Legal Services,Manchester,2010,479
+Legal Services,Manchester,2011,478
+Legal Services,Manchester,2012,440
+Legal Services,Manchester,2013,266
+Legal Services,Marlborough,2009,17
+Legal Services,Marlborough,2010,12
+Legal Services,Marlborough,2011,12
+Legal Services,Marlborough,2012,5
+Legal Services,Marlborough,2013,12
+Legal Services,Newington,2009,128
+Legal Services,Newington,2010,114
+Legal Services,Newington,2011,103
+Legal Services,Newington,2012,101
+Legal Services,Newington,2013,76
+Legal Services,Rocky Hill,2009,64
+Legal Services,Rocky Hill,2010,52
+Legal Services,Rocky Hill,2011,64
+Legal Services,Rocky Hill,2012,71
+Legal Services,Rocky Hill,2013,41
+Legal Services,Simsbury,2009,44
+Legal Services,Simsbury,2010,34
+Legal Services,Simsbury,2011,32
+Legal Services,Simsbury,2012,47
+Legal Services,Simsbury,2013,15
+Legal Services,Somers,2009,29
+Legal Services,Somers,2010,15
+Legal Services,Somers,2011,17
+Legal Services,Somers,2012,17
+Legal Services,Somers,2013,9
+Legal Services,South Windsor,2009,68
+Legal Services,South Windsor,2010,55
+Legal Services,South Windsor,2011,67
+Legal Services,South Windsor,2012,68
+Legal Services,South Windsor,2013,27
+Legal Services,Stafford,2009,45
+Legal Services,Stafford,2010,73
+Legal Services,Stafford,2011,56
+Legal Services,Stafford,2012,44
+Legal Services,Stafford,2013,24
+Legal Services,Suffield,2009,27
+Legal Services,Suffield,2010,28
+Legal Services,Suffield,2011,25
+Legal Services,Suffield,2012,31
+Legal Services,Suffield,2013,24
+Legal Services,Tolland,2009,29
+Legal Services,Tolland,2010,22
+Legal Services,Tolland,2011,24
+Legal Services,Tolland,2012,23
+Legal Services,Tolland,2013,20
+Legal Services,Vernon,2009,258
+Legal Services,Vernon,2010,221
+Legal Services,Vernon,2011,269
+Legal Services,Vernon,2012,217
+Legal Services,Vernon,2013,105
+Legal Services,West Hartford,2009,203
+Legal Services,West Hartford,2010,187
+Legal Services,West Hartford,2011,225
+Legal Services,West Hartford,2012,198
+Legal Services,West Hartford,2013,137
+Legal Services,Wethersfield,2009,115
+Legal Services,Wethersfield,2010,107
+Legal Services,Wethersfield,2011,90
+Legal Services,Wethersfield,2012,125
+Legal Services,Wethersfield,2013,58
+Legal Services,Windsor,2009,203
+Legal Services,Windsor,2010,184
+Legal Services,Windsor,2011,171
+Legal Services,Windsor,2012,176
+Legal Services,Windsor,2013,97
+Legal Services,Windsor Locks,2009,90
+Legal Services,Windsor Locks,2010,59
+Legal Services,Windsor Locks,2011,66
+Legal Services,Windsor Locks,2012,66
+Legal Services,Windsor Locks,2013,49
+Organizational Development and Management Services,Hartford,2009,1101
+Organizational Development and Management Services,Hartford,2010,1381
+Organizational Development and Management Services,Hartford,2011,1408
+Organizational Development and Management Services,Hartford,2012,1163
+Organizational Development and Management Services,Hartford,2013,783
+Outpatient Mental Health Care,Andover,2009,25
+Outpatient Mental Health Care,Andover,2010,12
+Outpatient Mental Health Care,Andover,2011,12
+Outpatient Mental Health Care,Andover,2012,13
+Outpatient Mental Health Care,Andover,2013,15
+Outpatient Mental Health Care,Avon,2009,47
+Outpatient Mental Health Care,Avon,2010,56
+Outpatient Mental Health Care,Avon,2011,76
+Outpatient Mental Health Care,Avon,2012,94
+Outpatient Mental Health Care,Avon,2013,70
+Outpatient Mental Health Care,Bloomfield,2009,133
+Outpatient Mental Health Care,Bloomfield,2010,160
+Outpatient Mental Health Care,Bloomfield,2011,141
+Outpatient Mental Health Care,Bloomfield,2012,146
+Outpatient Mental Health Care,Bloomfield,2013,123
+Outpatient Mental Health Care,Bolton,2009,26
+Outpatient Mental Health Care,Bolton,2010,12
+Outpatient Mental Health Care,Bolton,2011,16
+Outpatient Mental Health Care,Bolton,2012,33
+Outpatient Mental Health Care,Bolton,2013,22
+Outpatient Mental Health Care,Canton,2009,58
+Outpatient Mental Health Care,Canton,2010,31
+Outpatient Mental Health Care,Canton,2011,46
+Outpatient Mental Health Care,Canton,2012,61
+Outpatient Mental Health Care,Canton,2013,32
+Outpatient Mental Health Care,East  Hartford,2009,793
+Outpatient Mental Health Care,East  Hartford,2010,851
+Outpatient Mental Health Care,East  Hartford,2011,735
+Outpatient Mental Health Care,East  Hartford,2012,614
+Outpatient Mental Health Care,East  Hartford,2013,369
+Outpatient Mental Health Care,East Granby,2009,34
+Outpatient Mental Health Care,East Granby,2010,32
+Outpatient Mental Health Care,East Granby,2011,24
+Outpatient Mental Health Care,East Granby,2012,26
+Outpatient Mental Health Care,East Granby,2013,11
+Outpatient Mental Health Care,East Windsor,2009,76
+Outpatient Mental Health Care,East Windsor,2010,62
+Outpatient Mental Health Care,East Windsor,2011,75
+Outpatient Mental Health Care,East Windsor,2012,88
+Outpatient Mental Health Care,East Windsor,2013,47
+Outpatient Mental Health Care,Ellington,2009,273
+Outpatient Mental Health Care,Ellington,2010,258
+Outpatient Mental Health Care,Ellington,2011,147
+Outpatient Mental Health Care,Ellington,2012,56
+Outpatient Mental Health Care,Ellington,2013,56
+Outpatient Mental Health Care,Enfield,2009,284
+Outpatient Mental Health Care,Enfield,2010,381
+Outpatient Mental Health Care,Enfield,2011,436
+Outpatient Mental Health Care,Enfield,2012,411
+Outpatient Mental Health Care,Enfield,2013,272
+Outpatient Mental Health Care,Farmington,2009,114
+Outpatient Mental Health Care,Farmington,2010,146
+Outpatient Mental Health Care,Farmington,2011,155
+Outpatient Mental Health Care,Farmington,2012,160
+Outpatient Mental Health Care,Farmington,2013,113
+Outpatient Mental Health Care,Glastonbury,2009,145
+Outpatient Mental Health Care,Glastonbury,2010,143
+Outpatient Mental Health Care,Glastonbury,2011,128
+Outpatient Mental Health Care,Glastonbury,2012,146
+Outpatient Mental Health Care,Glastonbury,2013,90
+Outpatient Mental Health Care,Granby,2009,47
+Outpatient Mental Health Care,Granby,2010,45
+Outpatient Mental Health Care,Granby,2011,57
+Outpatient Mental Health Care,Granby,2012,63
+Outpatient Mental Health Care,Granby,2013,44
+Outpatient Mental Health Care,Hartford,2009,3225
+Outpatient Mental Health Care,Hartford,2010,3207
+Outpatient Mental Health Care,Hartford,2011,3218
+Outpatient Mental Health Care,Hartford,2012,3443
+Outpatient Mental Health Care,Hartford,2013,2132
+Outpatient Mental Health Care,Hebron,2009,46
+Outpatient Mental Health Care,Hebron,2010,30
+Outpatient Mental Health Care,Hebron,2011,53
+Outpatient Mental Health Care,Hebron,2012,59
+Outpatient Mental Health Care,Hebron,2013,35
+Outpatient Mental Health Care,Manchester,2009,600
+Outpatient Mental Health Care,Manchester,2010,719
+Outpatient Mental Health Care,Manchester,2011,830
+Outpatient Mental Health Care,Manchester,2012,751
+Outpatient Mental Health Care,Manchester,2013,482
+Outpatient Mental Health Care,Marlborough,2009,30
+Outpatient Mental Health Care,Marlborough,2010,15
+Outpatient Mental Health Care,Marlborough,2011,41
+Outpatient Mental Health Care,Marlborough,2012,44
+Outpatient Mental Health Care,Marlborough,2013,30
+Outpatient Mental Health Care,Newington,2009,203
+Outpatient Mental Health Care,Newington,2010,188
+Outpatient Mental Health Care,Newington,2011,200
+Outpatient Mental Health Care,Newington,2012,238
+Outpatient Mental Health Care,Newington,2013,153
+Outpatient Mental Health Care,Rocky Hill,2009,107
+Outpatient Mental Health Care,Rocky Hill,2010,121
+Outpatient Mental Health Care,Rocky Hill,2011,123
+Outpatient Mental Health Care,Rocky Hill,2012,157
+Outpatient Mental Health Care,Rocky Hill,2013,108
+Outpatient Mental Health Care,Simsbury,2009,95
+Outpatient Mental Health Care,Simsbury,2010,95
+Outpatient Mental Health Care,Simsbury,2011,113
+Outpatient Mental Health Care,Simsbury,2012,132
+Outpatient Mental Health Care,Simsbury,2013,78
+Outpatient Mental Health Care,Somers,2009,20
+Outpatient Mental Health Care,Somers,2010,26
+Outpatient Mental Health Care,Somers,2011,33
+Outpatient Mental Health Care,Somers,2012,37
+Outpatient Mental Health Care,Somers,2013,37
+Outpatient Mental Health Care,South Windsor,2009,96
+Outpatient Mental Health Care,South Windsor,2010,117
+Outpatient Mental Health Care,South Windsor,2011,146
+Outpatient Mental Health Care,South Windsor,2012,187
+Outpatient Mental Health Care,South Windsor,2013,85
+Outpatient Mental Health Care,Stafford,2009,63
+Outpatient Mental Health Care,Stafford,2010,71
+Outpatient Mental Health Care,Stafford,2011,87
+Outpatient Mental Health Care,Stafford,2012,89
+Outpatient Mental Health Care,Stafford,2013,71
+Outpatient Mental Health Care,Suffield,2009,41
+Outpatient Mental Health Care,Suffield,2010,58
+Outpatient Mental Health Care,Suffield,2011,87
+Outpatient Mental Health Care,Suffield,2012,87
+Outpatient Mental Health Care,Suffield,2013,40
+Outpatient Mental Health Care,Tolland,2009,46
+Outpatient Mental Health Care,Tolland,2010,54
+Outpatient Mental Health Care,Tolland,2011,65
+Outpatient Mental Health Care,Tolland,2012,102
+Outpatient Mental Health Care,Tolland,2013,62
+Outpatient Mental Health Care,Vernon,2009,776
+Outpatient Mental Health Care,Vernon,2010,677
+Outpatient Mental Health Care,Vernon,2011,687
+Outpatient Mental Health Care,Vernon,2012,491
+Outpatient Mental Health Care,Vernon,2013,291
+Outpatient Mental Health Care,West Hartford,2009,373
+Outpatient Mental Health Care,West Hartford,2010,364
+Outpatient Mental Health Care,West Hartford,2011,426
+Outpatient Mental Health Care,West Hartford,2012,482
+Outpatient Mental Health Care,West Hartford,2013,329
+Outpatient Mental Health Care,Wethersfield,2009,219
+Outpatient Mental Health Care,Wethersfield,2010,223
+Outpatient Mental Health Care,Wethersfield,2011,163
+Outpatient Mental Health Care,Wethersfield,2012,201
+Outpatient Mental Health Care,Wethersfield,2013,143
+Outpatient Mental Health Care,Windsor,2009,192
+Outpatient Mental Health Care,Windsor,2010,250
+Outpatient Mental Health Care,Windsor,2011,269
+Outpatient Mental Health Care,Windsor,2012,250
+Outpatient Mental Health Care,Windsor,2013,202
+Outpatient Mental Health Care,Windsor Locks,2009,213
+Outpatient Mental Health Care,Windsor Locks,2010,189
+Outpatient Mental Health Care,Windsor Locks,2011,173
+Outpatient Mental Health Care,Windsor Locks,2012,144
+Outpatient Mental Health Care,Windsor Locks,2013,107
+Personal/Household Goods,Avon,2009,15
+Personal/Household Goods,Avon,2010,8
+Personal/Household Goods,Avon,2011,11
+Personal/Household Goods,Avon,2012,13
+Personal/Household Goods,Bloomfield,2009,63
+Personal/Household Goods,Bloomfield,2010,50
+Personal/Household Goods,Bloomfield,2011,66
+Personal/Household Goods,Bloomfield,2012,51
+Personal/Household Goods,Bloomfield,2013,31
+Personal/Household Goods,East  Hartford,2009,444
+Personal/Household Goods,East  Hartford,2010,379
+Personal/Household Goods,East  Hartford,2011,487
+Personal/Household Goods,East  Hartford,2012,444
+Personal/Household Goods,East  Hartford,2013,218
+Personal/Household Goods,East Windsor,2009,18
+Personal/Household Goods,East Windsor,2010,14
+Personal/Household Goods,East Windsor,2011,19
+Personal/Household Goods,East Windsor,2012,17
+Personal/Household Goods,East Windsor,2013,11
+Personal/Household Goods,Enfield,2009,107
+Personal/Household Goods,Enfield,2010,74
+Personal/Household Goods,Enfield,2011,83
+Personal/Household Goods,Enfield,2012,66
+Personal/Household Goods,Enfield,2013,26
+Personal/Household Goods,Hartford,2009,2839
+Personal/Household Goods,Hartford,2010,2406
+Personal/Household Goods,Hartford,2011,2540
+Personal/Household Goods,Hartford,2012,2428
+Personal/Household Goods,Hartford,2013,1151
+Personal/Household Goods,Manchester,2009,235
+Personal/Household Goods,Manchester,2010,246
+Personal/Household Goods,Manchester,2011,261
+Personal/Household Goods,Manchester,2012,248
+Personal/Household Goods,Manchester,2013,126
+Personal/Household Goods,Vernon,2009,149
+Personal/Household Goods,Vernon,2010,105
+Personal/Household Goods,Vernon,2011,101
+Personal/Household Goods,Vernon,2012,88
+Personal/Household Goods,Vernon,2013,74
+Personal/Household Goods,West Hartford,2009,102
+Personal/Household Goods,West Hartford,2010,84
+Personal/Household Goods,West Hartford,2011,82
+Personal/Household Goods,West Hartford,2012,82
+Personal/Household Goods,West Hartford,2013,39
+Personal/Household Goods,Wethersfield,2009,31
+Personal/Household Goods,Wethersfield,2010,30
+Personal/Household Goods,Wethersfield,2011,27
+Personal/Household Goods,Wethersfield,2012,28
+Personal/Household Goods,Wethersfield,2013,18
+Personal/Household Goods,Windsor,2009,70
+Personal/Household Goods,Windsor,2010,67
+Personal/Household Goods,Windsor,2011,50
+Personal/Household Goods,Windsor,2012,55
+Personal/Household Goods,Windsor,2013,33
+Personal/Household Goods,Windsor Locks,2009,38
+Personal/Household Goods,Windsor Locks,2010,22
+Personal/Household Goods,Windsor Locks,2011,21
+Personal/Household Goods,Windsor Locks,2012,20
+Personal/Household Goods,Windsor Locks,2013,13
+Public Assistance Programs,Andover,2009,13
+Public Assistance Programs,Andover,2010,14
+Public Assistance Programs,Andover,2011,10
+Public Assistance Programs,Andover,2012,14
+Public Assistance Programs,Andover,2013,7
+Public Assistance Programs,Bloomfield,2009,184
+Public Assistance Programs,Bloomfield,2010,185
+Public Assistance Programs,Bloomfield,2011,204
+Public Assistance Programs,Bloomfield,2012,534
+Public Assistance Programs,Bloomfield,2013,363
+Public Assistance Programs,Bolton,2009,12
+Public Assistance Programs,Bolton,2010,17
+Public Assistance Programs,Bolton,2011,14
+Public Assistance Programs,Bolton,2012,24
+Public Assistance Programs,Bolton,2013,12
+Public Assistance Programs,Canton,2009,42
+Public Assistance Programs,Canton,2010,46
+Public Assistance Programs,Canton,2011,29
+Public Assistance Programs,Canton,2012,51
+Public Assistance Programs,Canton,2013,26
+Public Assistance Programs,East  Hartford,2009,805
+Public Assistance Programs,East  Hartford,2010,728
+Public Assistance Programs,East  Hartford,2011,884
+Public Assistance Programs,East  Hartford,2012,1385
+Public Assistance Programs,East  Hartford,2013,1182
+Public Assistance Programs,East Granby,2009,22
+Public Assistance Programs,East Granby,2010,47
+Public Assistance Programs,East Granby,2011,39
+Public Assistance Programs,East Granby,2012,37
+Public Assistance Programs,East Granby,2013,56
+Public Assistance Programs,East Windsor,2009,134
+Public Assistance Programs,East Windsor,2010,97
+Public Assistance Programs,East Windsor,2011,100
+Public Assistance Programs,East Windsor,2012,134
+Public Assistance Programs,East Windsor,2013,87
+Public Assistance Programs,Ellington,2009,77
+Public Assistance Programs,Ellington,2010,71
+Public Assistance Programs,Ellington,2011,86
+Public Assistance Programs,Ellington,2012,76
+Public Assistance Programs,Ellington,2013,31
+Public Assistance Programs,Enfield,2009,363
+Public Assistance Programs,Enfield,2010,367
+Public Assistance Programs,Enfield,2011,384
+Public Assistance Programs,Enfield,2012,489
+Public Assistance Programs,Enfield,2013,377
+Public Assistance Programs,Farmington,2009,85
+Public Assistance Programs,Farmington,2010,107
+Public Assistance Programs,Farmington,2011,106
+Public Assistance Programs,Farmington,2012,175
+Public Assistance Programs,Farmington,2013,89
+Public Assistance Programs,Glastonbury,2009,107
+Public Assistance Programs,Glastonbury,2010,94
+Public Assistance Programs,Glastonbury,2011,96
+Public Assistance Programs,Glastonbury,2012,121
+Public Assistance Programs,Glastonbury,2013,75
+Public Assistance Programs,Granby,2009,30
+Public Assistance Programs,Granby,2010,32
+Public Assistance Programs,Granby,2011,37
+Public Assistance Programs,Granby,2012,49
+Public Assistance Programs,Granby,2013,31
+Public Assistance Programs,Hartford,2009,2479
+Public Assistance Programs,Hartford,2010,2261
+Public Assistance Programs,Hartford,2011,2513
+Public Assistance Programs,Hartford,2012,12285
+Public Assistance Programs,Hartford,2013,9236
+Public Assistance Programs,Hebron,2009,24
+Public Assistance Programs,Hebron,2010,32
+Public Assistance Programs,Hebron,2011,37
+Public Assistance Programs,Hebron,2012,18
+Public Assistance Programs,Hebron,2013,18
+Public Assistance Programs,Manchester,2009,675
+Public Assistance Programs,Manchester,2010,560
+Public Assistance Programs,Manchester,2011,670
+Public Assistance Programs,Manchester,2012,833
+Public Assistance Programs,Manchester,2013,710
+Public Assistance Programs,Marlborough,2009,27
+Public Assistance Programs,Marlborough,2010,16
+Public Assistance Programs,Marlborough,2011,21
+Public Assistance Programs,Marlborough,2012,13
+Public Assistance Programs,Marlborough,2013,15
+Public Assistance Programs,Newington,2009,198
+Public Assistance Programs,Newington,2010,158
+Public Assistance Programs,Newington,2011,194
+Public Assistance Programs,Newington,2012,314
+Public Assistance Programs,Newington,2013,221
+Public Assistance Programs,Rocky Hill,2009,114
+Public Assistance Programs,Rocky Hill,2010,95
+Public Assistance Programs,Rocky Hill,2011,144
+Public Assistance Programs,Rocky Hill,2012,230
+Public Assistance Programs,Rocky Hill,2013,127
+Public Assistance Programs,Simsbury,2009,81
+Public Assistance Programs,Simsbury,2010,55
+Public Assistance Programs,Simsbury,2011,71
+Public Assistance Programs,Simsbury,2012,100
+Public Assistance Programs,Simsbury,2013,61
+Public Assistance Programs,Somers,2009,27
+Public Assistance Programs,Somers,2010,37
+Public Assistance Programs,Somers,2011,34
+Public Assistance Programs,Somers,2012,53
+Public Assistance Programs,Somers,2013,44
+Public Assistance Programs,South Windsor,2009,86
+Public Assistance Programs,South Windsor,2010,97
+Public Assistance Programs,South Windsor,2011,110
+Public Assistance Programs,South Windsor,2012,125
+Public Assistance Programs,South Windsor,2013,102
+Public Assistance Programs,Stafford,2009,99
+Public Assistance Programs,Stafford,2010,78
+Public Assistance Programs,Stafford,2011,76
+Public Assistance Programs,Stafford,2012,91
+Public Assistance Programs,Stafford,2013,61
+Public Assistance Programs,Suffield,2009,44
+Public Assistance Programs,Suffield,2010,39
+Public Assistance Programs,Suffield,2011,31
+Public Assistance Programs,Suffield,2012,120
+Public Assistance Programs,Suffield,2013,79
+Public Assistance Programs,Tolland,2009,41
+Public Assistance Programs,Tolland,2010,35
+Public Assistance Programs,Tolland,2011,35
+Public Assistance Programs,Tolland,2012,46
+Public Assistance Programs,Tolland,2013,38
+Public Assistance Programs,Vernon,2009,254
+Public Assistance Programs,Vernon,2010,309
+Public Assistance Programs,Vernon,2011,304
+Public Assistance Programs,Vernon,2012,439
+Public Assistance Programs,Vernon,2013,314
+Public Assistance Programs,West Hartford,2009,290
+Public Assistance Programs,West Hartford,2010,281
+Public Assistance Programs,West Hartford,2011,313
+Public Assistance Programs,West Hartford,2012,706
+Public Assistance Programs,West Hartford,2013,458
+Public Assistance Programs,Wethersfield,2009,141
+Public Assistance Programs,Wethersfield,2010,149
+Public Assistance Programs,Wethersfield,2011,157
+Public Assistance Programs,Wethersfield,2012,358
+Public Assistance Programs,Wethersfield,2013,206
+Public Assistance Programs,Windsor,2009,292
+Public Assistance Programs,Windsor,2010,209
+Public Assistance Programs,Windsor,2011,223
+Public Assistance Programs,Windsor,2012,553
+Public Assistance Programs,Windsor,2013,348
+Public Assistance Programs,Windsor Locks,2009,104
+Public Assistance Programs,Windsor Locks,2010,92
+Public Assistance Programs,Windsor Locks,2011,102
+Public Assistance Programs,Windsor Locks,2012,226
+Public Assistance Programs,Windsor Locks,2013,183
+Social Insurance Programs,Somers,2009,9
+Social Insurance Programs,Somers,2010,4
+Social Insurance Programs,Somers,2011,7
+Social Insurance Programs,Somers,2012,5
+Social Insurance Programs,Somers,2013,4
+Substance Abuse Services,Avon,2009,31
+Substance Abuse Services,Avon,2010,18
+Substance Abuse Services,Avon,2011,18
+Substance Abuse Services,Avon,2012,20
+Substance Abuse Services,Avon,2013,4
+Substance Abuse Services,Bloomfield,2009,55
+Substance Abuse Services,Bloomfield,2010,64
+Substance Abuse Services,Bloomfield,2011,51
+Substance Abuse Services,Bloomfield,2012,48
+Substance Abuse Services,Bloomfield,2013,26
+Substance Abuse Services,Bolton,2009,19
+Substance Abuse Services,Bolton,2010,10
+Substance Abuse Services,Bolton,2011,9
+Substance Abuse Services,Bolton,2012,7
+Substance Abuse Services,Bolton,2013,5
+Substance Abuse Services,Canton,2009,23
+Substance Abuse Services,Canton,2010,32
+Substance Abuse Services,Canton,2011,12
+Substance Abuse Services,Canton,2012,20
+Substance Abuse Services,Canton,2013,11
+Substance Abuse Services,East  Hartford,2009,466
+Substance Abuse Services,East  Hartford,2010,410
+Substance Abuse Services,East  Hartford,2011,322
+Substance Abuse Services,East  Hartford,2012,315
+Substance Abuse Services,East  Hartford,2013,218
+Substance Abuse Services,East Granby,2009,10
+Substance Abuse Services,East Granby,2010,10
+Substance Abuse Services,East Granby,2011,13
+Substance Abuse Services,East Granby,2012,9
+Substance Abuse Services,East Granby,2013,8
+Substance Abuse Services,East Windsor,2009,50
+Substance Abuse Services,East Windsor,2010,37
+Substance Abuse Services,East Windsor,2011,31
+Substance Abuse Services,East Windsor,2012,19
+Substance Abuse Services,East Windsor,2013,25
+Substance Abuse Services,Ellington,2009,37
+Substance Abuse Services,Ellington,2010,45
+Substance Abuse Services,Ellington,2011,31
+Substance Abuse Services,Ellington,2012,25
+Substance Abuse Services,Ellington,2013,19
+Substance Abuse Services,Enfield,2009,276
+Substance Abuse Services,Enfield,2010,205
+Substance Abuse Services,Enfield,2011,140
+Substance Abuse Services,Enfield,2012,158
+Substance Abuse Services,Enfield,2013,123
+Substance Abuse Services,Farmington,2009,59
+Substance Abuse Services,Farmington,2010,75
+Substance Abuse Services,Farmington,2011,77
+Substance Abuse Services,Farmington,2012,38
+Substance Abuse Services,Farmington,2013,34
+Substance Abuse Services,Glastonbury,2009,134
+Substance Abuse Services,Glastonbury,2010,90
+Substance Abuse Services,Glastonbury,2011,92
+Substance Abuse Services,Glastonbury,2012,48
+Substance Abuse Services,Glastonbury,2013,45
+Substance Abuse Services,Granby,2009,30
+Substance Abuse Services,Granby,2010,25
+Substance Abuse Services,Granby,2011,19
+Substance Abuse Services,Granby,2012,18
+Substance Abuse Services,Granby,2013,4
+Substance Abuse Services,Hartford,2009,2507
+Substance Abuse Services,Hartford,2010,2155
+Substance Abuse Services,Hartford,2011,2089
+Substance Abuse Services,Hartford,2012,1867
+Substance Abuse Services,Hartford,2013,1169
+Substance Abuse Services,Hebron,2009,29
+Substance Abuse Services,Hebron,2010,18
+Substance Abuse Services,Hebron,2011,11
+Substance Abuse Services,Hebron,2012,17
+Substance Abuse Services,Hebron,2013,6
+Substance Abuse Services,Manchester,2009,507
+Substance Abuse Services,Manchester,2010,434
+Substance Abuse Services,Manchester,2011,299
+Substance Abuse Services,Manchester,2012,347
+Substance Abuse Services,Manchester,2013,196
+Substance Abuse Services,Marlborough,2009,27
+Substance Abuse Services,Marlborough,2010,16
+Substance Abuse Services,Marlborough,2011,15
+Substance Abuse Services,Marlborough,2012,16
+Substance Abuse Services,Marlborough,2013,8
+Substance Abuse Services,Newington,2009,149
+Substance Abuse Services,Newington,2010,109
+Substance Abuse Services,Newington,2011,128
+Substance Abuse Services,Newington,2012,87
+Substance Abuse Services,Newington,2013,73
+Substance Abuse Services,Rocky Hill,2009,88
+Substance Abuse Services,Rocky Hill,2010,65
+Substance Abuse Services,Rocky Hill,2011,70
+Substance Abuse Services,Rocky Hill,2012,47
+Substance Abuse Services,Rocky Hill,2013,27
+Substance Abuse Services,Simsbury,2009,20
+Substance Abuse Services,Simsbury,2010,23
+Substance Abuse Services,Simsbury,2011,51
+Substance Abuse Services,Simsbury,2012,17
+Substance Abuse Services,Simsbury,2013,18
+Substance Abuse Services,Somers,2009,14
+Substance Abuse Services,Somers,2010,26
+Substance Abuse Services,Somers,2011,17
+Substance Abuse Services,Somers,2012,17
+Substance Abuse Services,Somers,2013,12
+Substance Abuse Services,South Windsor,2009,50
+Substance Abuse Services,South Windsor,2010,75
+Substance Abuse Services,South Windsor,2011,47
+Substance Abuse Services,South Windsor,2012,51
+Substance Abuse Services,South Windsor,2013,33
+Substance Abuse Services,Stafford,2009,36
+Substance Abuse Services,Stafford,2010,49
+Substance Abuse Services,Stafford,2011,42
+Substance Abuse Services,Stafford,2012,33
+Substance Abuse Services,Stafford,2013,32
+Substance Abuse Services,Suffield,2009,26
+Substance Abuse Services,Suffield,2010,39
+Substance Abuse Services,Suffield,2011,23
+Substance Abuse Services,Suffield,2012,22
+Substance Abuse Services,Suffield,2013,19
+Substance Abuse Services,Tolland,2009,30
+Substance Abuse Services,Tolland,2010,20
+Substance Abuse Services,Tolland,2011,18
+Substance Abuse Services,Tolland,2012,14
+Substance Abuse Services,Tolland,2013,6
+Substance Abuse Services,Vernon,2009,227
+Substance Abuse Services,Vernon,2010,150
+Substance Abuse Services,Vernon,2011,127
+Substance Abuse Services,Vernon,2012,129
+Substance Abuse Services,Vernon,2013,88
+Substance Abuse Services,West Hartford,2009,191
+Substance Abuse Services,West Hartford,2010,143
+Substance Abuse Services,West Hartford,2011,136
+Substance Abuse Services,West Hartford,2012,133
+Substance Abuse Services,West Hartford,2013,101
+Substance Abuse Services,Wethersfield,2009,116
+Substance Abuse Services,Wethersfield,2010,103
+Substance Abuse Services,Wethersfield,2011,78
+Substance Abuse Services,Wethersfield,2012,48
+Substance Abuse Services,Wethersfield,2013,59
+Substance Abuse Services,Windsor,2009,134
+Substance Abuse Services,Windsor,2010,94
+Substance Abuse Services,Windsor,2011,84
+Substance Abuse Services,Windsor,2012,71
+Substance Abuse Services,Windsor,2013,27
+Substance Abuse Services,Windsor Locks,2009,56
+Substance Abuse Services,Windsor Locks,2010,40
+Substance Abuse Services,Windsor Locks,2011,45
+Substance Abuse Services,Windsor Locks,2012,43
+Substance Abuse Services,Windsor Locks,2013,33
+Tax Organizations and Services,Bloomfield,2009,99
+Tax Organizations and Services,Bloomfield,2010,109
+Tax Organizations and Services,Bloomfield,2011,150
+Tax Organizations and Services,Bloomfield,2012,171
+Tax Organizations and Services,Bloomfield,2013,157
+Tax Organizations and Services,East  Hartford,2009,511
+Tax Organizations and Services,East  Hartford,2010,480
+Tax Organizations and Services,East  Hartford,2011,603
+Tax Organizations and Services,East  Hartford,2012,653
+Tax Organizations and Services,East  Hartford,2013,622
+Tax Organizations and Services,East Windsor,2009,38
+Tax Organizations and Services,East Windsor,2010,29
+Tax Organizations and Services,East Windsor,2011,31
+Tax Organizations and Services,East Windsor,2012,22
+Tax Organizations and Services,East Windsor,2013,22
+Tax Organizations and Services,Enfield,2009,68
+Tax Organizations and Services,Enfield,2010,64
+Tax Organizations and Services,Enfield,2011,86
+Tax Organizations and Services,Enfield,2012,61
+Tax Organizations and Services,Enfield,2013,72
+Tax Organizations and Services,Glastonbury,2009,25
+Tax Organizations and Services,Glastonbury,2010,20
+Tax Organizations and Services,Glastonbury,2011,37
+Tax Organizations and Services,Glastonbury,2012,32
+Tax Organizations and Services,Glastonbury,2013,32
+Tax Organizations and Services,Hartford,2009,2317
+Tax Organizations and Services,Hartford,2010,2439
+Tax Organizations and Services,Hartford,2011,2779
+Tax Organizations and Services,Hartford,2012,3090
+Tax Organizations and Services,Hartford,2013,3304
+Tax Organizations and Services,Manchester,2009,244
+Tax Organizations and Services,Manchester,2010,261
+Tax Organizations and Services,Manchester,2011,395
+Tax Organizations and Services,Manchester,2012,454
+Tax Organizations and Services,Manchester,2013,462
+Tax Organizations and Services,Newington,2009,45
+Tax Organizations and Services,Newington,2010,51
+Tax Organizations and Services,Newington,2011,54
+Tax Organizations and Services,Newington,2012,45
+Tax Organizations and Services,Newington,2013,51
+Tax Organizations and Services,Simsbury,2009,15
+Tax Organizations and Services,Simsbury,2010,9
+Tax Organizations and Services,Simsbury,2011,12
+Tax Organizations and Services,Simsbury,2012,11
+Tax Organizations and Services,Simsbury,2013,12
+Tax Organizations and Services,South Windsor,2009,15
+Tax Organizations and Services,South Windsor,2010,22
+Tax Organizations and Services,South Windsor,2011,20
+Tax Organizations and Services,South Windsor,2012,39
+Tax Organizations and Services,South Windsor,2013,44
+Tax Organizations and Services,Vernon,2009,77
+Tax Organizations and Services,Vernon,2010,61
+Tax Organizations and Services,Vernon,2011,109
+Tax Organizations and Services,Vernon,2012,133
+Tax Organizations and Services,Vernon,2013,123
+Tax Organizations and Services,West Hartford,2009,170
+Tax Organizations and Services,West Hartford,2010,138
+Tax Organizations and Services,West Hartford,2011,180
+Tax Organizations and Services,West Hartford,2012,203
+Tax Organizations and Services,West Hartford,2013,216
+Tax Organizations and Services,Wethersfield,2009,60
+Tax Organizations and Services,Wethersfield,2010,66
+Tax Organizations and Services,Wethersfield,2011,75
+Tax Organizations and Services,Wethersfield,2012,75
+Tax Organizations and Services,Wethersfield,2013,82
+Tax Organizations and Services,Windsor,2009,120
+Tax Organizations and Services,Windsor,2010,102
+Tax Organizations and Services,Windsor,2011,132
+Tax Organizations and Services,Windsor,2012,140
+Tax Organizations and Services,Windsor,2013,113
+Tax Organizations and Services,Windsor Locks,2009,16
+Tax Organizations and Services,Windsor Locks,2010,18
+Tax Organizations and Services,Windsor Locks,2011,20
+Tax Organizations and Services,Windsor Locks,2012,30
+Tax Organizations and Services,Windsor Locks,2013,31
+Transportation ,East Windsor,2009,26
+Transportation ,East Windsor,2010,31
+Transportation ,East Windsor,2011,30
+Transportation ,East Windsor,2012,19
+Transportation ,East Windsor,2013,10
+Transportation ,Enfield,2009,67
+Transportation ,Enfield,2010,57
+Transportation ,Enfield,2011,69
+Transportation ,Enfield,2012,59
+Transportation ,Enfield,2013,44
+Transportation ,Farmington,2009,31
+Transportation ,Farmington,2010,37
+Transportation ,Farmington,2011,49
+Transportation ,Farmington,2012,27
+Transportation ,Farmington,2013,16
+Transportation ,Glastonbury,2009,74
+Transportation ,Glastonbury,2010,30
+Transportation ,Glastonbury,2011,33
+Transportation ,Glastonbury,2012,26
+Transportation ,Glastonbury,2013,16
+Transportation ,Manchester,2009,133
+Transportation ,Manchester,2010,133
+Transportation ,Manchester,2011,145
+Transportation ,Manchester,2012,171
+Transportation ,Manchester,2013,108
+Transportation ,Simsbury,2009,16
+Transportation ,Simsbury,2010,13
+Transportation ,Simsbury,2011,11
+Transportation ,Simsbury,2012,13
+Transportation ,Simsbury,2013,6
+Transportation ,Vernon,2009,63
+Transportation ,Vernon,2010,66
+Transportation ,Vernon,2011,71
+Transportation ,Vernon,2012,93
+Transportation ,Vernon,2013,51
+Transportation ,Windsor Locks,2009,25
+Transportation ,Windsor Locks,2010,14
+Transportation ,Windsor Locks,2011,42
+Transportation ,Windsor Locks,2012,23
+Transportation ,Windsor Locks,2013,18
+Utilities/Heat ,Andover,2009,27
+Utilities/Heat ,Andover,2010,29
+Utilities/Heat ,Andover,2011,12
+Utilities/Heat ,Andover,2012,24
+Utilities/Heat ,Andover,2013,18
+Utilities/Heat ,Avon,2009,63
+Utilities/Heat ,Avon,2010,54
+Utilities/Heat ,Avon,2011,55
+Utilities/Heat ,Avon,2012,34
+Utilities/Heat ,Avon,2013,26
+Utilities/Heat ,Bloomfield,2009,424
+Utilities/Heat ,Bloomfield,2010,347
+Utilities/Heat ,Bloomfield,2011,429
+Utilities/Heat ,Bloomfield,2012,369
+Utilities/Heat ,Bloomfield,2013,210
+Utilities/Heat ,Bolton,2009,34
+Utilities/Heat ,Bolton,2010,29
+Utilities/Heat ,Bolton,2011,45
+Utilities/Heat ,Bolton,2012,34
+Utilities/Heat ,Bolton,2013,16
+Utilities/Heat ,Canton,2009,61
+Utilities/Heat ,Canton,2010,40
+Utilities/Heat ,Canton,2011,41
+Utilities/Heat ,Canton,2012,32
+Utilities/Heat ,Canton,2013,12
+Utilities/Heat ,East  Hartford,2009,2141
+Utilities/Heat ,East  Hartford,2010,1976
+Utilities/Heat ,East  Hartford,2011,1986
+Utilities/Heat ,East  Hartford,2012,1696
+Utilities/Heat ,East  Hartford,2013,924
+Utilities/Heat ,East Granby,2009,55
+Utilities/Heat ,East Granby,2010,35
+Utilities/Heat ,East Granby,2011,49
+Utilities/Heat ,East Granby,2012,22
+Utilities/Heat ,East Granby,2013,16
+Utilities/Heat ,East Windsor,2009,203
+Utilities/Heat ,East Windsor,2010,149
+Utilities/Heat ,East Windsor,2011,167
+Utilities/Heat ,East Windsor,2012,106
+Utilities/Heat ,East Windsor,2013,52
+Utilities/Heat ,Ellington,2009,128
+Utilities/Heat ,Ellington,2010,105
+Utilities/Heat ,Ellington,2011,91
+Utilities/Heat ,Ellington,2012,88
+Utilities/Heat ,Ellington,2013,40
+Utilities/Heat ,Enfield,2009,721
+Utilities/Heat ,Enfield,2010,629
+Utilities/Heat ,Enfield,2011,631
+Utilities/Heat ,Enfield,2012,501
+Utilities/Heat ,Enfield,2013,268
+Utilities/Heat ,Farmington,2009,147
+Utilities/Heat ,Farmington,2010,138
+Utilities/Heat ,Farmington,2011,150
+Utilities/Heat ,Farmington,2012,106
+Utilities/Heat ,Farmington,2013,62
+Utilities/Heat ,Glastonbury,2009,147
+Utilities/Heat ,Glastonbury,2010,126
+Utilities/Heat ,Glastonbury,2011,134
+Utilities/Heat ,Glastonbury,2012,91
+Utilities/Heat ,Glastonbury,2013,60
+Utilities/Heat ,Granby,2009,43
+Utilities/Heat ,Granby,2010,25
+Utilities/Heat ,Granby,2011,52
+Utilities/Heat ,Granby,2012,37
+Utilities/Heat ,Granby,2013,15
+Utilities/Heat ,Hartford,2009,7187
+Utilities/Heat ,Hartford,2010,7005
+Utilities/Heat ,Hartford,2011,6940
+Utilities/Heat ,Hartford,2012,6091
+Utilities/Heat ,Hartford,2013,3379
+Utilities/Heat ,Hebron,2009,59
+Utilities/Heat ,Hebron,2010,40
+Utilities/Heat ,Hebron,2011,45
+Utilities/Heat ,Hebron,2012,42
+Utilities/Heat ,Hebron,2013,13
+Utilities/Heat ,Manchester,2009,1489
+Utilities/Heat ,Manchester,2010,1343
+Utilities/Heat ,Manchester,2011,1265
+Utilities/Heat ,Manchester,2012,1025
+Utilities/Heat ,Manchester,2013,621
+Utilities/Heat ,Marlborough,2009,43
+Utilities/Heat ,Marlborough,2010,28
+Utilities/Heat ,Marlborough,2011,33
+Utilities/Heat ,Marlborough,2012,20
+Utilities/Heat ,Marlborough,2013,7
+Utilities/Heat ,Newington,2009,256
+Utilities/Heat ,Newington,2010,196
+Utilities/Heat ,Newington,2011,210
+Utilities/Heat ,Newington,2012,170
+Utilities/Heat ,Newington,2013,87
+Utilities/Heat ,Rocky Hill,2009,117
+Utilities/Heat ,Rocky Hill,2010,107
+Utilities/Heat ,Rocky Hill,2011,123
+Utilities/Heat ,Rocky Hill,2012,69
+Utilities/Heat ,Rocky Hill,2013,50
+Utilities/Heat ,Simsbury,2009,106
+Utilities/Heat ,Simsbury,2010,72
+Utilities/Heat ,Simsbury,2011,96
+Utilities/Heat ,Simsbury,2012,67
+Utilities/Heat ,Simsbury,2013,27
+Utilities/Heat ,Somers,2009,64
+Utilities/Heat ,Somers,2010,72
+Utilities/Heat ,Somers,2011,76
+Utilities/Heat ,Somers,2012,61
+Utilities/Heat ,Somers,2013,31
+Utilities/Heat ,South Windsor,2009,148
+Utilities/Heat ,South Windsor,2010,125
+Utilities/Heat ,South Windsor,2011,144
+Utilities/Heat ,South Windsor,2012,106
+Utilities/Heat ,South Windsor,2013,61
+Utilities/Heat ,Stafford,2009,166
+Utilities/Heat ,Stafford,2010,125
+Utilities/Heat ,Stafford,2011,140
+Utilities/Heat ,Stafford,2012,112
+Utilities/Heat ,Stafford,2013,57
+Utilities/Heat ,Suffield,2009,79
+Utilities/Heat ,Suffield,2010,41
+Utilities/Heat ,Suffield,2011,57
+Utilities/Heat ,Suffield,2012,60
+Utilities/Heat ,Suffield,2013,25
+Utilities/Heat ,Tolland,2009,72
+Utilities/Heat ,Tolland,2010,47
+Utilities/Heat ,Tolland,2011,51
+Utilities/Heat ,Tolland,2012,62
+Utilities/Heat ,Tolland,2013,31
+Utilities/Heat ,Vernon,2009,630
+Utilities/Heat ,Vernon,2010,655
+Utilities/Heat ,Vernon,2011,584
+Utilities/Heat ,Vernon,2012,499
+Utilities/Heat ,Vernon,2013,272
+Utilities/Heat ,West Hartford,2009,603
+Utilities/Heat ,West Hartford,2010,469
+Utilities/Heat ,West Hartford,2011,586
+Utilities/Heat ,West Hartford,2012,407
+Utilities/Heat ,West Hartford,2013,218
+Utilities/Heat ,Wethersfield,2009,233
+Utilities/Heat ,Wethersfield,2010,177
+Utilities/Heat ,Wethersfield,2011,197
+Utilities/Heat ,Wethersfield,2012,177
+Utilities/Heat ,Wethersfield,2013,87
+Utilities/Heat ,Windsor,2009,648
+Utilities/Heat ,Windsor,2010,444
+Utilities/Heat ,Windsor,2011,556
+Utilities/Heat ,Windsor,2012,437
+Utilities/Heat ,Windsor,2013,253
+Utilities/Heat ,Windsor Locks,2009,178
+Utilities/Heat ,Windsor Locks,2010,132
+Utilities/Heat ,Windsor Locks,2011,161
+Utilities/Heat ,Windsor Locks,2012,153
+Utilities/Heat ,Windsor Locks,2013,87

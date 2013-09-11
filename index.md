@@ -11,7 +11,7 @@ mode        : selfcontained # {standalone, draft}
 
 --- &twocol
 
-## Suburbanizing, not urbanizing
+## Population: Suburbanizing, not urbanizing
 
 *** =left
 
@@ -37,7 +37,7 @@ periphery towns like West Hartford and Windsor.
       var opts = {
  "dom": "chart1",
 "width":    500,
-"height":    400,
+"height":    500,
 "x": "period",
 "y": "sumpop",
 "group": "type",
@@ -271,7 +271,8 @@ periphery towns like West Hartford and Windsor.
 
         
         
-        
+        chart.yAxis
+  .tickFormat(function(d) {return d3.format(',.0f')(d)})
       
        d3.select("#" + opts.id)
         .append('svg')
@@ -288,7 +289,7 @@ periphery towns like West Hartford and Windsor.
 
 --- .class #id &twocol
 
-## Suburban poverty on the rise
+## Population: Suburban poverty on the rise
 
 *** =left
 
@@ -310,7 +311,7 @@ At the same time, the number of people living in poverty in the suburbs has incr
       var opts = {
  "dom": "chart2",
 "width":    500,
-"height":    400,
+"height":    500,
 "x": "period",
 "y": "sumpoor",
 "group": "type",
@@ -400,7 +401,8 @@ At the same time, the number of people living in poverty in the suburbs has incr
 
         
         
-        
+        chart.yAxis
+  .tickFormat(function(d) {return d3.format(',.0f')(d)})
       
        d3.select("#" + opts.id)
         .append('svg')
@@ -417,13 +419,13 @@ At the same time, the number of people living in poverty in the suburbs has incr
 
 --- .class #id 
 
-## Increasing racial / ethnic diversity in the suburbs
+## Population: Increasing racial / ethnic diversity in the suburbs
 
 While outer ring suburbs, like Tolland and Simsbury, are still predominantly white, there are corridors of diversity through East Hartford and Manchester, north into Bloomfield and Windsor and connecting Hartford and New Britain. [will add map]
 
 --- .class #id 
 
-## Where do Hartford area kids go to school?
+## Education: Where do Hartford area kids go to school?
 
 The Hartford area is characterized by school choice - magnet, charter and private schools draw in 1 in 7 students from the region. Parents choose to go beyond the local school system more often in higher grades and in towns with higher income inequality. In Bloomfield, for instance, 50 percent of parents send their children to magnet or private schools by 10th grade. 
 
@@ -432,7 +434,7 @@ The Hartford area is characterized by school choice - magnet, charter and privat
 
 --- .class #id 
 
-## Gaps in education persist during school years
+## Education: Gaps in education persist during school years
 
 Suburban schools are among the best performing in the state at all grade levels. However, gaps between the eight 'Alliance districts' in the region are prominent during the K – 8 period. The level of pre-K experience varies greatly across districts. 
 
@@ -442,7 +444,7 @@ Suburban schools are among the best performing in the state at all grade levels.
 
 --- .class #id 
 
-## A regional workforce, centered on Hartford
+## Workforce: A regional workforce, centered on Hartford
 
 Most towns in the region have a high percentage of commuters – over 75 percent in every town except Hartford. 21% of the workforce (or 70,000) commute to Hartford for their jobs, while Enfield, Manchester and Simsbury also act as local hubs for employment.
 
@@ -451,7 +453,7 @@ Most towns in the region have a high percentage of commuters – over 75 percent
 
 --- .class #id 
 
-## Commuting alone
+## Workforce: Commuting alone
 
 For those that do commute, driving alone is an increasingly frequent means of transport, instead of alternatives like carpooling, public transit or walking. As of 2000, 83 percent drove to work alone (compared to 67 percent in 1980), one of the highest rates compared to other metro areas in the country. 
 
@@ -460,7 +462,7 @@ For those that do commute, driving alone is an increasingly frequent means of tr
 
 --- .class #id 
 
-## Persistent and widening gaps in employment
+## Workforce: Persistent and widening gaps in employment
 
 Hartford, East Hartford, Bloomfield and East Windsor have had higher-than-average unemployment for the past decade. The gap between these towns and the rest of the region has widened, as most suburban towns have experienced relatively low unemployment.
 
@@ -5623,10 +5625,9 @@ Hartford, East Hartford, Bloomfield and East Windsor have had higher-than-averag
 </script>
 
 
-
 --- .class #id &twocol
 
-## What are the needs in our region?
+## Basic needs: What are the needs in our region?
 
 *** =left
 

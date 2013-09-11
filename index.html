@@ -55,7 +55,7 @@
     <!-- SLIDES -->
     <slide class="" id="slide-1" style="background:;">
   <hgroup>
-    <h2>Suburbanizing, not urbanizing</h2>
+    <h2>Population: Suburbanizing, not urbanizing</h2>
   </hgroup>
   <article data-timings="">
     
@@ -78,7 +78,7 @@ periphery towns like West Hartford and Windsor.</p>
       var opts = {
  "dom": "chart1",
 "width":    500,
-"height":    400,
+"height":    500,
 "x": "period",
 "y": "sumpop",
 "group": "type",
@@ -312,7 +312,8 @@ periphery towns like West Hartford and Windsor.</p>
 
         
         
-        
+        chart.yAxis
+  .tickFormat(function(d) {return d3.format(',.0f')(d)})
       
        d3.select("#" + opts.id)
         .append('svg')
@@ -333,7 +334,7 @@ periphery towns like West Hartford and Windsor.</p>
 
 <slide class="class" id="id" style="background:;">
   <hgroup>
-    <h2>Suburban poverty on the rise</h2>
+    <h2>Population: Suburban poverty on the rise</h2>
   </hgroup>
   <article data-timings="">
     
@@ -356,7 +357,7 @@ periphery towns like West Hartford and Windsor.</p>
       var opts = {
  "dom": "chart2",
 "width":    500,
-"height":    400,
+"height":    500,
 "x": "period",
 "y": "sumpoor",
 "group": "type",
@@ -446,7 +447,8 @@ periphery towns like West Hartford and Windsor.</p>
 
         
         
-        
+        chart.yAxis
+  .tickFormat(function(d) {return d3.format(',.0f')(d)})
       
        d3.select("#" + opts.id)
         .append('svg')
@@ -467,7 +469,7 @@ periphery towns like West Hartford and Windsor.</p>
 
 <slide class="class" id="id" style="background:;">
   <hgroup>
-    <h2>Increasing racial / ethnic diversity in the suburbs</h2>
+    <h2>Population: Increasing racial / ethnic diversity in the suburbs</h2>
   </hgroup>
   <article data-timings="">
     <p>While outer ring suburbs, like Tolland and Simsbury, are still predominantly white, there are corridors of diversity through East Hartford and Manchester, north into Bloomfield and Windsor and connecting Hartford and New Britain. [will add map]</p>
@@ -478,7 +480,7 @@ periphery towns like West Hartford and Windsor.</p>
 
 <slide class="class" id="id" style="background:;">
   <hgroup>
-    <h2>Where do Hartford area kids go to school?</h2>
+    <h2>Education: Where do Hartford area kids go to school?</h2>
   </hgroup>
   <article data-timings="">
     <p>The Hartford area is characterized by school choice - magnet, charter and private schools draw in 1 in 7 students from the region. Parents choose to go beyond the local school system more often in higher grades and in towns with higher income inequality. In Bloomfield, for instance, 50 percent of parents send their children to magnet or private schools by 10th grade. </p>
@@ -491,7 +493,7 @@ periphery towns like West Hartford and Windsor.</p>
 
 <slide class="class" id="id" style="background:;">
   <hgroup>
-    <h2>Gaps in education persist during school years</h2>
+    <h2>Education: Gaps in education persist during school years</h2>
   </hgroup>
   <article data-timings="">
     <p>Suburban schools are among the best performing in the state at all grade levels. However, gaps between the eight &#39;Alliance districts&#39; in the region are prominent during the K – 8 period. The level of pre-K experience varies greatly across districts. </p>
@@ -504,7 +506,7 @@ periphery towns like West Hartford and Windsor.</p>
 
 <slide class="class" id="id" style="background:;">
   <hgroup>
-    <h2>A regional workforce, centered on Hartford</h2>
+    <h2>Workforce: A regional workforce, centered on Hartford</h2>
   </hgroup>
   <article data-timings="">
     <p>Most towns in the region have a high percentage of commuters – over 75 percent in every town except Hartford. 21% of the workforce (or 70,000) commute to Hartford for their jobs, while Enfield, Manchester and Simsbury also act as local hubs for employment.</p>
@@ -517,7 +519,7 @@ periphery towns like West Hartford and Windsor.</p>
 
 <slide class="class" id="id" style="background:;">
   <hgroup>
-    <h2>Commuting alone</h2>
+    <h2>Workforce: Commuting alone</h2>
   </hgroup>
   <article data-timings="">
     <p>For those that do commute, driving alone is an increasingly frequent means of transport, instead of alternatives like carpooling, public transit or walking. As of 2000, 83 percent drove to work alone (compared to 67 percent in 1980), one of the highest rates compared to other metro areas in the country. </p>
@@ -530,7 +532,7 @@ periphery towns like West Hartford and Windsor.</p>
 
 <slide class="class" id="id" style="background:;">
   <hgroup>
-    <h2>Persistent and widening gaps in employment</h2>
+    <h2>Workforce: Persistent and widening gaps in employment</h2>
   </hgroup>
   <article data-timings="">
     <p>Hartford, East Hartford, Bloomfield and East Windsor have had higher-than-average unemployment for the past decade. The gap between these towns and the rest of the region has widened, as most suburban towns have experienced relatively low unemployment.</p>
@@ -5699,7 +5701,7 @@ periphery towns like West Hartford and Windsor.</p>
 
 <slide class="class" id="id" style="background:;">
   <hgroup>
-    <h2>What are the needs in our region?</h2>
+    <h2>Basic needs: What are the needs in our region?</h2>
   </hgroup>
   <article data-timings="">
     
@@ -5741,55 +5743,55 @@ periphery towns like West Hartford and Windsor.</p>
     <ul>
       <li>
       <a href="#" target="_self" rel='tooltip' 
-        data-slide=1 title='Suburbanizing, not urbanizing'>
+        data-slide=1 title='Population: Suburbanizing, not urbanizing'>
          1
       </a>
     </li>
     <li>
       <a href="#" target="_self" rel='tooltip' 
-        data-slide=2 title='Suburban poverty on the rise'>
+        data-slide=2 title='Population: Suburban poverty on the rise'>
          2
       </a>
     </li>
     <li>
       <a href="#" target="_self" rel='tooltip' 
-        data-slide=3 title='Increasing racial / ethnic diversity in the suburbs'>
+        data-slide=3 title='Population: Increasing racial / ethnic diversity in the suburbs'>
          3
       </a>
     </li>
     <li>
       <a href="#" target="_self" rel='tooltip' 
-        data-slide=4 title='Where do Hartford area kids go to school?'>
+        data-slide=4 title='Education: Where do Hartford area kids go to school?'>
          4
       </a>
     </li>
     <li>
       <a href="#" target="_self" rel='tooltip' 
-        data-slide=5 title='Gaps in education persist during school years'>
+        data-slide=5 title='Education: Gaps in education persist during school years'>
          5
       </a>
     </li>
     <li>
       <a href="#" target="_self" rel='tooltip' 
-        data-slide=6 title='A regional workforce, centered on Hartford'>
+        data-slide=6 title='Workforce: A regional workforce, centered on Hartford'>
          6
       </a>
     </li>
     <li>
       <a href="#" target="_self" rel='tooltip' 
-        data-slide=7 title='Commuting alone'>
+        data-slide=7 title='Workforce: Commuting alone'>
          7
       </a>
     </li>
     <li>
       <a href="#" target="_self" rel='tooltip' 
-        data-slide=8 title='Persistent and widening gaps in employment'>
+        data-slide=8 title='Workforce: Persistent and widening gaps in employment'>
          8
       </a>
     </li>
     <li>
       <a href="#" target="_self" rel='tooltip' 
-        data-slide=9 title='What are the needs in our region?'>
+        data-slide=9 title='Basic needs: What are the needs in our region?'>
          9
       </a>
     </li>

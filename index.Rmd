@@ -11,7 +11,7 @@ mode        : selfcontained # {standalone, draft}
 
 --- &twocol
 
-## Suburbanizing, not urbanizing
+## Population: Suburbanizing, not urbanizing
 
 *** =left
 
@@ -30,18 +30,18 @@ knitr::opts_chunk$set(comment = NA, results = 'asis', tidy = F, message = T)
  
  
 ```{r chart1, echo=FALSE, fig.width=7, fig.height=7}
-n1 <- nPlot(y = 'sumpop', x = 'period', width = 500, height = 400,
-            yAxis = c(0,50000,100000,150000,200000,250000,300000,400000,500000,600000),
+n1 <- nPlot(y = 'sumpop', x = 'period', width = 500, height = 500,
             group = 'type',
             data = gh_sum,
             type = 'lineChart')
 n1$xAxis(axisLabel='Year')
+n1$yAxis(tickFormat = "#!function(d) {return d3.format(',.0f')(d)}!#")
 n1$print("chart1")
 ```
 
 --- .class #id &twocol
 
-## Suburban poverty on the rise
+## Population: Suburban poverty on the rise
 
 *** =left
 
@@ -54,23 +54,24 @@ At the same time, the number of people living in poverty in the suburbs has incr
 *** =right  
  
 ```{r chart2, echo=FALSE, fig.width=7, fig.height=7}
-n2 <- nPlot(y = 'sumpoor', x = 'period', width = 500, height = 400,
+n2 <- nPlot(y = 'sumpoor', x = 'period', width = 500, height = 500,
             group = 'type',
             data = subset(gh_sum,period >= 1970),
             type = 'lineChart')
+n2$yAxis(tickFormat = "#!function(d) {return d3.format(',.0f')(d)}!#")
 n2$xAxis(axisLabel='Year')
 n2$print("chart2")
 ```
 
 --- .class #id 
 
-## Increasing racial / ethnic diversity in the suburbs
+## Population: Increasing racial / ethnic diversity in the suburbs
 
 While outer ring suburbs, like Tolland and Simsbury, are still predominantly white, there are corridors of diversity through East Hartford and Manchester, north into Bloomfield and Windsor and connecting Hartford and New Britain. [will add map]
 
 --- .class #id 
 
-## Where do Hartford area kids go to school?
+## Education: Where do Hartford area kids go to school?
 
 The Hartford area is characterized by school choice - magnet, charter and private schools draw in 1 in 7 students from the region. Parents choose to go beyond the local school system more often in higher grades and in towns with higher income inequality. In Bloomfield, for instance, 50 percent of parents send their children to magnet or private schools by 10th grade. 
 
@@ -89,7 +90,7 @@ ggplot(data = subset(enroll, School.Year == "2010-11" & variable != "Total"),
 
 --- .class #id 
 
-## Gaps in education persist during school years
+## Education: Gaps in education persist during school years
 
 Suburban schools are among the best performing in the state at all grade levels. However, gaps between the eight 'Alliance districts' in the region are prominent during the K – 8 period. The level of pre-K experience varies greatly across districts. 
 
@@ -104,7 +105,7 @@ parallelplot(~parcoords[3:8], parcoords,
 
 --- .class #id 
 
-## A regional workforce, centered on Hartford
+## Workforce: A regional workforce, centered on Hartford
 
 Most towns in the region have a high percentage of commuters – over 75 percent in every town except Hartford. 21% of the workforce (or 70,000) commute to Hartford for their jobs, while Enfield, Manchester and Simsbury also act as local hubs for employment.
 
@@ -124,7 +125,7 @@ ggplot(data = commutemap) +
 
 --- .class #id 
 
-## Commuting alone
+## Workforce: Commuting alone
 
 For those that do commute, driving alone is an increasingly frequent means of transport, instead of alternatives like carpooling, public transit or walking. As of 2000, 83 percent drove to work alone (compared to 67 percent in 1980), one of the highest rates compared to other metro areas in the country. 
 
@@ -141,7 +142,7 @@ ggplot(data = walk, aes(x = Year, y = value)) +
 
 --- .class #id 
 
-## Persistent and widening gaps in employment
+## Workforce: Persistent and widening gaps in employment
 
 Hartford, East Hartford, Bloomfield and East Windsor have had higher-than-average unemployment for the past decade. The gap between these towns and the rest of the region has widened, as most suburban towns have experienced relatively low unemployment.
 
@@ -154,10 +155,9 @@ n3$yAxis(axisLabel='Unemployment rate')
 n3$print("chart3")
 ```
 
-
 --- .class #id &twocol
 
-## What are the needs in our region?
+## Basic needs: What are the needs in our region?
 
 *** =left
 

@@ -1,0 +1,359 @@
+city,county,state,period,medianfamilyincome,poppovertyrate,population
+Andover,Tolland,CT,2000,75000,2.5,3036
+Avon,Hartford,CT,2000,109161,1.7,15832
+Bloomfield,Hartford,CT,2000,64892,7.6,19587
+Bolton,Tolland,CT,2000,78933,2.6,5017
+Canton,Hartford,CT,2000,80533,2.7,8840
+East Granby,Hartford,CT,2000,77621,1.5,4745
+East Hartford,Hartford,CT,2000,50540,10.3,49575
+East Windsor,Hartford,CT,2000,60694,4.1,9818
+Ellington,Tolland,CT,2000,77813,3.6,12921
+Enfield,Hartford,CT,2000,60528,4,45212
+Farmington,Hartford,CT,2000,85396,4.5,23641
+Glastonbury,Hartford,CT,2000,94978,2.1,31876
+Granby,Hartford,CT,2000,90057,3.1,10347
+Hartford,Hartford,CT,2000,27051,30.6,121578
+Hebron,Tolland,CT,2000,80623,1.4,8610
+Manchester,Hartford,CT,2000,58769,8,54740
+Marlborough,Hartford,CT,2000,90346,2.2,5709
+Newington,Hartford,CT,2000,67085,3.5,29306
+Rocky Hill,Hartford,CT,2000,72726,2.9,17966
+Simsbury,Hartford,CT,2000,97008,2.2,23234
+Somers,Tolland,CT,2000,71757,4.6,10417
+South Windsor,Hartford,CT,2000,82807,1.8,24412
+Suffield,Hartford,CT,2000,79189,3.6,13552
+Tolland,Tolland,CT,2000,82990,2.2,13146
+Vernon,Tolland,CT,2000,59599,5.9,28063
+West Hartford,Hartford,CT,2000,77865,4.5,63589
+Wethersfield,Hartford,CT,2000,68154,4.4,26271
+Windsor,Hartford,CT,2000,73064,3.7,28237
+Windsor Locks,Hartford,CT,2000,59054,4.4,12043
+Andover,Tolland,CT,1990,52782,2.2,2540
+Avon,Hartford,CT,1990,79278,1.5,13937
+Bloomfield,Hartford,CT,1990,56541,4.1,19483
+Bolton,Tolland,CT,1990,57077,1.7,4575
+Canton,Hartford,CT,1990,60562,3.9,8268
+East Granby,Hartford,CT,1990,59068,1.7,4302
+East Hartford,Hartford,CT,1990,42853,5.4,50452
+East Windsor,Hartford,CT,1990,47255,4.9,10081
+Ellington,Tolland,CT,1990,51425,3.3,11197
+Enfield,Hartford,CT,1990,48757,2.9,45532
+Farmington,Hartford,CT,1990,61754,2.6,20608
+Glastonbury,Hartford,CT,1990,66046,2.4,27901
+Granby,Hartford,CT,1990,63876,1,9369
+Hartford,Hartford,CT,1990,24774,27.5,139739
+Hebron,Tolland,CT,1990,57303,4.3,7079
+Manchester,Hartford,CT,1990,46136,3.9,51618
+Marlborough,Hartford,CT,1990,62352,1.3,5535
+Newington,Hartford,CT,1990,50916,1.8,29208
+Rocky Hill,Hartford,CT,1990,56396,2.9,16554
+Simsbury,Hartford,CT,1990,73154,1.5,22023
+Somers,Tolland,CT,1990,58445,1.7,9108
+South Windsor,Hartford,CT,1990,60745,1.4,22090
+Suffield,Hartford,CT,1990,56769,2.7,11427
+Tolland,Tolland,CT,1990,58293,1.8,11001
+Vernon,Tolland,CT,1990,48176,5.3,29841
+West Hartford,Hartford,CT,1990,60518,3.6,60110
+Wethersfield,Hartford,CT,1990,53111,2.7,25651
+Windsor,Hartford,CT,1990,55400,2.4,27817
+Windsor Locks,Hartford,CT,1990,48350,3,12358
+Andover,Tolland,CT,1980,25026,2.8,2144
+Avon,Hartford,CT,1980,33968,2.4,11201
+Bloomfield,Hartford,CT,1980,26628,3.2,18608
+Bolton,Tolland,CT,1980,27012,4.1,3951
+Canton,Hartford,CT,1980,26679,2.8,7635
+East Granby,Hartford,CT,1980,25884,2.3,4102
+East Hartford,Hartford,CT,1980,21939,6.8,52563
+East Windsor,Hartford,CT,1980,22935,7,8925
+Ellington,Tolland,CT,1980,25552,1.7,9711
+Enfield,Hartford,CT,1980,24165,4.2,42695
+Farmington,Hartford,CT,1980,27143,3.1,16407
+Glastonbury,Hartford,CT,1980,31304,3,24327
+Granby,Hartford,CT,1980,28062,2.4,7956
+Hartford,Hartford,CT,1980,14032,25.2,136392
+Hebron,Tolland,CT,1980,25882,2.6,5453
+Manchester,Hartford,CT,1980,22518,4.2,49761
+Marlborough,Hartford,CT,1980,28384,3.7,4746
+Newington,Hartford,CT,1980,25160,3.1,28841
+Rocky Hill,Hartford,CT,1980,24735,3.4,14559
+Simsbury,Hartford,CT,1980,34470,2,21161
+Somers,Tolland,CT,1980,26480,6.3,8473
+South Windsor,Hartford,CT,1980,29095,2.4,17198
+Suffield,Hartford,CT,1980,25592,4,9294
+Tolland,Tolland,CT,1980,26574,2.7,9694
+Vernon,Tolland,CT,1980,22742,6.8,27974
+West Hartford,Hartford,CT,1980,29937,3.8,61301
+Wethersfield,Hartford,CT,1980,26358,3.1,26013
+Windsor,Hartford,CT,1980,25993,3.8,25204
+Windsor Locks,Hartford,CT,1980,24209,3.9,12190
+Andover,Tolland,CT,1970,,,2099
+Avon,Hartford,CT,1970,,,8352
+Bloomfield,Hartford,CT,1970,13925,,18301
+Bolton,Tolland,CT,1970,,,3691
+Canton,Hartford,CT,1970,,,6868
+East Granby,Hartford,CT,1970,,,3532
+East Hartford,Hartford,CT,1970,11771,4.4,57583
+East Windsor,Hartford,CT,1970,,,8513
+Ellington,Tolland,CT,1970,,,7707
+Enfield,Hartford,CT,1970,11752,,46189
+Farmington,Hartford,CT,1970,13476,,14390
+Glastonbury,Hartford,CT,1970,14507,,20651
+Granby,Hartford,CT,1970,,,6150
+Hartford,Hartford,CT,1970,9108,17,158017
+Hebron,Tolland,CT,1970,,,3815
+Manchester,Hartford,CT,1970,12356,,47994
+Marlborough,Hartford,CT,1970,,,2991
+Newington,Hartford,CT,1970,13589,,26037
+Rocky Hill,Hartford,CT,1970,13332,,11103
+Simsbury,Hartford,CT,1970,17186,,17475
+Somers,Tolland,CT,1970,,,6893
+South Windsor,Hartford,CT,1970,14155,,15553
+Suffield,Hartford,CT,1970,,,8634
+Tolland,Tolland,CT,1970,,,7857
+Vernon,Tolland,CT,1970,11818,,27237
+West Hartford,Hartford,CT,1970,15451,3.6,68031
+Wethersfield,Hartford,CT,1970,14257,,26662
+Windsor,Hartford,CT,1970,13663,,22502
+Windsor Locks,Hartford,CT,1970,12576,,15080
+Andover,Tolland,CT,1960,,,1771
+Avon,Hartford,CT,1960,,,5273
+Bloomfield,Hartford,CT,1960,7913,,13613
+Bolton,Tolland,CT,1960,,,2933
+Canton,Hartford,CT,1960,,,4783
+East Granby,Hartford,CT,1960,,,2434
+East Hartford,Hartford,CT,1960,7113,,43977
+East Windsor,Hartford,CT,1960,,,7500
+Ellington,Tolland,CT,1960,,,5580
+Enfield,Hartford,CT,1960,6539,,31464
+Farmington,Hartford,CT,1960,7779,,10813
+Glastonbury,Hartford,CT,1960,8028,,14497
+Granby,Hartford,CT,1960,,,4968
+Hartford,Hartford,CT,1960,5990,,162178
+Hebron,Tolland,CT,1960,,,1819
+Manchester,Hartford,CT,1960,7451,,42102
+Marlborough,Hartford,CT,1960,,,1961
+Newington,Hartford,CT,1960,7989,,17664
+Rocky Hill,Hartford,CT,1960,,,7404
+Simsbury,Hartford,CT,1960,8132,,10138
+Somers,Tolland,CT,1960,,,3702
+South Windsor,Hartford,CT,1960,,,9460
+Suffield,Hartford,CT,1960,,,6779
+Tolland,Tolland,CT,1960,,,2950
+Vernon,Tolland,CT,1960,6767,,16961
+West Hartford,Hartford,CT,1960,9712,,62382
+Wethersfield,Hartford,CT,1960,8775,,20561
+Windsor,Hartford,CT,1960,7677,,19467
+Windsor Locks,Hartford,CT,1960,6988,,11411
+Andover,Tolland,CT,1950,,,1034
+Avon,Hartford,CT,1950,,,3171
+Bloomfield,Hartford,CT,1950,,,5746
+Bolton,Tolland,CT,1950,,,1279
+Canton,Hartford,CT,1950,,,3613
+East Granby,Hartford,CT,1950,,,1327
+East Hartford,Hartford,CT,1950,,,29933
+East Windsor,Hartford,CT,1950,,,4859
+Ellington,Tolland,CT,1950,,,3099
+Enfield,Hartford,CT,1950,,,15464
+Farmington,Hartford,CT,1950,,,7026
+Glastonbury,Hartford,CT,1950,,,8818
+Granby,Hartford,CT,1950,,,2693
+Hartford,Hartford,CT,1950,3459,,177397
+Hebron,Tolland,CT,1950,,,1320
+Manchester,Hartford,CT,1950,,,34116
+Marlborough,Hartford,CT,1950,,,901
+Newington,Hartford,CT,1950,,,9110
+Rocky Hill,Hartford,CT,1950,,,5108
+Simsbury,Hartford,CT,1950,,,4822
+Somers,Tolland,CT,1950,,,2631
+South Windsor,Hartford,CT,1950,,,4066
+Suffield,Hartford,CT,1950,,,4895
+Tolland,Tolland,CT,1950,,,1659
+Vernon,Tolland,CT,1950,,,10115
+West Hartford,Hartford,CT,1950,,,44402
+Wethersfield,Hartford,CT,1950,,,12533
+Windsor,Hartford,CT,1950,,,11833
+Windsor Locks,Hartford,CT,1950,,,5221
+Andover,Tolland,CT,1940,,,560
+Avon,Hartford,CT,1940,,,2258
+Bloomfield,Hartford,CT,1940,,,4309
+Bolton,Tolland,CT,1940,,,728
+Canton,Hartford,CT,1940,,,2769
+East Granby,Hartford,CT,1940,,,1225
+East Hartford,Hartford,CT,1940,,,18615
+East Windsor,Hartford,CT,1940,,,3967
+Ellington,Tolland,CT,1940,,,2479
+Enfield,Hartford,CT,1940,,,13561
+Farmington,Hartford,CT,1940,,,5313
+Glastonbury,Hartford,CT,1940,,,6632
+Granby,Hartford,CT,1940,,,1544
+Hartford,Hartford,CT,1940,,,166267
+Hebron,Tolland,CT,1940,,,999
+Manchester,Hartford,CT,1940,,,23799
+Marlborough,Hartford,CT,1940,,,476
+Newington,Hartford,CT,1940,,,5449
+Rocky Hill,Hartford,CT,1940,,,2679
+Simsbury,Hartford,CT,1940,,,3941
+Somers,Tolland,CT,1940,,,2114
+South Windsor,Hartford,CT,1940,,,2863
+Suffield,Hartford,CT,1940,,,4475
+Tolland,Tolland,CT,1940,,,1192
+Vernon,Tolland,CT,1940,,,8978
+West Hartford,Hartford,CT,1940,,,33776
+Wethersfield,Hartford,CT,1940,,,9644
+Windsor,Hartford,CT,1940,,,10068
+Windsor Locks,Hartford,CT,1940,,,4347
+Andover,Tolland,CT,1930,,,430
+Avon,Hartford,CT,1930,,,1738
+Bloomfield,Hartford,CT,1930,,,3247
+Bolton,Tolland,CT,1930,,,504
+Canton,Hartford,CT,1930,,,2397
+East Granby,Hartford,CT,1930,,,1003
+East Hartford,Hartford,CT,1930,,,17125
+East Windsor,Hartford,CT,1930,,,3815
+Ellington,Tolland,CT,1930,,,2253
+Enfield,Hartford,CT,1930,,,13404
+Farmington,Hartford,CT,1930,,,4548
+Glastonbury,Hartford,CT,1930,,,5783
+Granby,Hartford,CT,1930,,,1388
+Hartford,Hartford,CT,1930,,,164072
+Hebron,Tolland,CT,1930,,,879
+Manchester,Hartford,CT,1930,,,21973
+Marlborough,Hartford,CT,1930,,,319
+Newington,Hartford,CT,1930,,,4572
+Rocky Hill,Hartford,CT,1930,,,2021
+Simsbury,Hartford,CT,1930,,,3625
+Somers,Tolland,CT,1930,,,1917
+South Windsor,Hartford,CT,1930,,,2535
+Suffield,Hartford,CT,1930,,,4346
+Tolland,Tolland,CT,1930,,,1064
+Vernon,Tolland,CT,1930,,,8703
+West Hartford,Hartford,CT,1930,,,24941
+Wethersfield,Hartford,CT,1930,,,7512
+Windsor,Hartford,CT,1930,,,8290
+Windsor Locks,Hartford,CT,1930,,,4073
+Andover,Tolland,CT,1920,,,389
+Avon,Hartford,CT,1920,,,1534
+Bloomfield,Hartford,CT,1920,,,2394
+Bolton,Tolland,CT,1920,,,448
+Canton,Hartford,CT,1920,,,2549
+East Granby,Hartford,CT,1920,,,1056
+East Hartford,Hartford,CT,1920,,,11648
+East Windsor,Hartford,CT,1920,,,3741
+Ellington,Tolland,CT,1920,,,2127
+Enfield,Hartford,CT,1920,,,11719
+Farmington,Hartford,CT,1920,,,3844
+Glastonbury,Hartford,CT,1920,,,5952
+Granby,Hartford,CT,1920,,,1342
+Hartford,Hartford,CT,1920,,,138036
+Hebron,Tolland,CT,1920,,,915
+Manchester,Hartford,CT,1920,,,18370
+Marlborough,Hartford,CT,1920,,,303
+Newington,Hartford,CT,1920,,,2381
+Rocky Hill,Hartford,CT,1920,,,1633
+Simsbury,Hartford,CT,1920,,,2958
+Somers,Tolland,CT,1920,,,1673
+South Windsor,Hartford,CT,1920,,,2142
+Suffield,Hartford,CT,1920,,,4070
+Tolland,Tolland,CT,1920,,,1040
+Vernon,Tolland,CT,1920,,,8898
+West Hartford,Hartford,CT,1920,,,8854
+Wethersfield,Hartford,CT,1920,,,4342
+Windsor,Hartford,CT,1920,,,5620
+Windsor Locks,Hartford,CT,1920,,,3554
+Andover,Tolland,CT,1910,,,371
+Avon,Hartford,CT,1910,,,1337
+Bloomfield,Hartford,CT,1910,,,1821
+Bolton,Tolland,CT,1910,,,433
+Canton,Hartford,CT,1910,,,2732
+East Granby,Hartford,CT,1910,,,797
+East Hartford,Hartford,CT,1910,,,8138
+East Windsor,Hartford,CT,1910,,,3362
+Ellington,Tolland,CT,1910,,,1999
+Enfield,Hartford,CT,1910,,,9719
+Farmington,Hartford,CT,1910,,,3478
+Glastonbury,Hartford,CT,1910,,,4796
+Granby,Hartford,CT,1910,,,1383
+Hartford,Hartford,CT,1910,,,98915
+Hebron,Tolland,CT,1910,,,894
+Manchester,Hartford,CT,1910,,,13641
+Marlborough,Hartford,CT,1910,,,302
+Newington,Hartford,CT,1910,,,1689
+Rocky Hill,Hartford,CT,1910,,,1187
+Simsbury,Hartford,CT,1910,,,2537
+Somers,Tolland,CT,1910,,,1653
+South Windsor,Hartford,CT,1910,,,2251
+Suffield,Hartford,CT,1910,,,3841
+Tolland,Tolland,CT,1910,,,1126
+Vernon,Tolland,CT,1910,,,9087
+West Hartford,Hartford,CT,1910,,,4808
+Wethersfield,Hartford,CT,1910,,,3148
+Windsor,Hartford,CT,1910,,,4178
+Windsor Locks,Hartford,CT,1910,,,3715
+Andover,Tolland,CT,1900,,,385
+Avon,Hartford,CT,1900,,,1302
+Bloomfield,Hartford,CT,1900,,,1513
+Bolton,Tolland,CT,1900,,,457
+Canton,Hartford,CT,1900,,,2678
+East Granby,Hartford,CT,1900,,,684
+East Hartford,Hartford,CT,1900,,,6406
+East Windsor,Hartford,CT,1900,,,3158
+Ellington,Tolland,CT,1900,,,1829
+Enfield,Hartford,CT,1900,,,6699
+Farmington,Hartford,CT,1900,,,3331
+Glastonbury,Hartford,CT,1900,,,4260
+Granby,Hartford,CT,1900,,,1299
+Hartford,Hartford,CT,1900,,,79850
+Hebron,Tolland,CT,1900,,,1016
+Manchester,Hartford,CT,1900,,,10601
+Marlborough,Hartford,CT,1900,,,322
+Newington,Hartford,CT,1900,,,1041
+Rocky Hill,Hartford,CT,1900,,,1026
+Simsbury,Hartford,CT,1900,,,2094
+Somers,Tolland,CT,1900,,,1593
+South Windsor,Hartford,CT,1900,,,2014
+Suffield,Hartford,CT,1900,,,3521
+Tolland,Tolland,CT,1900,,,1036
+Vernon,Tolland,CT,1900,,,8483
+West Hartford,Hartford,CT,1900,,,3186
+Wethersfield,Hartford,CT,1900,,,2637
+Windsor,Hartford,CT,1900,,,3614
+Windsor Locks,Hartford,CT,1900,,,3062
+Hartford,Hartford,CT,1800,,,5347
+Hartford,Hartford,CT,1810,,,6003
+Hartford,Hartford,CT,1820,,,6901
+Hartford,Hartford,CT,1830,,,9789
+Hartford,Hartford,CT,1840,,,12793
+Hartford,Hartford,CT,1850,,,13555
+Hartford,Hartford,CT,1860,,,29152
+Hartford,Hartford,CT,1870,,,37743
+Hartford,Hartford,CT,1880,,,42551
+Hartford,Hartford,CT,1890,,,53230
+Andover,Tolland,CT,2010,,4.7,3303
+Avon,Hartford,CT,2010,,5.1,18098
+Bloomfield,Hartford,CT,2010,,7.4,20486
+Bolton,Tolland,CT,2010,,2.2,4980
+Canton,Hartford,CT,2010,,4,10292
+East Granby,Hartford,CT,2010,,2.9,5148
+East Hartford,Hartford,CT,2010,,14.8,51252
+East Windsor,Hartford,CT,2010,,5.3,11162
+Ellington,Tolland,CT,2010,,2.9,15602
+Enfield,Hartford,CT,2010,,7.1,44654
+Farmington,Hartford,CT,2010,,5.4,25340
+Glastonbury,Hartford,CT,2010,,3.3,34427
+Granby,Hartford,CT,2010,,1.5,11282
+Hartford,Hartford,CT,2010,,32.1,124775
+Hebron,Tolland,CT,2010,,1.6,9686
+Manchester,Hartford,CT,2010,,8.1,58241
+Marlborough,Hartford,CT,2010,,2.1,6404
+Newington,Hartford,CT,2010,,5.6,30562
+Rocky Hill,Hartford,CT,2010,,5.7,19709
+Simsbury,Hartford,CT,2010,,2.1,23511
+Somers,Tolland,CT,2010,,4,11444
+South Windsor,Hartford,CT,2010,,1.6,25709
+Suffield,Hartford,CT,2010,,2.6,15735
+Tolland,Tolland,CT,2010,,2.4,15052
+Vernon,Tolland,CT,2010,,7.8,29179
+West Hartford,Hartford,CT,2010,,6.1,63268
+Wethersfield,Hartford,CT,2010,,4.3,26668
+Windsor,Hartford,CT,2010,,3.6,29044
+Windsor Locks,Hartford,CT,2010,,6.9,12498
