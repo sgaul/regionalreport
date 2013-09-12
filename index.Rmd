@@ -18,8 +18,10 @@ mode        : selfcontained # {standalone, draft}
 
 Until 1940, 50% of the region's population lived in the city of Hartford.  By 2010, only 16% lived in the city. 
 
-Population growth for the region has been slow since 1970 - just 5 percent overall 
-between 2000 and 2010. This is driven by continued population loss in Hartford - one third of the population since 1950 - and slow growth in urban periphery towns like West Hartford and Windsor since the 1980s.
+Population growth for much the region has been slow since 1970 - just 5 percent overall 
+between 2000 and 2010. This is driven by continued population loss in Hartford - one third of the population since 1950.
+
+Urban periphery towns like West Hartford and Windsor have also seen slow growth since the 1980s. The most rapid population growth in recent years has instead been in outer-ring towns like Avon, Hebron and Tolland. 
 
 *** =right
 
@@ -31,12 +33,12 @@ knitr::opts_chunk$set(comment = NA, results = 'asis', tidy = F, message = T)
  
 ```{r chart1, echo=FALSE}
 n1 <- nPlot(y = 'sumpop', x = 'period', width = 500, height = 425,
-            group = 'type',
-            data = gh_sum,
+            group = 'Towngroup',
+            data = gh_test,
             type = 'lineChart')
 n1$xAxis(axisLabel='Year')
 n1$yAxis(tickFormat = "#!function(d) {return d3.format(',.0f')(d)}!#", axisLabel='Population')
-n1$chart(forceY = c(0,700000))
+n1$chart(forceY = c(0,350000))
 n1$print('chart1')
 ```
 
