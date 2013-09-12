@@ -6,7 +6,8 @@ job         :
 framework   : io2012        # {io2012, html5slides, shower, dzslides, ...}
 highlighter : highlight.js  # {highlight.js, prettify, highlight}
 hitheme     : tomorrow      # 
-ext_widgets : {rCharts: ["libraries/nvd3", "libraries/morris", "parcoords"]} 
+widgets     : [parcoords]
+ext_widgets : {rCharts: ["libraries/nvd3", "libraries/morris"]} 
 mode        : selfcontained # {standalone, draft}
 
 --- &twocol
@@ -18,8 +19,7 @@ mode        : selfcontained # {standalone, draft}
 Until 1940, 50% of the region's population lived in the city of Hartford.  By 2010, only 16% lived in the city. 
 
 Population growth for the region has been slow since 1970 - just 5 percent overall 
-between 2000 and 2010 driven by population loss in Hartford and slow growth in urban
-periphery towns like West Hartford and Windsor.
+between 2000 and 2010. This is driven by continued population loss in Hartford - one third of the population since 1950 - and slow growth in urban periphery towns like West Hartford and Windsor since the 1980s.
 
 *** =right
 
@@ -29,14 +29,15 @@ knitr::opts_chunk$set(comment = NA, results = 'asis', tidy = F, message = T)
 ```
  
  
-```{r chart1, echo=FALSE, fig.width=7, fig.height=7}
-n1 <- nPlot(y = 'sumpop', x = 'period', width = 500, height = 500,
+```{r chart1, echo=FALSE}
+n1 <- nPlot(y = 'sumpop', x = 'period', width = 500, height = 425,
             group = 'type',
             data = gh_sum,
             type = 'lineChart')
 n1$xAxis(axisLabel='Year')
-n1$yAxis(tickFormat = "#!function(d) {return d3.format(',.0f')(d)}!#")
-n1$print("chart1")
+n1$yAxis(tickFormat = "#!function(d) {return d3.format(',.0f')(d)}!#", axisLabel='Population')
+n1$chart(forceY = c(0,700000))
+n1$print('chart1')
 ```
 
 --- .class #id &twocol
@@ -53,25 +54,28 @@ At the same time, the number of people living in poverty in the suburbs has incr
 
 *** =right  
  
-```{r chart2, echo=FALSE, fig.width=7, fig.height=7}
-n2 <- nPlot(y = 'sumpoor', x = 'period', width = 500, height = 500,
+```{r chart2, echo=FALSE}
+n2 <- nPlot(y = 'sumpoor', x = 'period', width = 500, height = 425,
             group = 'type',
             data = subset(gh_sum,period >= 1970),
             type = 'lineChart')
-n2$yAxis(tickFormat = "#!function(d) {return d3.format(',.0f')(d)}!#")
+n2$yAxis(tickFormat = "#!function(d) {return d3.format(',.0f')(d)}!#",axisLabel='Population living under poverty line')
+n2$chart(forceY = c(0,40000))
 n2$xAxis(axisLabel='Year')
-n2$print("chart2")
+n2$print('chart2')
 ```
 
 --- .class #id 
 
-## Population: Increasing racial / ethnic diversity in the suburbs
+## Population: More diverse suburbs
 
-While outer ring suburbs, like Tolland and Simsbury, are still predominantly white, there are corridors of diversity through East Hartford and Manchester, north into Bloomfield and Windsor and connecting Hartford and New Britain. [will add map]
+While outer ring suburbs, like Tolland and Simsbury, are still predominantly white, there are corridors of diversity through East Hartford and Manchester, north into Bloomfield and Windsor and connecting Hartford and New Britain.
+
+![image](assets/img/diversitymap.png)
 
 --- .class #id 
 
-## Education: Where do Hartford area kids go to school?
+## Education: Where do our kids go to school?
 
 The Hartford area is characterized by school choice - magnet, charter and private schools draw in 1 in 7 students from the region. Parents choose to go beyond the local school system more often in higher grades and in towns with higher income inequality. In Bloomfield, for instance, 50 percent of parents send their children to magnet or private schools by 10th grade. 
 
@@ -90,24 +94,33 @@ ggplot(data = subset(enroll, School.Year == "2010-11" & variable != "Total"),
 
 --- .class #id 
 
-## Education: Gaps in education persist during school years
+## Education: Educational inequities through school
 
-Suburban schools are among the best performing in the state at all grade levels. However, gaps between the eight 'Alliance districts' in the region are prominent during the K – 8 period. The level of pre-K experience varies greatly across districts. 
+Suburban schools are among the best performing in the state at all grade levels. While the level of pre-K experience varies greatly across districts, urban and urban periphery districts with underperforming schools fall behind by third grade and largely remain there until graduation.
 
-```{r echo = FALSE, warning = FALSE, message = FALSE, fig.width=14, fig.height=5.5}
-library(lattice)
-parallelplot(~parcoords[3:8], parcoords, 
-             groups = District.Group, 
-             col = c("black","grey"),
-             horizontal.axis = FALSE) 
+
+```{r chart4, echo = FALSE}
+#Used solution from this gist for now: https://gist.github.com/ramnathv/1fcf50751e461b9192ac
+pctest <- subset(parcoords[1:8], HSGrad != "NA" & Kindergarten != "NA")
+p1 <- rCharts$new()
+p1$setLib('libraries/widgets/parcoords')
+#p1$field('lib', 'libraries/widgets/parcoords')
+p1$set(padding = list(top = 24, left = 200, bottom = 12, right = 200), 
+       height = "425", width = "1200")
+p1$set(data = toJSONArray(pctest[1:7], json = F), 
+       range = c(60,100),
+       colorby = 'HSGrad',
+       colors = c('steelblue', 'brown'))
+p1$save('test.html', cdn = TRUE)
 ```
-
+ 
+<iframe src='test.html'></iframe>
 
 --- .class #id 
 
-## Workforce: A regional workforce, centered on Hartford
+## Workforce: A regional workforce, Hartford-centered
 
-Most towns in the region have a high percentage of commuters – over 75 percent in every town except Hartford. 21% of the workforce (or 70,000) commute to Hartford for their jobs, while Enfield, Manchester and Simsbury also act as local hubs for employment.
+Most towns in the region have a high percentage of commuters – over 75 percent in every town except Hartford. One in five workers (70,000 individuals) commute to Hartford, while Enfield, Manchester and Simsbury also act as local hubs for employment.
 
 ```{r echo = FALSE, warning = FALSE, message = FALSE, fig.width=14, fig.height=6}
 ggplot(data = commutemap) + 
@@ -142,17 +155,22 @@ ggplot(data = walk, aes(x = Year, y = value)) +
 
 --- .class #id 
 
-## Workforce: Persistent and widening gaps in employment
+## Workforce: Persistent gaps in employment
 
-Hartford, East Hartford, Bloomfield and East Windsor have had higher-than-average unemployment for the past decade. The gap between these towns and the rest of the region has widened, as most suburban towns have experienced relatively low unemployment.
+Hartford has had higher-than-average unemployment for the past decade. In addition, some urban periphery and rural towns, like East Hartford, Bloomfield and East Windsor have also experienced higher than average rates of unemployment. The gap between these towns and the rest of the region has widened, as most suburban towns have experienced relatively low unemployment.
 
 ```{r chart3, echo=FALSE}
-n3 <- nPlot(y = 'RT', x = 'Year', width = 800, height = 400,
-            group = 'Town',
-            data = lausann,
+ue <- ddply(merge(lausann,towns, by = "Town"),
+      .(Towngroup, Year), 
+      summarise, 
+      RT = weighted.mean(RT, LF, na.rm = TRUE))
+n3 <- nPlot(y = 'RT', x = 'Year', width = 800, height = 425,
+            group = 'Towngroup',
+            data = ue,
             type = 'lineChart')
 n3$yAxis(axisLabel='Unemployment rate')
-n3$print("chart3")
+n3$chart(forceY = c(0,17))
+n3$show('inline')
 ```
 
 --- .class #id &twocol
