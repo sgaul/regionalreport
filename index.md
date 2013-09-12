@@ -435,10 +435,7 @@ While outer ring suburbs, like Tolland and Simsbury, are still predominantly whi
 
 The Hartford area is characterized by school choice - magnet, charter and private schools draw in 1 in 7 students from the region. Parents choose to go beyond the local school system more often in higher grades and in towns with higher income inequality. In Bloomfield, for instance, 50 percent of parents send their children to magnet or private schools by 10th grade. 
 
-
-```
-Error: object 'variable' not found
-```
+![plot of chunk unnamed-chunk-1](assets/fig/unnamed-chunk-1.png) 
 
 
 --- .class #id 
