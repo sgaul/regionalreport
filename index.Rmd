@@ -12,11 +12,13 @@ mode        : selfcontained # {standalone, draft}
 
 --- &twocol
 
-## Population: Suburbanizing, not urbanizing
+## Population: Suburbanizing, not urbanizing (v1)
 
 *** =left
 
-Until 1940, 50% of the region's population lived in the city of Hartford.  By 2010, only 16% lived in the city. 
+By 2050, 70% of the worlds population are projected to live in cities. 
+
+The Hartford region, however, has been moving in the opposite direction. Through 1940, 50% of the region's population lived in the city of Hartford. By 2010, only 16% lived in the city. 
 
 Population growth for much the region has been slow since 1970 - just 5 percent overall 
 between 2000 and 2010. This is driven by continued population loss in Hartford - one third of the population since 1950.
@@ -40,6 +42,44 @@ n1$xAxis(axisLabel='Year')
 n1$yAxis(tickFormat = "#!function(d) {return d3.format(',.0f')(d)}!#", axisLabel='Population')
 n1$chart(forceY = c(0,350000))
 n1$print('chart1')
+```
+
+--- &twocol
+
+## Population: Suburbanizing, not urbanizing (v2)
+
+*** =left
+
+By 2050, 70% of the worlds population are projected to live in cities. 
+
+The Hartford region, however, has been moving in the opposite direction. Through 1940, 50% of the region's population lived in the city of Hartford. By 2010, only 16% lived in the city. 
+
+Population growth for much the region has been slow since 1970 - just 5 percent overall 
+between 2000 and 2010. This is driven by continued population loss in Hartford - one third of the population since 1950.
+
+Urban periphery towns like West Hartford and Windsor have also seen slow growth since the 1980s. The most rapid population growth in recent years has instead been in outer-ring towns like Avon, Hebron and Tolland. 
+
+*** =right
+ 
+```{r echo = FALSE, warning = FALSE, message = FALSE, fig.width=7, fig.height=7}
+#Add the ratio of town population to region for each town
+sum2 <- tapply(gh$population, gh$period, sum)
+gh$ratio <- gh$population / as.numeric(sum2[as.character(gh$period)])
+
+#Merge the population data with the fortified map of CTTowns
+popmap <- merge(CTTowns, subset(gh, period >= 1900), by.x="id", by.y="city")
+
+ggplot(data = popmap) + 
+  geom_map(aes(map_id = id, fill = ratio), map = CTTowns) +
+  geom_path(data = CTTowns, aes(x = long, y = lat, group = group),alpha = 0.05) +
+  labs(x = NULL, y = NULL) +
+  scale_x_continuous(breaks = NULL) +
+  scale_y_continuous(breaks = NULL) +
+  theme_minimal() +
+  scale_fill_gradientn(colours = brewer.pal(4, "Blues"), name = "% of region's\npopulation") + coord_equal() +
+  expand_limits(x = CTTowns$long, y = CTTowns$lat) +
+  theme(strip.text.x = element_text(size = 12)) +
+  facet_wrap(~ period, ncol = 3)
 ```
 
 --- .class #id &twocol
@@ -117,6 +157,41 @@ p1$save('test.html', cdn = TRUE)
 ```
  
 <iframe src='test.html'></iframe>
+
+--- .class #id &twocol
+
+## Education: income and enrollment patterns
+
+*** =left
+
+Inequality - in both income and educational achievement - are characteristic of the Hartford region. 
+
+
+Combined with school choice, we see a pattern where parents in towns with high income inequality opt to remove their children from local public school systems in favor of charter schools, magnet schools, private schools or other options. 
+
+
+The Gini index measures income inequality. The chart to the right shows how towns with high income inequality - like Bloomfield and Hartford - have lower enrollment rates in the local public school system and more use of other options. 
+
+*** =right  
+ 
+```{r chart5, echo=FALSE, message=FALSE}
+gini <- read.csv("data/gini-ct.csv")
+gini <- merge(gini,
+              cast(subset(enroll, variable == "Total" & School.Year == "2010-11"),
+                   Resident.Town + School.Year + variable ~ School.Type),
+              by.x = "Town", by.y = "Resident.Town")
+gini <- merge(gini,
+              ddply(subset(enroll, variable == "Total" & School.Year == "2010-11"),.(Resident.Town), summarise, sum(x)),
+              by.x = "Town", by.y = "Resident.Town")
+gini$outsideenroll = (1 - gini$Public / gini$..1)
+n4 <- nPlot(outsideenroll ~ Gini.Index, width = 500, height = 400,
+            data = gini,
+            type = 'scatterChart')
+n4$xAxis(axisLabel = 'Gini index')
+n4$yAxis(axisLabel = '% of students outside local school system', 
+         tickFormat = "#!function(d) {return d3.format(',.02f')(d)}!#")
+n4$print('chart5')
+```
 
 --- .class #id 
 

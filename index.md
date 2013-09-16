@@ -12,11 +12,13 @@ mode        : selfcontained # {standalone, draft}
 
 --- &twocol
 
-## Population: Suburbanizing, not urbanizing
+## Population: Suburbanizing, not urbanizing (v1)
 
 *** =left
 
-Until 1940, 50% of the region's population lived in the city of Hartford.  By 2010, only 16% lived in the city. 
+By 2050, 70% of the worlds population are projected to live in cities. 
+
+The Hartford region, however, has been moving in the opposite direction. Through 1940, 50% of the region's population lived in the city of Hartford. By 2010, only 16% lived in the city. 
 
 Population growth for much the region has been slow since 1970 - just 5 percent overall 
 between 2000 and 2010. This is driven by continued population loss in Hartford - one third of the population since 1950.
@@ -435,6 +437,26 @@ Urban periphery towns like West Hartford and Windsor have also seen slow growth 
 </script>
 
 
+--- &twocol
+
+## Population: Suburbanizing, not urbanizing (v2)
+
+*** =left
+
+By 2050, 70% of the worlds population are projected to live in cities. 
+
+The Hartford region, however, has been moving in the opposite direction. Through 1940, 50% of the region's population lived in the city of Hartford. By 2010, only 16% lived in the city. 
+
+Population growth for much the region has been slow since 1970 - just 5 percent overall 
+between 2000 and 2010. This is driven by continued population loss in Hartford - one third of the population since 1950.
+
+Urban periphery towns like West Hartford and Windsor have also seen slow growth since the 1980s. The most rapid population growth in recent years has instead been in outer-ring towns like Avon, Hebron and Tolland. 
+
+*** =right
+ 
+![plot of chunk unnamed-chunk-1](assets/fig/unnamed-chunk-1.png) 
+
+
 --- .class #id &twocol
 
 ## Population: Suburban poverty on the rise
@@ -581,7 +603,7 @@ While outer ring suburbs, like Tolland and Simsbury, are still predominantly whi
 
 The Hartford area is characterized by school choice - magnet, charter and private schools draw in 1 in 7 students from the region. Parents choose to go beyond the local school system more often in higher grades and in towns with higher income inequality. In Bloomfield, for instance, 50 percent of parents send their children to magnet or private schools by 10th grade. 
 
-![plot of chunk unnamed-chunk-1](assets/fig/unnamed-chunk-1.png) 
+![plot of chunk unnamed-chunk-2](assets/fig/unnamed-chunk-2.png) 
 
 
 --- .class #id 
@@ -596,13 +618,549 @@ Suburban schools are among the best performing in the state at all grade levels.
  
 <iframe src='test.html'></iframe>
 
+--- .class #id &twocol
+
+## Education: income and enrollment patterns
+
+*** =left
+
+Inequality - in both income and educational achievement - are characteristic of the Hartford region. 
+
+
+Combined with school choice, we see a pattern where parents in towns with high income inequality opt to remove their children from local public school systems in favor of charter schools, magnet schools, private schools or other options. 
+
+
+The Gini index measures income inequality. The chart to the right shows how towns with high income inequality - like Bloomfield and Hartford - have lower enrollment rates in the local public school system and more use of other options. 
+
+*** =right  
+ 
+
+<div id = 'chart5' class = 'rChart nvd3'></div>
+<script type='text/javascript'>
+ $(document).ready(function(){
+      drawchart5()
+    });
+    function drawchart5(){  
+      var opts = {
+ "dom": "chart5",
+"width":    500,
+"height":    400,
+"x": "Gini.Index",
+"y": "outsideenroll",
+"type": "scatterChart",
+"id": "chart5" 
+},
+        data = [
+ {
+ "Town": "Andover",
+"GeoID2": 901301080,
+"Margin.of.Error":   0.06,
+"Gini.Index":  0.394,
+"School.Year": "2010-11",
+"variable": "Total",
+"Public": 641,
+"Private": 21,
+"Public charter": 1,
+"Magnet School": 9,
+"Open Choice": null,
+"Other": 6,
+"..1": 678,
+"outsideenroll": 0.054572 
+},
+{
+ "Town": "Avon",
+"GeoID2": 900302060,
+"Margin.of.Error":  0.022,
+"Gini.Index":   0.46,
+"School.Year": "2010-11",
+"variable": "Total",
+"Public": 3484,
+"Private": 390,
+"Public charter": 2,
+"Magnet School": 76,
+"Open Choice": null,
+"Other": 1,
+"..1": 3953,
+"outsideenroll": 0.11864 
+},
+{
+ "Town": "Bloomfield",
+"GeoID2": 900305910,
+"Margin.of.Error":  0.027,
+"Gini.Index":  0.456,
+"School.Year": "2010-11",
+"variable": "Total",
+"Public": 1745,
+"Private": 382,
+"Public charter": 60,
+"Magnet School": 590,
+"Open Choice": 8,
+"Other": 81,
+"..1": 2866,
+"outsideenroll": 0.39114 
+},
+{
+ "Town": "Bolton",
+"GeoID2": 901306260,
+"Margin.of.Error":  0.047,
+"Gini.Index":  0.394,
+"School.Year": "2010-11",
+"variable": "Total",
+"Public": 815,
+"Private": 62,
+"Public charter": 1,
+"Magnet School": 20,
+"Open Choice": null,
+"Other": 2,
+"..1": 900,
+"outsideenroll": 0.094444 
+},
+{
+ "Town": "Canton",
+"GeoID2": 900312270,
+"Margin.of.Error":  0.029,
+"Gini.Index":  0.443,
+"School.Year": "2010-11",
+"variable": "Total",
+"Public": 1739,
+"Private": 149,
+"Public charter": 7,
+"Magnet School": 23,
+"Open Choice": null,
+"Other": 4,
+"..1": 1922,
+"outsideenroll": 0.095213 
+},
+{
+ "Town": "East Granby",
+"GeoID2": 900322070,
+"Margin.of.Error":  0.083,
+"Gini.Index":  0.414,
+"School.Year": "2010-11",
+"variable": "Total",
+"Public": 861,
+"Private": 59,
+"Public charter": null,
+"Magnet School": 40,
+"Open Choice": null,
+"Other": 6,
+"..1": 966,
+"outsideenroll": 0.1087 
+},
+{
+ "Town": "East Hartford",
+"GeoID2": 900322630,
+"Margin.of.Error":  0.022,
+"Gini.Index":  0.426,
+"School.Year": "2010-11",
+"variable": "Total",
+"Public": 7035,
+"Private": 538,
+"Public charter": 83,
+"Magnet School": 1134,
+"Open Choice": 12,
+"Other": 19,
+"..1": 8821,
+"outsideenroll": 0.20247 
+},
+{
+ "Town": "East Windsor",
+"GeoID2": 900324800,
+"Margin.of.Error":   0.03,
+"Gini.Index":  0.382,
+"School.Year": "2010-11",
+"variable": "Total",
+"Public": 1306,
+"Private": 98,
+"Public charter": 5,
+"Magnet School": 73,
+"Open Choice": null,
+"Other": null,
+"..1": 1482,
+"outsideenroll": 0.11876 
+},
+{
+ "Town": "Ellington",
+"GeoID2": 901325360,
+"Margin.of.Error":  0.031,
+"Gini.Index":  0.374,
+"School.Year": "2010-11",
+"variable": "Total",
+"Public": 2700,
+"Private": 108,
+"Public charter": null,
+"Magnet School": 35,
+"Open Choice": null,
+"Other": 12,
+"..1": 2855,
+"outsideenroll": 0.054291 
+},
+{
+ "Town": "Enfield",
+"GeoID2": 900325990,
+"Margin.of.Error":  0.011,
+"Gini.Index":  0.365,
+"School.Year": "2010-11",
+"variable": "Total",
+"Public": 5891,
+"Private": 422,
+"Public charter": 2,
+"Magnet School": 168,
+"Open Choice": 1,
+"Other": 26,
+"..1": 6510,
+"outsideenroll": 0.095084 
+},
+{
+ "Town": "Farmington",
+"GeoID2": 900327600,
+"Margin.of.Error":  0.031,
+"Gini.Index":  0.491,
+"School.Year": "2010-11",
+"variable": "Total",
+"Public": 4068,
+"Private": 307,
+"Public charter": 3,
+"Magnet School": 51,
+"Open Choice": null,
+"Other": 4,
+"..1": 4433,
+"outsideenroll": 0.082337 
+},
+{
+ "Town": "Glastonbury",
+"GeoID2": 900331240,
+"Margin.of.Error":  0.017,
+"Gini.Index":  0.417,
+"School.Year": "2010-11",
+"variable": "Total",
+"Public": 6707,
+"Private": 346,
+"Public charter": 5,
+"Magnet School": 254,
+"Open Choice": null,
+"Other": 16,
+"..1": 7328,
+"outsideenroll": 0.084743 
+},
+{
+ "Town": "Granby",
+"GeoID2": 900332640,
+"Margin.of.Error":  0.022,
+"Gini.Index":  0.379,
+"School.Year": "2010-11",
+"variable": "Total",
+"Public": 2110,
+"Private": 105,
+"Public charter": null,
+"Magnet School": 53,
+"Open Choice": null,
+"Other": 7,
+"..1": 2275,
+"outsideenroll": 0.072527 
+},
+{
+ "Town": "Hartford",
+"GeoID2": 900337070,
+"Margin.of.Error":  0.013,
+"Gini.Index":  0.505,
+"School.Year": "2010-11",
+"variable": "Total",
+"Public": 16224,
+"Private": 960,
+"Public charter": 986,
+"Magnet School": 4410,
+"Open Choice": 1255,
+"Other": 70,
+"..1": 23905,
+"outsideenroll": 0.32131 
+},
+{
+ "Town": "Hebron",
+"GeoID2": 901337910,
+"Margin.of.Error":  0.031,
+"Gini.Index":  0.357,
+"School.Year": "2010-11",
+"variable": "Total",
+"Public": 2109,
+"Private": 126,
+"Public charter": 1,
+"Magnet School": 27,
+"Open Choice": null,
+"Other": 10,
+"..1": 2273,
+"outsideenroll": 0.072151 
+},
+{
+ "Town": "Manchester",
+"GeoID2": 900344700,
+"Margin.of.Error":  0.015,
+"Gini.Index":  0.412,
+"School.Year": "2010-11",
+"variable": "Total",
+"Public": 6966,
+"Private": 836,
+"Public charter": 145,
+"Magnet School": 547,
+"Open Choice": 3,
+"Other": 29,
+"..1": 8526,
+"outsideenroll": 0.18297 
+},
+{
+ "Town": "Marlborough",
+"GeoID2": 900345820,
+"Margin.of.Error":  0.032,
+"Gini.Index":  0.334,
+"School.Year": "2010-11",
+"variable": "Total",
+"Public": 1199,
+"Private": 63,
+"Public charter": 1,
+"Magnet School": 22,
+"Open Choice": null,
+"Other": 4,
+"..1": 1289,
+"outsideenroll": 0.069822 
+},
+{
+ "Town": "Newington",
+"GeoID2": 900352140,
+"Margin.of.Error":  0.014,
+"Gini.Index":  0.366,
+"School.Year": "2010-11",
+"variable": "Total",
+"Public": 4407,
+"Private": 223,
+"Public charter": 8,
+"Magnet School": 95,
+"Open Choice": null,
+"Other": 7,
+"..1": 4740,
+"outsideenroll": 0.070253 
+},
+{
+ "Town": "Rocky Hill",
+"GeoID2": 900365370,
+"Margin.of.Error":  0.021,
+"Gini.Index":  0.372,
+"School.Year": "2010-11",
+"variable": "Total",
+"Public": 2587,
+"Private": 187,
+"Public charter": 1,
+"Magnet School": 63,
+"Open Choice": null,
+"Other": 1,
+"..1": 2839,
+"outsideenroll": 0.088764 
+},
+{
+ "Town": "Simsbury",
+"GeoID2": 900368940,
+"Margin.of.Error":  0.024,
+"Gini.Index":  0.455,
+"School.Year": "2010-11",
+"variable": "Total",
+"Public": 4665,
+"Private": 583,
+"Public charter": 2,
+"Magnet School": 93,
+"Open Choice": null,
+"Other": 9,
+"..1": 5352,
+"outsideenroll": 0.12836 
+},
+{
+ "Town": "Somers",
+"GeoID2": 901369220,
+"Margin.of.Error":  0.035,
+"Gini.Index":  0.374,
+"School.Year": "2010-11",
+"variable": "Total",
+"Public": 1616,
+"Private": 90,
+"Public charter": 4,
+"Magnet School": 1,
+"Open Choice": null,
+"Other": 3,
+"..1": 1714,
+"outsideenroll": 0.057176 
+},
+{
+ "Town": "South Windsor",
+"GeoID2": 900371390,
+"Margin.of.Error":  0.023,
+"Gini.Index":   0.38,
+"School.Year": "2010-11",
+"variable": "Total",
+"Public": 4508,
+"Private": 281,
+"Public charter": 2,
+"Magnet School": 139,
+"Open Choice": null,
+"Other": 6,
+"..1": 4936,
+"outsideenroll": 0.08671 
+},
+{
+ "Town": "Suffield",
+"GeoID2": 900374540,
+"Margin.of.Error":   0.04,
+"Gini.Index":  0.451,
+"School.Year": "2010-11",
+"variable": "Total",
+"Public": 2321,
+"Private": 142,
+"Public charter": null,
+"Magnet School": 15,
+"Open Choice": null,
+"Other": 57,
+"..1": 2535,
+"outsideenroll": 0.084418 
+},
+{
+ "Town": "Tolland",
+"GeoID2": 901376290,
+"Margin.of.Error":  0.025,
+"Gini.Index":  0.365,
+"School.Year": "2010-11",
+"variable": "Total",
+"Public": 3080,
+"Private": 99,
+"Public charter": null,
+"Magnet School": 39,
+"Open Choice": null,
+"Other": 6,
+"..1": 3224,
+"outsideenroll": 0.044665 
+},
+{
+ "Town": "Vernon",
+"GeoID2": null,
+"Margin.of.Error":  0.048,
+"Gini.Index":  0.397,
+"School.Year": "2010-11",
+"variable": "Total",
+"Public": 3554,
+"Private": 211,
+"Public charter": 9,
+"Magnet School": 174,
+"Open Choice": 4,
+"Other": 36,
+"..1": 3988,
+"outsideenroll": 0.10883 
+},
+{
+ "Town": "West Hartford",
+"GeoID2": 900382590,
+"Margin.of.Error":  0.016,
+"Gini.Index":   0.47,
+"School.Year": "2010-11",
+"variable": "Total",
+"Public": 10122,
+"Private": 1237,
+"Public charter": 29,
+"Magnet School": 292,
+"Open Choice": null,
+"Other": 2,
+"..1": 11682,
+"outsideenroll": 0.13354 
+},
+{
+ "Town": "Wethersfield",
+"GeoID2": 900384900,
+"Margin.of.Error":  0.022,
+"Gini.Index":  0.414,
+"School.Year": "2010-11",
+"variable": "Total",
+"Public": 3815,
+"Private": 413,
+"Public charter": 6,
+"Magnet School": 150,
+"Open Choice": null,
+"Other": 4,
+"..1": 4388,
+"outsideenroll": 0.13058 
+},
+{
+ "Town": "Windsor",
+"GeoID2": 900387000,
+"Margin.of.Error":  0.022,
+"Gini.Index":  0.379,
+"School.Year": "2010-11",
+"variable": "Total",
+"Public": 3666,
+"Private": 629,
+"Public charter": 62,
+"Magnet School": 399,
+"Open Choice": 2,
+"Other": null,
+"..1": 4758,
+"outsideenroll": 0.22951 
+},
+{
+ "Town": "Windsor Locks",
+"GeoID2": 900387070,
+"Margin.of.Error":  0.023,
+"Gini.Index":  0.382,
+"School.Year": "2010-11",
+"variable": "Total",
+"Public": 1767,
+"Private": 68,
+"Public charter": 1,
+"Magnet School": 79,
+"Open Choice": 1,
+"Other": 29,
+"..1": 1945,
+"outsideenroll": 0.091517 
+} 
+]
+  
+      var data = d3.nest()
+        .key(function(d){
+          return opts.group === undefined ? 'main' : d[opts.group]
+        })
+        .entries(data)
+      
+      nv.addGraph(function() {
+        var chart = nv.models[opts.type]()
+          .x(function(d) { return d[opts.x] })
+          .y(function(d) { return d[opts.y] })
+          .width(opts.width)
+          .height(opts.height)
+         
+        
+          
+        chart.xAxis
+  .axisLabel("Gini index")
+
+        
+        
+        chart.yAxis
+  .axisLabel("% of students outside local school system")
+  .tickFormat(function(d) {return d3.format(',.02f')(d)})
+      
+       d3.select("#" + opts.id)
+        .append('svg')
+        .datum(data)
+        .transition().duration(500)
+        .call(chart);
+
+       nv.utils.windowResize(chart.update);
+       return chart;
+      });
+    };
+</script>
+
+
 --- .class #id 
 
 ## Workforce: A regional workforce, Hartford-centered
 
 Most towns in the region have a high percentage of commuters – over 75 percent in every town except Hartford. One in five workers (70,000 individuals) commute to Hartford, while Enfield, Manchester and Simsbury also act as local hubs for employment.
 
-![plot of chunk unnamed-chunk-2](assets/fig/unnamed-chunk-2.png) 
+![plot of chunk unnamed-chunk-3](assets/fig/unnamed-chunk-3.png) 
 
 
 --- .class #id 
@@ -611,7 +1169,7 @@ Most towns in the region have a high percentage of commuters – over 75 percent
 
 For those that do commute, driving alone is an increasingly frequent means of transport, instead of alternatives like carpooling, public transit or walking. As of 2000, 83 percent drove to work alone (compared to 67 percent in 1980), one of the highest rates compared to other metro areas in the country. 
 
-![plot of chunk unnamed-chunk-3](assets/fig/unnamed-chunk-3.png) 
+![plot of chunk unnamed-chunk-4](assets/fig/unnamed-chunk-4.png) 
 
 
 --- .class #id 
@@ -1010,7 +1568,7 @@ As with the poverty figures, the volume of calls from the suburbs is similar to 
 
 *** =right
 
-![plot of chunk unnamed-chunk-4](assets/fig/unnamed-chunk-4.png) 
+![plot of chunk unnamed-chunk-5](assets/fig/unnamed-chunk-5.png) 
 
 
 
