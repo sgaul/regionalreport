@@ -57,8 +57,14 @@ t$chart(margin = list(top = 24, left = 300, bottom = 12, right = 100),
 t$chart(showControls = F)
 t$show(cdn = T)
 
+ddply(subset(enroll, School.Year == "2010-11" & variable != "Total"),
+      .(School.Type, variable), summarise,
+      x = sum(x))
+
+
 p8 <- nPlot(x ~ variable, 
             group = 'School.Type', 
             data = subset(enroll, School.Year == "2010-11" & Resident.Town == "Bloomfield" & variable != "Total"), 
             type = 'multiBarChart')
+p8$addControls("Town", value = "Resident.Town", values = levels(enroll$Resident.Town))
 p8$show(cdn = T)

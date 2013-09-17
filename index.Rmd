@@ -85,11 +85,10 @@ While outer ring suburbs, like Tolland and Simsbury, are still predominantly whi
 The Hartford area is characterized by school choice - magnet, charter and private schools draw in 1 in 7 students from the region. Parents choose to go beyond the local school system more often in higher grades and in towns with higher income inequality. In Bloomfield, for instance, 50 percent of parents send their children to magnet or private schools by 10th grade. 
 
 ```{r chart4, echo = FALSE}
-totalenroll <- 
-  ddply(subset(enroll, School.Year == "2010-11" & variable != "Total"),
+totalenroll <- ddply(subset(enroll, School.Year == "2010-11" & variable != "Total"),
       .(School.Type, variable), summarise,
       x = sum(x))
-p8 <- nPlot(x ~ variable, 
+p8 <- nPlot(x ~ variable,
             group = 'School.Type',
             data = totalenroll, 
             type = 'multiBarChart')
@@ -104,9 +103,11 @@ p8$print('chart4')
 
 *** =left
 
-There are achievement gaps in the region across districts and within districts. Some districts score below state averages in the majority of schools on tests at all grade levels - Hartford, East Hartford, Bloomfield. 
+The achievement gaps between schools and districts reflect profound differences in how children are performing in our region. For example, the children in the lowest performing elementary schools are, by 6th grade, X years behind children in the highest performing schools. 
 
-Other districts perform well in most schools, but have wide gaps between the highest and lowest performing schools. The achievement gap within districts like Manchester, West Hartford and Enfield is among the highest in the state.
+Some districts - such as Hartford, East Hartford, Bloomfield - score below state averages in the majority of schools on tests at multiple grade levels. 
+
+Other districts have strong performance in most schools, but have wide gaps between the highest and lowest performing schools. The achievement gap within districts like Manchester, West Hartford and Enfield is among the highest in the state.
 
 *** =right
 
