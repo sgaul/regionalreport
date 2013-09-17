@@ -34,6 +34,18 @@ n4$xAxis(axisLabel = 'Gini index')
 n4$yAxis(axisLabel = '% of students outside local school system', 
          tickFormat = "#!function(d) {return d3.format(',.02f')(d)}!#")
 
+#Old enrollment plot
+ggplot(data = subset(enroll, School.Year == "2010-11" & variable != "Total"), 
+       aes(x = variable, y = x, group = School.Type, fill = School.Type)) +
+  geom_area(aes(order = as.numeric(School.Type)), position = "fill") +
+  scale_y_continuous(labels = percent) +
+  scale_x_discrete(breaks = c("K","G3","G6","G9","G12")) +
+  labs(x = NULL, y = NULL) +
+  scale_fill_brewer() +
+  theme_minimal() +
+  theme(strip.text.x = element_text(size = 12)) +
+  facet_wrap(~ Resident.Town, ncol = 8)
+
 #Try some interactive plots for test scores
 
 t <- nPlot(District.Name ~ zscore,
@@ -45,8 +57,8 @@ t$chart(margin = list(top = 24, left = 300, bottom = 12, right = 100),
 t$chart(showControls = F)
 t$show(cdn = T)
 
-p8 <- nPlot(x ~ Resident.Town, 
+p8 <- nPlot(x ~ variable, 
             group = 'School.Type', 
-            data = subset(enroll, School.Year == "2010-11" & variable == "G10"), 
-            type = 'multiBarHorizontalChart')
+            data = subset(enroll, School.Year == "2010-11" & Resident.Town == "Bloomfield" & variable != "Total"), 
+            type = 'multiBarChart')
 p8$show(cdn = T)
