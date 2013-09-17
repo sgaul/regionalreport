@@ -16,7 +16,6 @@
   <base target="_blank"> <!-- This amazingness opens all links in a new tab. -->  <link rel=stylesheet href="libraries/widgets/parcoords/external/d3.parcoords.css"></link>
 <link rel=stylesheet href="libraries/widgets/nvd3/css/nv.d3.css"></link>
 <link rel=stylesheet href="libraries/widgets/nvd3/css/rNVD3.css"></link>
-<link rel=stylesheet href="libraries/widgets/morris/css/morris.css"></link>
 <link rel=stylesheet href="./assets/css/ribbons.css"></link>
 <link rel=stylesheet href="./assets/css/slidify.css"></link>
 
@@ -34,8 +33,7 @@
 <script src="libraries/widgets/nvd3/js/d3.v3.min.js"></script>
 <script src="libraries/widgets/nvd3/js/nv.d3.min-new.js"></script>
 <script src="libraries/widgets/nvd3/js/fisheye.js"></script>
-<script src="libraries/widgets/morris/js/raphael-2.1.0.min.js"></script>
-<script src="libraries/widgets/morris/js/morris.min.js"></script>
+<script src="libraries/widgets/polycharts/js/polychart2.standalone.js"></script>
 
 
 </head>
@@ -56,7 +54,7 @@
     <!-- SLIDES -->
     <slide class="" id="slide-1" style="background:;">
   <hgroup>
-    <h2>Population: Suburbanizing, not urbanizing (v1)</h2>
+    <h2>Population: Suburbanizing, not urbanizing</h2>
   </hgroup>
   <article data-timings="">
     
@@ -68,7 +66,7 @@
 <p>Population growth for much the region has been slow since 1970 - just 5 percent overall 
 between 2000 and 2010. This is driven by continued population loss in Hartford - one third of the population since 1950.</p>
 
-<p>Urban periphery towns like West Hartford and Windsor have also seen slow growth since the 1980s. The most rapid population growth in recent years has instead been in outer-ring towns like Avon, Hebron and Tolland. </p>
+<p>Urban periphery towns like West Hartford and Windsor have also seen slow growth since the 1980s. The most rapid population growth in recent years has instead been in outer-ring suburban towns like Avon, Hebron and Tolland. </p>
 
 </div>
 <div style='float:right;width:48%;'>
@@ -91,66 +89,6 @@ between 2000 and 2010. This is driven by continued population loss in Hartford -
 },
         data = [
  {
- "period": 1800,
-"Towngroup": "Hartford",
-"sumpop": 5347,
-"sumpoor": null 
-},
-{
- "period": 1810,
-"Towngroup": "Hartford",
-"sumpop": 6003,
-"sumpoor": null 
-},
-{
- "period": 1820,
-"Towngroup": "Hartford",
-"sumpop": 6901,
-"sumpoor": null 
-},
-{
- "period": 1830,
-"Towngroup": "Hartford",
-"sumpop": 9789,
-"sumpoor": null 
-},
-{
- "period": 1840,
-"Towngroup": "Hartford",
-"sumpop": 12793,
-"sumpoor": null 
-},
-{
- "period": 1850,
-"Towngroup": "Hartford",
-"sumpop": 13555,
-"sumpoor": null 
-},
-{
- "period": 1860,
-"Towngroup": "Hartford",
-"sumpop": 29152,
-"sumpoor": null 
-},
-{
- "period": 1870,
-"Towngroup": "Hartford",
-"sumpop": 37743,
-"sumpoor": null 
-},
-{
- "period": 1880,
-"Towngroup": "Hartford",
-"sumpop": 42551,
-"sumpoor": null 
-},
-{
- "period": 1890,
-"Towngroup": "Hartford",
-"sumpop": 53230,
-"sumpoor": null 
-},
-{
  "period": 1900,
 "Towngroup": "Hartford",
 "sumpop": 79850,
@@ -482,31 +420,6 @@ between 2000 and 2010. This is driven by continued population loss in Hartford -
   <!-- Presenter Notes -->
 </slide>
 
-<slide class="" id="slide-2" style="background:;">
-  <hgroup>
-    <h2>Population: Suburbanizing, not urbanizing (v2)</h2>
-  </hgroup>
-  <article data-timings="">
-    
-<div style='float:left;width:48%;' class='centered'>
-  <p>By 2050, 70% of the worlds population are projected to live in cities. </p>
-
-<p>The Hartford region, however, has been moving in the opposite direction. Through 1940, 50% of the region&#39;s population lived in the city of Hartford. By 2010, only 16% lived in the city. </p>
-
-<p>Population growth for much the region has been slow since 1970 - just 5 percent overall 
-between 2000 and 2010. This is driven by continued population loss in Hartford - one third of the population since 1950.</p>
-
-<p>Urban periphery towns like West Hartford and Windsor have also seen slow growth since the 1980s. The most rapid population growth in recent years has instead been in outer-ring towns like Avon, Hebron and Tolland. </p>
-
-</div>
-<div style='float:right;width:48%;'>
-  <p><img src="assets/fig/unnamed-chunk-1.png" alt="plot of chunk unnamed-chunk-1"> </p>
-
-</div>
-  </article>
-  <!-- Presenter Notes -->
-</slide>
-
 <slide class="class" id="id" style="background:;">
   <hgroup>
     <h2>Population: Suburban poverty on the rise</h2>
@@ -625,7 +538,7 @@ between 2000 and 2010. This is driven by continued population loss in Hartford -
         
         chart.yAxis
   .tickFormat(function(d) {return d3.format(',.0f')(d)})
-  .axisLabel("Population living under poverty line")
+  .axisLabel("Population")
       
        d3.select("#" + opts.id)
         .append('svg')
@@ -664,520 +577,611 @@ between 2000 and 2010. This is driven by continued population loss in Hartford -
   <article data-timings="">
     <p>The Hartford area is characterized by school choice - magnet, charter and private schools draw in 1 in 7 students from the region. Parents choose to go beyond the local school system more often in higher grades and in towns with higher income inequality. In Bloomfield, for instance, 50 percent of parents send their children to magnet or private schools by 10th grade. </p>
 
-<p><img src="assets/fig/unnamed-chunk-2.png" alt="plot of chunk unnamed-chunk-2"> </p>
-
-  </article>
-  <!-- Presenter Notes -->
-</slide>
-
-<slide class="class" id="id" style="background:;">
-  <hgroup>
-    <h2>Education: Educational inequities through school</h2>
-  </hgroup>
-  <article data-timings="">
-    <p>Suburban schools are among the best performing in the state at all grade levels. While the level of pre-K experience varies greatly across districts, urban and urban periphery districts with underperforming schools fall behind by third grade and largely remain there until graduation.</p>
-
-<iframe src='test.html'></iframe>
-
-  </article>
-  <!-- Presenter Notes -->
-</slide>
-
-<slide class="class" id="id" style="background:;">
-  <hgroup>
-    <h2>Education: income and enrollment patterns</h2>
-  </hgroup>
-  <article data-timings="">
-    
-<div style='float:left;width:48%;' class='centered'>
-  <p>Inequality - in both income and educational achievement - are characteristic of the Hartford region. </p>
-
-<p>Combined with school choice, we see a pattern where parents in towns with high income inequality opt to remove their children from local public school systems in favor of charter schools, magnet schools, private schools or other options. </p>
-
-<p>The Gini index measures income inequality. The chart to the right shows how towns with high income inequality - like Bloomfield and Hartford - have lower enrollment rates in the local public school system and more use of other options. </p>
-
-</div>
-<div style='float:right;width:48%;'>
-  <div id = 'chart5' class = 'rChart nvd3'></div>
+<div id = 'chart4' class = 'rChart nvd3'></div>
 
 <script type='text/javascript'>
  $(document).ready(function(){
-      drawchart5()
+      drawchart4()
     });
-    function drawchart5(){  
+    function drawchart4(){  
       var opts = {
- "dom": "chart5",
-"width":    500,
+ "dom": "chart4",
+"width":    800,
 "height":    400,
-"x": "Gini.Index",
-"y": "outsideenroll",
-"type": "scatterChart",
-"id": "chart5" 
+"x": "variable",
+"y": "x",
+"group": "School.Type",
+"type": "multiBarChart",
+"id": "chart4" 
 },
         data = [
  {
- "Town": "Andover",
-"GeoID2": 901301080,
-"Margin.of.Error":   0.06,
-"Gini.Index":  0.394,
+ "Resident.Town": "Bloomfield",
 "School.Year": "2010-11",
-"variable": "Total",
-"Public": 641,
-"Private": 21,
-"Public charter": 1,
-"Magnet School": 9,
-"Open Choice": null,
-"Other": 6,
-"..1": 678,
-"outsideenroll": 0.054572 
+"School.Type": "Magnet School",
+"variable": "PK",
+"x": 101 
 },
 {
- "Town": "Avon",
-"GeoID2": 900302060,
-"Margin.of.Error":  0.022,
-"Gini.Index":   0.46,
+ "Resident.Town": "Bloomfield",
 "School.Year": "2010-11",
-"variable": "Total",
-"Public": 3484,
-"Private": 390,
-"Public charter": 2,
-"Magnet School": 76,
-"Open Choice": null,
-"Other": 1,
-"..1": 3953,
-"outsideenroll": 0.11864 
+"School.Type": "Open Choice",
+"variable": "PK",
+"x": 0 
 },
 {
- "Town": "Bloomfield",
-"GeoID2": 900305910,
-"Margin.of.Error":  0.027,
-"Gini.Index":  0.456,
+ "Resident.Town": "Bloomfield",
 "School.Year": "2010-11",
-"variable": "Total",
-"Public": 1745,
-"Private": 382,
-"Public charter": 60,
-"Magnet School": 590,
-"Open Choice": 8,
-"Other": 81,
-"..1": 2866,
-"outsideenroll": 0.39114 
+"School.Type": "Other",
+"variable": "PK",
+"x": 0 
 },
 {
- "Town": "Bolton",
-"GeoID2": 901306260,
-"Margin.of.Error":  0.047,
-"Gini.Index":  0.394,
+ "Resident.Town": "Bloomfield",
 "School.Year": "2010-11",
-"variable": "Total",
-"Public": 815,
-"Private": 62,
-"Public charter": 1,
-"Magnet School": 20,
-"Open Choice": null,
-"Other": 2,
-"..1": 900,
-"outsideenroll": 0.094444 
+"School.Type": "Private",
+"variable": "PK",
+"x": 16 
 },
 {
- "Town": "Canton",
-"GeoID2": 900312270,
-"Margin.of.Error":  0.029,
-"Gini.Index":  0.443,
+ "Resident.Town": "Bloomfield",
 "School.Year": "2010-11",
-"variable": "Total",
-"Public": 1739,
-"Private": 149,
-"Public charter": 7,
-"Magnet School": 23,
-"Open Choice": null,
-"Other": 4,
-"..1": 1922,
-"outsideenroll": 0.095213 
+"School.Type": "Public",
+"variable": "PK",
+"x": 0 
 },
 {
- "Town": "East Granby",
-"GeoID2": 900322070,
-"Margin.of.Error":  0.083,
-"Gini.Index":  0.414,
+ "Resident.Town": "Bloomfield",
 "School.Year": "2010-11",
-"variable": "Total",
-"Public": 861,
-"Private": 59,
-"Public charter": null,
-"Magnet School": 40,
-"Open Choice": null,
-"Other": 6,
-"..1": 966,
-"outsideenroll": 0.1087 
+"School.Type": "Public charter",
+"variable": "PK",
+"x": 5 
 },
 {
- "Town": "East Hartford",
-"GeoID2": 900322630,
-"Margin.of.Error":  0.022,
-"Gini.Index":  0.426,
+ "Resident.Town": "Bloomfield",
 "School.Year": "2010-11",
-"variable": "Total",
-"Public": 7035,
-"Private": 538,
-"Public charter": 83,
-"Magnet School": 1134,
-"Open Choice": 12,
-"Other": 19,
-"..1": 8821,
-"outsideenroll": 0.20247 
+"School.Type": "Magnet School",
+"variable": "K",
+"x": 58 
 },
 {
- "Town": "East Windsor",
-"GeoID2": 900324800,
-"Margin.of.Error":   0.03,
-"Gini.Index":  0.382,
+ "Resident.Town": "Bloomfield",
 "School.Year": "2010-11",
-"variable": "Total",
-"Public": 1306,
-"Private": 98,
-"Public charter": 5,
-"Magnet School": 73,
-"Open Choice": null,
-"Other": null,
-"..1": 1482,
-"outsideenroll": 0.11876 
+"School.Type": "Open Choice",
+"variable": "K",
+"x": 0 
 },
 {
- "Town": "Ellington",
-"GeoID2": 901325360,
-"Margin.of.Error":  0.031,
-"Gini.Index":  0.374,
+ "Resident.Town": "Bloomfield",
 "School.Year": "2010-11",
-"variable": "Total",
-"Public": 2700,
-"Private": 108,
-"Public charter": null,
-"Magnet School": 35,
-"Open Choice": null,
-"Other": 12,
-"..1": 2855,
-"outsideenroll": 0.054291 
+"School.Type": "Other",
+"variable": "K",
+"x": 0 
 },
 {
- "Town": "Enfield",
-"GeoID2": 900325990,
-"Margin.of.Error":  0.011,
-"Gini.Index":  0.365,
+ "Resident.Town": "Bloomfield",
 "School.Year": "2010-11",
-"variable": "Total",
-"Public": 5891,
-"Private": 422,
-"Public charter": 2,
-"Magnet School": 168,
-"Open Choice": 1,
-"Other": 26,
-"..1": 6510,
-"outsideenroll": 0.095084 
+"School.Type": "Private",
+"variable": "K",
+"x": 19 
 },
 {
- "Town": "Farmington",
-"GeoID2": 900327600,
-"Margin.of.Error":  0.031,
-"Gini.Index":  0.491,
+ "Resident.Town": "Bloomfield",
 "School.Year": "2010-11",
-"variable": "Total",
-"Public": 4068,
-"Private": 307,
-"Public charter": 3,
-"Magnet School": 51,
-"Open Choice": null,
-"Other": 4,
-"..1": 4433,
-"outsideenroll": 0.082337 
+"School.Type": "Public",
+"variable": "K",
+"x": 94 
 },
 {
- "Town": "Glastonbury",
-"GeoID2": 900331240,
-"Margin.of.Error":  0.017,
-"Gini.Index":  0.417,
+ "Resident.Town": "Bloomfield",
 "School.Year": "2010-11",
-"variable": "Total",
-"Public": 6707,
-"Private": 346,
-"Public charter": 5,
-"Magnet School": 254,
-"Open Choice": null,
-"Other": 16,
-"..1": 7328,
-"outsideenroll": 0.084743 
+"School.Type": "Public charter",
+"variable": "K",
+"x": 2 
 },
 {
- "Town": "Granby",
-"GeoID2": 900332640,
-"Margin.of.Error":  0.022,
-"Gini.Index":  0.379,
+ "Resident.Town": "Bloomfield",
 "School.Year": "2010-11",
-"variable": "Total",
-"Public": 2110,
-"Private": 105,
-"Public charter": null,
-"Magnet School": 53,
-"Open Choice": null,
-"Other": 7,
-"..1": 2275,
-"outsideenroll": 0.072527 
+"School.Type": "Magnet School",
+"variable": "G1",
+"x": 10 
 },
 {
- "Town": "Hartford",
-"GeoID2": 900337070,
-"Margin.of.Error":  0.013,
-"Gini.Index":  0.505,
+ "Resident.Town": "Bloomfield",
 "School.Year": "2010-11",
-"variable": "Total",
-"Public": 16224,
-"Private": 960,
-"Public charter": 986,
-"Magnet School": 4410,
-"Open Choice": 1255,
-"Other": 70,
-"..1": 23905,
-"outsideenroll": 0.32131 
+"School.Type": "Open Choice",
+"variable": "G1",
+"x": 0 
 },
 {
- "Town": "Hebron",
-"GeoID2": 901337910,
-"Margin.of.Error":  0.031,
-"Gini.Index":  0.357,
+ "Resident.Town": "Bloomfield",
 "School.Year": "2010-11",
-"variable": "Total",
-"Public": 2109,
-"Private": 126,
-"Public charter": 1,
-"Magnet School": 27,
-"Open Choice": null,
-"Other": 10,
-"..1": 2273,
-"outsideenroll": 0.072151 
+"School.Type": "Other",
+"variable": "G1",
+"x": 0 
 },
 {
- "Town": "Manchester",
-"GeoID2": 900344700,
-"Margin.of.Error":  0.015,
-"Gini.Index":  0.412,
+ "Resident.Town": "Bloomfield",
 "School.Year": "2010-11",
-"variable": "Total",
-"Public": 6966,
-"Private": 836,
-"Public charter": 145,
-"Magnet School": 547,
-"Open Choice": 3,
-"Other": 29,
-"..1": 8526,
-"outsideenroll": 0.18297 
+"School.Type": "Private",
+"variable": "G1",
+"x": 29 
 },
 {
- "Town": "Marlborough",
-"GeoID2": 900345820,
-"Margin.of.Error":  0.032,
-"Gini.Index":  0.334,
+ "Resident.Town": "Bloomfield",
 "School.Year": "2010-11",
-"variable": "Total",
-"Public": 1199,
-"Private": 63,
-"Public charter": 1,
-"Magnet School": 22,
-"Open Choice": null,
-"Other": 4,
-"..1": 1289,
-"outsideenroll": 0.069822 
+"School.Type": "Public",
+"variable": "G1",
+"x": 126 
 },
 {
- "Town": "Newington",
-"GeoID2": 900352140,
-"Margin.of.Error":  0.014,
-"Gini.Index":  0.366,
+ "Resident.Town": "Bloomfield",
 "School.Year": "2010-11",
-"variable": "Total",
-"Public": 4407,
-"Private": 223,
-"Public charter": 8,
-"Magnet School": 95,
-"Open Choice": null,
-"Other": 7,
-"..1": 4740,
-"outsideenroll": 0.070253 
+"School.Type": "Public charter",
+"variable": "G1",
+"x": 10 
 },
 {
- "Town": "Rocky Hill",
-"GeoID2": 900365370,
-"Margin.of.Error":  0.021,
-"Gini.Index":  0.372,
+ "Resident.Town": "Bloomfield",
 "School.Year": "2010-11",
-"variable": "Total",
-"Public": 2587,
-"Private": 187,
-"Public charter": 1,
-"Magnet School": 63,
-"Open Choice": null,
-"Other": 1,
-"..1": 2839,
-"outsideenroll": 0.088764 
+"School.Type": "Magnet School",
+"variable": "G2",
+"x": 16 
 },
 {
- "Town": "Simsbury",
-"GeoID2": 900368940,
-"Margin.of.Error":  0.024,
-"Gini.Index":  0.455,
+ "Resident.Town": "Bloomfield",
 "School.Year": "2010-11",
-"variable": "Total",
-"Public": 4665,
-"Private": 583,
-"Public charter": 2,
-"Magnet School": 93,
-"Open Choice": null,
-"Other": 9,
-"..1": 5352,
-"outsideenroll": 0.12836 
+"School.Type": "Open Choice",
+"variable": "G2",
+"x": 0 
 },
 {
- "Town": "Somers",
-"GeoID2": 901369220,
-"Margin.of.Error":  0.035,
-"Gini.Index":  0.374,
+ "Resident.Town": "Bloomfield",
 "School.Year": "2010-11",
-"variable": "Total",
-"Public": 1616,
-"Private": 90,
-"Public charter": 4,
-"Magnet School": 1,
-"Open Choice": null,
-"Other": 3,
-"..1": 1714,
-"outsideenroll": 0.057176 
+"School.Type": "Other",
+"variable": "G2",
+"x": 0 
 },
 {
- "Town": "South Windsor",
-"GeoID2": 900371390,
-"Margin.of.Error":  0.023,
-"Gini.Index":   0.38,
+ "Resident.Town": "Bloomfield",
 "School.Year": "2010-11",
-"variable": "Total",
-"Public": 4508,
-"Private": 281,
-"Public charter": 2,
-"Magnet School": 139,
-"Open Choice": null,
-"Other": 6,
-"..1": 4936,
-"outsideenroll": 0.08671 
+"School.Type": "Private",
+"variable": "G2",
+"x": 24 
 },
 {
- "Town": "Suffield",
-"GeoID2": 900374540,
-"Margin.of.Error":   0.04,
-"Gini.Index":  0.451,
+ "Resident.Town": "Bloomfield",
 "School.Year": "2010-11",
-"variable": "Total",
-"Public": 2321,
-"Private": 142,
-"Public charter": null,
-"Magnet School": 15,
-"Open Choice": null,
-"Other": 57,
-"..1": 2535,
-"outsideenroll": 0.084418 
+"School.Type": "Public",
+"variable": "G2",
+"x": 131 
 },
 {
- "Town": "Tolland",
-"GeoID2": 901376290,
-"Margin.of.Error":  0.025,
-"Gini.Index":  0.365,
+ "Resident.Town": "Bloomfield",
 "School.Year": "2010-11",
-"variable": "Total",
-"Public": 3080,
-"Private": 99,
-"Public charter": null,
-"Magnet School": 39,
-"Open Choice": null,
-"Other": 6,
-"..1": 3224,
-"outsideenroll": 0.044665 
+"School.Type": "Public charter",
+"variable": "G2",
+"x": 6 
 },
 {
- "Town": "Vernon",
-"GeoID2": null,
-"Margin.of.Error":  0.048,
-"Gini.Index":  0.397,
+ "Resident.Town": "Bloomfield",
 "School.Year": "2010-11",
-"variable": "Total",
-"Public": 3554,
-"Private": 211,
-"Public charter": 9,
-"Magnet School": 174,
-"Open Choice": 4,
-"Other": 36,
-"..1": 3988,
-"outsideenroll": 0.10883 
+"School.Type": "Magnet School",
+"variable": "G3",
+"x": 11 
 },
 {
- "Town": "West Hartford",
-"GeoID2": 900382590,
-"Margin.of.Error":  0.016,
-"Gini.Index":   0.47,
+ "Resident.Town": "Bloomfield",
 "School.Year": "2010-11",
-"variable": "Total",
-"Public": 10122,
-"Private": 1237,
-"Public charter": 29,
-"Magnet School": 292,
-"Open Choice": null,
-"Other": 2,
-"..1": 11682,
-"outsideenroll": 0.13354 
+"School.Type": "Open Choice",
+"variable": "G3",
+"x": 0 
 },
 {
- "Town": "Wethersfield",
-"GeoID2": 900384900,
-"Margin.of.Error":  0.022,
-"Gini.Index":  0.414,
+ "Resident.Town": "Bloomfield",
 "School.Year": "2010-11",
-"variable": "Total",
-"Public": 3815,
-"Private": 413,
-"Public charter": 6,
-"Magnet School": 150,
-"Open Choice": null,
-"Other": 4,
-"..1": 4388,
-"outsideenroll": 0.13058 
+"School.Type": "Other",
+"variable": "G3",
+"x": 0 
 },
 {
- "Town": "Windsor",
-"GeoID2": 900387000,
-"Margin.of.Error":  0.022,
-"Gini.Index":  0.379,
+ "Resident.Town": "Bloomfield",
 "School.Year": "2010-11",
-"variable": "Total",
-"Public": 3666,
-"Private": 629,
-"Public charter": 62,
-"Magnet School": 399,
-"Open Choice": 2,
-"Other": null,
-"..1": 4758,
-"outsideenroll": 0.22951 
+"School.Type": "Private",
+"variable": "G3",
+"x": 37 
 },
 {
- "Town": "Windsor Locks",
-"GeoID2": 900387070,
-"Margin.of.Error":  0.023,
-"Gini.Index":  0.382,
+ "Resident.Town": "Bloomfield",
 "School.Year": "2010-11",
-"variable": "Total",
-"Public": 1767,
-"Private": 68,
-"Public charter": 1,
-"Magnet School": 79,
-"Open Choice": 1,
-"Other": 29,
-"..1": 1945,
-"outsideenroll": 0.091517 
+"School.Type": "Public",
+"variable": "G3",
+"x": 139 
+},
+{
+ "Resident.Town": "Bloomfield",
+"School.Year": "2010-11",
+"School.Type": "Public charter",
+"variable": "G3",
+"x": 4 
+},
+{
+ "Resident.Town": "Bloomfield",
+"School.Year": "2010-11",
+"School.Type": "Magnet School",
+"variable": "G4",
+"x": 9 
+},
+{
+ "Resident.Town": "Bloomfield",
+"School.Year": "2010-11",
+"School.Type": "Open Choice",
+"variable": "G4",
+"x": 0 
+},
+{
+ "Resident.Town": "Bloomfield",
+"School.Year": "2010-11",
+"School.Type": "Other",
+"variable": "G4",
+"x": 0 
+},
+{
+ "Resident.Town": "Bloomfield",
+"School.Year": "2010-11",
+"School.Type": "Private",
+"variable": "G4",
+"x": 18 
+},
+{
+ "Resident.Town": "Bloomfield",
+"School.Year": "2010-11",
+"School.Type": "Public",
+"variable": "G4",
+"x": 144 
+},
+{
+ "Resident.Town": "Bloomfield",
+"School.Year": "2010-11",
+"School.Type": "Public charter",
+"variable": "G4",
+"x": 7 
+},
+{
+ "Resident.Town": "Bloomfield",
+"School.Year": "2010-11",
+"School.Type": "Magnet School",
+"variable": "G5",
+"x": 12 
+},
+{
+ "Resident.Town": "Bloomfield",
+"School.Year": "2010-11",
+"School.Type": "Open Choice",
+"variable": "G5",
+"x": 0 
+},
+{
+ "Resident.Town": "Bloomfield",
+"School.Year": "2010-11",
+"School.Type": "Other",
+"variable": "G5",
+"x": 0 
+},
+{
+ "Resident.Town": "Bloomfield",
+"School.Year": "2010-11",
+"School.Type": "Private",
+"variable": "G5",
+"x": 28 
+},
+{
+ "Resident.Town": "Bloomfield",
+"School.Year": "2010-11",
+"School.Type": "Public",
+"variable": "G5",
+"x": 147 
+},
+{
+ "Resident.Town": "Bloomfield",
+"School.Year": "2010-11",
+"School.Type": "Public charter",
+"variable": "G5",
+"x": 14 
+},
+{
+ "Resident.Town": "Bloomfield",
+"School.Year": "2010-11",
+"School.Type": "Magnet School",
+"variable": "G6",
+"x": 30 
+},
+{
+ "Resident.Town": "Bloomfield",
+"School.Year": "2010-11",
+"School.Type": "Open Choice",
+"variable": "G6",
+"x": 0 
+},
+{
+ "Resident.Town": "Bloomfield",
+"School.Year": "2010-11",
+"School.Type": "Other",
+"variable": "G6",
+"x": 0 
+},
+{
+ "Resident.Town": "Bloomfield",
+"School.Year": "2010-11",
+"School.Type": "Private",
+"variable": "G6",
+"x": 31 
+},
+{
+ "Resident.Town": "Bloomfield",
+"School.Year": "2010-11",
+"School.Type": "Public",
+"variable": "G6",
+"x": 159 
+},
+{
+ "Resident.Town": "Bloomfield",
+"School.Year": "2010-11",
+"School.Type": "Public charter",
+"variable": "G6",
+"x": 3 
+},
+{
+ "Resident.Town": "Bloomfield",
+"School.Year": "2010-11",
+"School.Type": "Magnet School",
+"variable": "G7",
+"x": 37 
+},
+{
+ "Resident.Town": "Bloomfield",
+"School.Year": "2010-11",
+"School.Type": "Open Choice",
+"variable": "G7",
+"x": 0 
+},
+{
+ "Resident.Town": "Bloomfield",
+"School.Year": "2010-11",
+"School.Type": "Other",
+"variable": "G7",
+"x": 0 
+},
+{
+ "Resident.Town": "Bloomfield",
+"School.Year": "2010-11",
+"School.Type": "Private",
+"variable": "G7",
+"x": 28 
+},
+{
+ "Resident.Town": "Bloomfield",
+"School.Year": "2010-11",
+"School.Type": "Public",
+"variable": "G7",
+"x": 124 
+},
+{
+ "Resident.Town": "Bloomfield",
+"School.Year": "2010-11",
+"School.Type": "Public charter",
+"variable": "G7",
+"x": 6 
+},
+{
+ "Resident.Town": "Bloomfield",
+"School.Year": "2010-11",
+"School.Type": "Magnet School",
+"variable": "G8",
+"x": 48 
+},
+{
+ "Resident.Town": "Bloomfield",
+"School.Year": "2010-11",
+"School.Type": "Open Choice",
+"variable": "G8",
+"x": 1 
+},
+{
+ "Resident.Town": "Bloomfield",
+"School.Year": "2010-11",
+"School.Type": "Other",
+"variable": "G8",
+"x": 1 
+},
+{
+ "Resident.Town": "Bloomfield",
+"School.Year": "2010-11",
+"School.Type": "Private",
+"variable": "G8",
+"x": 30 
+},
+{
+ "Resident.Town": "Bloomfield",
+"School.Year": "2010-11",
+"School.Type": "Public",
+"variable": "G8",
+"x": 140 
+},
+{
+ "Resident.Town": "Bloomfield",
+"School.Year": "2010-11",
+"School.Type": "Public charter",
+"variable": "G8",
+"x": 2 
+},
+{
+ "Resident.Town": "Bloomfield",
+"School.Year": "2010-11",
+"School.Type": "Magnet School",
+"variable": "G9",
+"x": 60 
+},
+{
+ "Resident.Town": "Bloomfield",
+"School.Year": "2010-11",
+"School.Type": "Open Choice",
+"variable": "G9",
+"x": 0 
+},
+{
+ "Resident.Town": "Bloomfield",
+"School.Year": "2010-11",
+"School.Type": "Other",
+"variable": "G9",
+"x": 12 
+},
+{
+ "Resident.Town": "Bloomfield",
+"School.Year": "2010-11",
+"School.Type": "Private",
+"variable": "G9",
+"x": 32 
+},
+{
+ "Resident.Town": "Bloomfield",
+"School.Year": "2010-11",
+"School.Type": "Public",
+"variable": "G9",
+"x": 160 
+},
+{
+ "Resident.Town": "Bloomfield",
+"School.Year": "2010-11",
+"School.Type": "Public charter",
+"variable": "G9",
+"x": 0 
+},
+{
+ "Resident.Town": "Bloomfield",
+"School.Year": "2010-11",
+"School.Type": "Magnet School",
+"variable": "G10",
+"x": 78 
+},
+{
+ "Resident.Town": "Bloomfield",
+"School.Year": "2010-11",
+"School.Type": "Open Choice",
+"variable": "G10",
+"x": 5 
+},
+{
+ "Resident.Town": "Bloomfield",
+"School.Year": "2010-11",
+"School.Type": "Other",
+"variable": "G10",
+"x": 18 
+},
+{
+ "Resident.Town": "Bloomfield",
+"School.Year": "2010-11",
+"School.Type": "Private",
+"variable": "G10",
+"x": 31 
+},
+{
+ "Resident.Town": "Bloomfield",
+"School.Year": "2010-11",
+"School.Type": "Public",
+"variable": "G10",
+"x": 135 
+},
+{
+ "Resident.Town": "Bloomfield",
+"School.Year": "2010-11",
+"School.Type": "Public charter",
+"variable": "G10",
+"x": 0 
+},
+{
+ "Resident.Town": "Bloomfield",
+"School.Year": "2010-11",
+"School.Type": "Magnet School",
+"variable": "G11",
+"x": 66 
+},
+{
+ "Resident.Town": "Bloomfield",
+"School.Year": "2010-11",
+"School.Type": "Open Choice",
+"variable": "G11",
+"x": 2 
+},
+{
+ "Resident.Town": "Bloomfield",
+"School.Year": "2010-11",
+"School.Type": "Other",
+"variable": "G11",
+"x": 32 
+},
+{
+ "Resident.Town": "Bloomfield",
+"School.Year": "2010-11",
+"School.Type": "Private",
+"variable": "G11",
+"x": 27 
+},
+{
+ "Resident.Town": "Bloomfield",
+"School.Year": "2010-11",
+"School.Type": "Public",
+"variable": "G11",
+"x": 125 
+},
+{
+ "Resident.Town": "Bloomfield",
+"School.Year": "2010-11",
+"School.Type": "Public charter",
+"variable": "G11",
+"x": 0 
+},
+{
+ "Resident.Town": "Bloomfield",
+"School.Year": "2010-11",
+"School.Type": "Magnet School",
+"variable": "G12",
+"x": 54 
+},
+{
+ "Resident.Town": "Bloomfield",
+"School.Year": "2010-11",
+"School.Type": "Open Choice",
+"variable": "G12",
+"x": 0 
+},
+{
+ "Resident.Town": "Bloomfield",
+"School.Year": "2010-11",
+"School.Type": "Other",
+"variable": "G12",
+"x": 18 
+},
+{
+ "Resident.Town": "Bloomfield",
+"School.Year": "2010-11",
+"School.Type": "Private",
+"variable": "G12",
+"x": 32 
+},
+{
+ "Resident.Town": "Bloomfield",
+"School.Year": "2010-11",
+"School.Type": "Public",
+"variable": "G12",
+"x": 121 
+},
+{
+ "Resident.Town": "Bloomfield",
+"School.Year": "2010-11",
+"School.Type": "Public charter",
+"variable": "G12",
+"x": 1 
 } 
 ]
   
@@ -1194,16 +1198,16 @@ between 2000 and 2010. This is driven by continued population loss in Hartford -
           .width(opts.width)
           .height(opts.height)
          
-        
+        chart
+  .reduceXTicks(false)
           
-        chart.xAxis
-  .axisLabel("Gini index")
+        
 
         
         
         chart.yAxis
-  .axisLabel("% of students outside local school system")
-  .tickFormat(function(d) {return d3.format(',.02f')(d)})
+  .axisLabel("Number of students enrolled")
+  .tickFormat(function(d) {return d3.format(',.0f')(d)})
       
        d3.select("#" + opts.id)
         .append('svg')
@@ -1217,6 +1221,25 @@ between 2000 and 2010. This is driven by continued population loss in Hartford -
     };
 </script>
 
+  </article>
+  <!-- Presenter Notes -->
+</slide>
+
+<slide class="class" id="id" style="background:;">
+  <hgroup>
+    <h2>Education: Achievement gap within and across districts</h2>
+  </hgroup>
+  <article data-timings="">
+    
+<div style='float:left;width:48%;' class='centered'>
+  <p>There are achievement gaps in the region across districts and within districts. Some districts score below state averages in the majority of schools on tests at all grade levels - Hartford, East Hartford, Bloomfield. </p>
+
+<p>Other districts perform well in most schools, but have wide gaps between the highest and lowest performing schools. The achievement gap within districts like Manchester, West Hartford and Enfield is among the highest in the state.</p>
+
+</div>
+<div style='float:right;width:48%;'>
+  <p><img src="assets/fig/unnamed-chunk-1.png" alt="plot of chunk unnamed-chunk-1"> </p>
+
 </div>
   </article>
   <!-- Presenter Notes -->
@@ -1227,9 +1250,9 @@ between 2000 and 2010. This is driven by continued population loss in Hartford -
     <h2>Workforce: A regional workforce, Hartford-centered</h2>
   </hgroup>
   <article data-timings="">
-    <p>Most towns in the region have a high percentage of commuters – over 75 percent in every town except Hartford. One in five workers (70,000 individuals) commute to Hartford, while Enfield, Manchester and Simsbury also act as local hubs for employment.</p>
+    <p>Most towns in the region have a high percentage of commuters – over 75 percent in every town except Hartford. One in five workers (70,000 individuals) commute to Hartford, while Enfield, Manchester and Simsbury also act as local hubs for employment. THese maps show where residents of selected towns in the region travel every day for work. </p>
 
-<p><img src="assets/fig/unnamed-chunk-3.png" alt="plot of chunk unnamed-chunk-3"> </p>
+<p><img src="assets/fig/unnamed-chunk-2.png" alt="plot of chunk unnamed-chunk-2"> </p>
 
   </article>
   <!-- Presenter Notes -->
@@ -1240,9 +1263,9 @@ between 2000 and 2010. This is driven by continued population loss in Hartford -
     <h2>Workforce: Commuting alone</h2>
   </hgroup>
   <article data-timings="">
-    <p>For those that do commute, driving alone is an increasingly frequent means of transport, instead of alternatives like carpooling, public transit or walking. As of 2000, 83 percent drove to work alone (compared to 67 percent in 1980), one of the highest rates compared to other metro areas in the country. </p>
+    <p>For those that do commute, driving alone is an increasingly frequent means of transport, instead of alternatives like carpooling, public transit, walking or biking. As of 2000, 83 percent drove to work alone (compared to 67 percent in 1980), one of the highest rates in the country. Only Detroit, Grand Rapids, St. Louis, Kansas City and Indianapolis had higher rates. Commute times, however, are better than most of the country - 22.5 minutes on average.</p>
 
-<p><img src="assets/fig/unnamed-chunk-4.png" alt="plot of chunk unnamed-chunk-4"> </p>
+<p><img src="assets/fig/unnamed-chunk-3.png" alt="plot of chunk unnamed-chunk-3"> </p>
 
   </article>
   <!-- Presenter Notes -->
@@ -1649,7 +1672,7 @@ between 2000 and 2010. This is driven by continued population loss in Hartford -
 
 </div>
 <div style='float:right;width:48%;'>
-  <p><img src="assets/fig/unnamed-chunk-5.png" alt="plot of chunk unnamed-chunk-5"> </p>
+  <p><img src="assets/fig/unnamed-chunk-4.png" alt="plot of chunk unnamed-chunk-4"> </p>
 
 </div>
   </article>
@@ -1678,74 +1701,62 @@ between 2000 and 2010. This is driven by continued population loss in Hartford -
     <ul>
       <li>
       <a href="#" target="_self" rel='tooltip' 
-        data-slide=1 title='Population: Suburbanizing, not urbanizing (v1)'>
+        data-slide=1 title='Population: Suburbanizing, not urbanizing'>
          1
       </a>
     </li>
     <li>
       <a href="#" target="_self" rel='tooltip' 
-        data-slide=2 title='Population: Suburbanizing, not urbanizing (v2)'>
+        data-slide=2 title='Population: Suburban poverty on the rise'>
          2
       </a>
     </li>
     <li>
       <a href="#" target="_self" rel='tooltip' 
-        data-slide=3 title='Population: Suburban poverty on the rise'>
+        data-slide=3 title='Population: More diverse suburbs'>
          3
       </a>
     </li>
     <li>
       <a href="#" target="_self" rel='tooltip' 
-        data-slide=4 title='Population: More diverse suburbs'>
+        data-slide=4 title='Education: Where do our kids go to school?'>
          4
       </a>
     </li>
     <li>
       <a href="#" target="_self" rel='tooltip' 
-        data-slide=5 title='Education: Where do our kids go to school?'>
+        data-slide=5 title='Education: Achievement gap within and across districts'>
          5
       </a>
     </li>
     <li>
       <a href="#" target="_self" rel='tooltip' 
-        data-slide=6 title='Education: Educational inequities through school'>
+        data-slide=6 title='Workforce: A regional workforce, Hartford-centered'>
          6
       </a>
     </li>
     <li>
       <a href="#" target="_self" rel='tooltip' 
-        data-slide=7 title='Education: income and enrollment patterns'>
+        data-slide=7 title='Workforce: Commuting alone'>
          7
       </a>
     </li>
     <li>
       <a href="#" target="_self" rel='tooltip' 
-        data-slide=8 title='Workforce: A regional workforce, Hartford-centered'>
+        data-slide=8 title='Workforce: Persistent gaps in employment'>
          8
       </a>
     </li>
     <li>
       <a href="#" target="_self" rel='tooltip' 
-        data-slide=9 title='Workforce: Commuting alone'>
+        data-slide=9 title='Basic needs: What are the needs in our region?'>
          9
       </a>
     </li>
     <li>
       <a href="#" target="_self" rel='tooltip' 
-        data-slide=10 title='Workforce: Persistent gaps in employment'>
+        data-slide=10 title='Opportunities'>
          10
-      </a>
-    </li>
-    <li>
-      <a href="#" target="_self" rel='tooltip' 
-        data-slide=11 title='Basic needs: What are the needs in our region?'>
-         11
-      </a>
-    </li>
-    <li>
-      <a href="#" target="_self" rel='tooltip' 
-        data-slide=12 title='Opportunities'>
-         12
       </a>
     </li>
   </ul>
